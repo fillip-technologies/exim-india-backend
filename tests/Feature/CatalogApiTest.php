@@ -48,13 +48,14 @@ class CatalogApiTest extends TestCase
     public function test_product_detail_uses_camel_case_and_slug_as_id(): void
     {
         $category = $this->makeCategory();
-        $this->makeProduct($category, ['description' => 'Bright yellow']);
+        $this->makeProduct($category, ['description' => 'Bright yellow', 'extra' => ['halal' => true]]);
 
         $this->getJson('/api/categories/blended-colours/products/egg-yellow')
             ->assertOk()
             ->assertJsonPath('data.id', 'egg-yellow')
             ->assertJsonPath('data.colorHex', '#eab308')
             ->assertJsonPath('data.description', 'Bright yellow')
+            ->assertJsonPath('data.extra.halal', true)
             ->assertJsonPath('data.category.slug', 'blended-colours');
     }
 

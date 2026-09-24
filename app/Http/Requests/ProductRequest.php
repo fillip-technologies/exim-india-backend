@@ -48,6 +48,7 @@ class ProductRequest extends FormRequest
             'analysis' => ['nullable', 'array'],
             'analysis.*.characteristic' => ['required_with:analysis', 'string'],
             'analysis.*.requirement' => ['required_with:analysis', 'string'],
+            'extra' => ['nullable', 'array'],
             'attributes' => ['nullable', 'array'],
             'attributes.*.label' => ['required_with:attributes', 'string', 'max:255'],
             'attributes.*.value' => ['required_with:attributes', 'string'],

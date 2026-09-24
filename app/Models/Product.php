@@ -45,6 +45,7 @@ class Product extends Model
         'packaging_details',
         'delivery_detail',
         'storage',
+        'extra',
         'sort_order',
         'is_active',
     ];
@@ -67,6 +68,7 @@ class Product extends Model
     protected function casts(): array
     {
         return [
+            'extra' => 'array',
             'is_active' => 'boolean',
         ];
     }

@@ -49,6 +49,8 @@ class ProductResource extends JsonResource
             'packagingDetails' => $this->packaging_details,
             'deliveryDetail' => $this->delivery_detail,
             'storage' => $this->storage,
+            // Free-form JSON object set by the admin; null when empty.
+            'extra' => empty($this->extra) ? null : $this->extra,
             'analysis' => $this->when($this->relationLoaded('analysisSpecs'), fn () => $this->analysisRows()),
             // Category-specific extras as uniform label/value pairs (C.I. No., E Number, Packaging, ...).
             'attributes' => $this->when($this->relationLoaded('detailAttributes'), fn () => $this->detailAttributes

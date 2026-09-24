@@ -78,6 +78,7 @@ Fields come from the objects in `src/constants/*Data.js`.
 | packaging_details | text nullable | `packagingDetails` |
 | delivery_detail | string nullable | `deliveryDetail` |
 | storage | text nullable | `storage` |
+| extra | json nullable | free-form JSON added by the admin for anything without a dedicated column |
 | sort_order | unsigned int default 0 | |
 | is_active | boolean default true | |
 | timestamps, softDeletes | | |

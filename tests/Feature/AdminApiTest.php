@@ -51,7 +51,9 @@ class AdminApiTest extends TestCase
             'category_id' => $cat->json('id'), 'name' => 'Red', 'slug' => 'red',
             'analysis' => [['characteristic' => 'pH', 'requirement' => '3-4']],
             'attributes' => [['label' => 'E Number', 'value' => 'E102']],
-        ])->assertCreated()->assertJsonPath('detail_attributes.0.label', 'E Number');
+            'extra' => ['certificates' => ['ISO', 'FSSAI'], 'notes' => ['minOrder' => 100]],
+        ])->assertCreated()->assertJsonPath('detail_attributes.0.label', 'E Number')
+            ->assertJsonPath('extra.certificates.1', 'FSSAI');
 
         // slug unique within a category
         $this->postJson('/api/admin/products', ['category_id' => $cat->json('id'), 'name' => 'Red2', 'slug' => 'red'])
