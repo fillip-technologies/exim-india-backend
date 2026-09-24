@@ -1,0 +1,2090 @@
+[
+  {
+    "name": "Synthetic food colours",
+    "slug": "synthetic-food-colours",
+    "sort_order": 1,
+    "analysis_specs": [
+      {
+        "characteristic": "Total color/Assay, percent by Mass, min.",
+        "requirement": "85.00"
+      },
+      {
+        "characteristic": "Volatile matter +Sodium chloride +Sodium Sulphate percent by mass, min.",
+        "requirement": "15.00"
+      },
+      {
+        "characteristic": "Water-insoluble matter, percent by mass, Max.",
+        "requirement": "00.20"
+      },
+      {
+        "characteristic": "Combined ether extracts, percent by mass, Max",
+        "requirement": "00.20"
+      },
+      {
+        "characteristic": "Subsidiary dyes, percent by mass, Max.",
+        "requirement": "01.00"
+      },
+      {
+        "characteristic": "Dye intermediates, percent by mass, max",
+        "requirement": "00.01"
+      },
+      {
+        "characteristic": "Unsulfonated primary aromatic amine (calculated as aniline) percent by mass, max.",
+        "requirement": "00.01"
+      },
+      {
+        "characteristic": "Lead, mg/kg, Max.",
+        "requirement": "10.00"
+      },
+      {
+        "characteristic": "Arsenic, mg/kg, Max.",
+        "requirement": "03.00"
+      },
+      {
+        "characteristic": "Heavy metals, (as pb) mg/kg, max",
+        "requirement": "40.00"
+      },
+      {
+        "characteristic": "Mercury, Cadmium, mg/kg, Max.",
+        "requirement": "01.00"
+      },
+      {
+        "characteristic": "Cadmium, mg/kg, Max",
+        "requirement": "01.00"
+      },
+      {
+        "characteristic": "Shelf Life",
+        "requirement": "3 Years"
+      }
+    ],
+    "sections": []
+  },
+  {
+    "name": "Lake colours",
+    "slug": "lake-colours",
+    "sort_order": 2,
+    "analysis_specs": [
+      {
+        "characteristic": "Total dye content, corrected for sample dried at 105°C for 2 hr, Min.",
+        "requirement": "12.00% to 45.00%"
+      },
+      {
+        "characteristic": "Water-insoluble matter, percent by mass, Max.",
+        "requirement": "00.20%"
+      },
+      {
+        "characteristic": "Combined ether extracts, percent by mass, Max.",
+        "requirement": "00.20%"
+      },
+      {
+        "characteristic": "Subsidiary dyes, percent by mass, Max.",
+        "requirement": "03.00%"
+      },
+      {
+        "characteristic": "Organic Compound other than coloring matter, Max.",
+        "requirement": "01.50%"
+      },
+      {
+        "characteristic": "Unsulfonated primary aromatic amine (as aniline), Max.",
+        "requirement": "00.01%"
+      },
+      {
+        "characteristic": "Lead (Pb), mg/kg, Max.",
+        "requirement": "02.00 ppm"
+      },
+      {
+        "characteristic": "Arsenic (As), mg/kg, Max.",
+        "requirement": "03.00 ppm"
+      },
+      {
+        "characteristic": "Cadmium (Cd), mg/kg, Max.",
+        "requirement": "01.00 ppm"
+      },
+      {
+        "characteristic": "Mercury (Hg), mg/kg, Max.",
+        "requirement": "01.00 ppm"
+      },
+      {
+        "characteristic": "Total Heavy metals (as Pb), mg/kg, Max.",
+        "requirement": "40.00 ppm"
+      }
+    ],
+    "sections": []
+  },
+  {
+    "name": "Blended Colours",
+    "slug": "blended-colours",
+    "sort_order": 3,
+    "analysis_specs": [
+      {
+        "characteristic": "Assay / Total Pure Dye Content, Min.",
+        "requirement": "85.00%"
+      },
+      {
+        "characteristic": "Water – Insoluble matter by mass, Max.",
+        "requirement": "00.20%"
+      },
+      {
+        "characteristic": "Unsulfonated Primary Aromatic Amines (as aniline), Max.",
+        "requirement": "00.01%"
+      },
+      {
+        "characteristic": "Lead (Pb), mg/kg, Max.",
+        "requirement": "02 ppm"
+      },
+      {
+        "characteristic": "Arsenic (As), mg/kg, Max.",
+        "requirement": "03 ppm"
+      },
+      {
+        "characteristic": "Cadmium (Cd), mg/kg, Max.",
+        "requirement": "01 ppm"
+      },
+      {
+        "characteristic": "Mercury (Hg), mg/kg, Max.",
+        "requirement": "01 ppm"
+      },
+      {
+        "characteristic": "Heavy metals (as Pb), mg/kg, Max.",
+        "requirement": "40 ppm"
+      }
+    ],
+    "sections": []
+  },
+  {
+    "name": "Cosmetic Colours",
+    "slug": "cosmetic-colours",
+    "sort_order": 4,
+    "analysis_specs": [
+      {
+        "characteristic": "Total Pure Dye Content (High/Low Dye options)",
+        "requirement": "15.00% – 40.00% (Lakes) / 85.00% (Salts)"
+      },
+      {
+        "characteristic": "Volatile Matter (Moisture) at 135°C, Max.",
+        "requirement": "12.00%"
+      },
+      {
+        "characteristic": "Water-Soluble Chlorides & Sulphates, Max.",
+        "requirement": "02.00%"
+      },
+      {
+        "characteristic": "Unreacted Intermediates & Subsidiary Dyes, Max.",
+        "requirement": "01.00%"
+      },
+      {
+        "characteristic": "Lead (Pb), mg/kg, Max.",
+        "requirement": "10.00 ppm"
+      },
+      {
+        "characteristic": "Arsenic (As), mg/kg, Max.",
+        "requirement": "02.00 ppm"
+      },
+      {
+        "characteristic": "Mercury (Hg), mg/kg, Max.",
+        "requirement": "01.00 ppm"
+      },
+      {
+        "characteristic": "Cadmium (Cd), mg/kg, Max.",
+        "requirement": "01.00 ppm"
+      },
+      {
+        "characteristic": "Barium (Ba) soluble in dilute HCl, Max.",
+        "requirement": "500.00 ppm"
+      },
+      {
+        "characteristic": "Total Heavy Metals (as Pb), Max.",
+        "requirement": "20.00 ppm"
+      }
+    ],
+    "sections": []
+  },
+  {
+    "name": "Pharmaceutical Colours",
+    "slug": "pharmaceutical-colours",
+    "sort_order": 5,
+    "analysis_specs": [
+      {
+        "characteristic": "Total Pure Dye Content, Min.",
+        "requirement": "85.00% – 90.00% (Dyes) / 15.00% – 40.00% (Lakes)"
+      },
+      {
+        "characteristic": "Volatile Matter at 135°C & Chlorides/Sulphates, Max.",
+        "requirement": "13.00%"
+      },
+      {
+        "characteristic": "Water-Insoluble Matter, Max.",
+        "requirement": "00.20%"
+      },
+      {
+        "characteristic": "Combined Ether Extracts, Max.",
+        "requirement": "00.20%"
+      },
+      {
+        "characteristic": "Unsulfonated Primary Aromatic Amines (as aniline), Max.",
+        "requirement": "00.01%"
+      },
+      {
+        "characteristic": "Subsidiary Dyes & Intermediates, Max.",
+        "requirement": "01.00%"
+      },
+      {
+        "characteristic": "Lead (Pb), mg/kg, Max.",
+        "requirement": "02.00 ppm"
+      },
+      {
+        "characteristic": "Arsenic (As), mg/kg, Max.",
+        "requirement": "01.00 ppm"
+      },
+      {
+        "characteristic": "Cadmium (Cd), mg/kg, Max.",
+        "requirement": "00.50 ppm"
+      },
+      {
+        "characteristic": "Mercury (Hg), mg/kg, Max.",
+        "requirement": "00.50 ppm"
+      },
+      {
+        "characteristic": "Total Heavy Metals (as Pb), Max.",
+        "requirement": "10.00 ppm"
+      },
+      {
+        "characteristic": "Total Aerobic Microbial Count (TAMC)",
+        "requirement": "< 100 CFU/g (Pathogens Absent)"
+      }
+    ],
+    "sections": []
+  },
+  {
+    "name": "Liquid Flavours",
+    "slug": "liquid-flavours",
+    "sort_order": 6,
+    "analysis_specs": [
+      {
+        "characteristic": "Specific Gravity (at 20°C / 25°C)",
+        "requirement": "0.980 – 1.050 g/cm³"
+      },
+      {
+        "characteristic": "Refractive Index (at 20°C)",
+        "requirement": "1.380 – 1.450"
+      },
+      {
+        "characteristic": "Organoleptic Profile (Odour & Taste)",
+        "requirement": "Characteristic, true to nature, free from off-notes"
+      },
+      {
+        "characteristic": "Solubility",
+        "requirement": "Freely soluble in Water, Propylene Glycol & Alcohol"
+      },
+      {
+        "characteristic": "Flash Point (Closed Cup)",
+        "requirement": "> 65°C"
+      },
+      {
+        "characteristic": "Total Heavy Metals (as Pb), Max.",
+        "requirement": "10.00 ppm"
+      },
+      {
+        "characteristic": "Lead (Pb), Max.",
+        "requirement": "02.00 ppm"
+      },
+      {
+        "characteristic": "Arsenic (As), Max.",
+        "requirement": "01.00 ppm"
+      },
+      {
+        "characteristic": "Total Microbial Plate Count, Max.",
+        "requirement": "< 1,000 CFU/g"
+      },
+      {
+        "characteristic": "Yeast & Mould Count, Max.",
+        "requirement": "< 100 CFU/g"
+      }
+    ],
+    "sections": [
+      {
+        "key": "specialty-enhancers",
+        "title": "Specialty Liquid Enhancers",
+        "sort_order": 1,
+        "items": [
+          {
+            "title": "Capsicum Flavour",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": []
+          },
+          {
+            "title": "Cardamom Flavour",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": []
+          },
+          {
+            "title": "Carmel Flavour",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": []
+          },
+          {
+            "title": "Cashew Nut Flavour",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": []
+          },
+          {
+            "title": "Cheese Flavour",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": []
+          },
+          {
+            "title": "Cherry Flavour",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": []
+          },
+          {
+            "title": "Chikoo",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": []
+          },
+          {
+            "title": "Chocolate",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": []
+          },
+          {
+            "title": "Coconut",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": []
+          },
+          {
+            "title": "Coffee Mast",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": []
+          },
+          {
+            "title": "Cola Excellent",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": []
+          },
+          {
+            "title": "Creamy Milk Flavour",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": []
+          },
+          {
+            "title": "Cumin Flavour",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": []
+          },
+          {
+            "title": "Custard Flavour",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": []
+          },
+          {
+            "title": "Dairy Milk Flavour",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": []
+          },
+          {
+            "title": "Falsa Special",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": []
+          },
+          {
+            "title": "Guava Fresh",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": []
+          },
+          {
+            "title": "Garlic",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": []
+          },
+          {
+            "title": "Ginger Beer Cloudy",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": []
+          },
+          {
+            "title": "Glucose Biscuit Flavour",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": []
+          },
+          {
+            "title": "Grape Flavour",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": []
+          },
+          {
+            "title": "Groundnut Flavour",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": []
+          },
+          {
+            "title": "Honey",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": []
+          },
+          {
+            "title": "Ice-Cream Soda",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": []
+          },
+          {
+            "title": "Jeera Masala",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": []
+          },
+          {
+            "title": "Kewra",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": []
+          },
+          {
+            "title": "Kiwi",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": []
+          },
+          {
+            "title": "Lemon",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": []
+          },
+          {
+            "title": "Lemon Limca",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": []
+          },
+          {
+            "title": "Lichy",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": []
+          },
+          {
+            "title": "Lime Lemon",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": []
+          },
+          {
+            "title": "Mango Green Special",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": []
+          },
+          {
+            "title": "Mango",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": []
+          },
+          {
+            "title": "Water Melon",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": []
+          },
+          {
+            "title": "Milk Toffee",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": []
+          },
+          {
+            "title": "Mint Flavour",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": []
+          },
+          {
+            "title": "Mixed Fruit",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": []
+          },
+          {
+            "title": "Mixed Berry",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": []
+          },
+          {
+            "title": "Nutmeg Flavour",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": []
+          },
+          {
+            "title": "Nutty Coffee",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": []
+          },
+          {
+            "title": "Orange Fanta",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": []
+          },
+          {
+            "title": "Orange",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": []
+          },
+          {
+            "title": "Peanut Special",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": []
+          },
+          {
+            "title": "Peach",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": []
+          },
+          {
+            "title": "Peppermint",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": []
+          },
+          {
+            "title": "Pineapple",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": []
+          },
+          {
+            "title": "Plum Flavour",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": []
+          },
+          {
+            "title": "Pistachio Special",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": []
+          },
+          {
+            "title": "Pomegranate Excellent",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": []
+          },
+          {
+            "title": "Raspberry",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": []
+          },
+          {
+            "title": "Rose",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": []
+          },
+          {
+            "title": "Rum Flavour",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": []
+          },
+          {
+            "title": "Saffron",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": []
+          },
+          {
+            "title": "Sandal",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": []
+          },
+          {
+            "title": "Strawberry",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": []
+          },
+          {
+            "title": "Spearmint",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": []
+          },
+          {
+            "title": "Vanilla",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": []
+          },
+          {
+            "title": "Whisky Flavour",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Emulsion Flavours",
+    "slug": "emulsion-flavours",
+    "sort_order": 7,
+    "analysis_specs": [
+      {
+        "characteristic": "Physical Form & Appearance",
+        "requirement": "Homogeneous, Slightly Viscous Micro-Emulsion"
+      },
+      {
+        "characteristic": "Specific Gravity (at 20°C / 30°C)",
+        "requirement": "1.020 – 1.120 g/cm³"
+      },
+      {
+        "characteristic": "pH Value (Direct at 20°C)",
+        "requirement": "3.00 – 4.50"
+      },
+      {
+        "characteristic": "Clouding & Emulsion Stability (180 Days)",
+        "requirement": "Stable, No Ringing / Separation in Beverage"
+      },
+      {
+        "characteristic": "Flash Point (Closed Cup)",
+        "requirement": "> 90°C"
+      },
+      {
+        "characteristic": "Total Heavy Metals (as Pb), Max.",
+        "requirement": "10.00 ppm"
+      },
+      {
+        "characteristic": "Lead (Pb), Max.",
+        "requirement": "02.00 ppm"
+      },
+      {
+        "characteristic": "Arsenic (As), Max.",
+        "requirement": "01.00 ppm"
+      },
+      {
+        "characteristic": "Total Aerobic Microbial Count",
+        "requirement": "< 500 CFU/g"
+      },
+      {
+        "characteristic": "Yeast & Mould Count",
+        "requirement": "< 50 CFU/g (Pathogens Absent)"
+      }
+    ],
+    "sections": [
+      {
+        "key": "specialty-profiles",
+        "title": "Specialty Emulsion Profiles",
+        "sort_order": 1,
+        "items": [
+          {
+            "title": "Blue Berry Emulsion",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": []
+          },
+          {
+            "title": "Butterscotch Emulsion",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": []
+          },
+          {
+            "title": "Cola Clouding Base",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": []
+          },
+          {
+            "title": "Garden Mist (N)",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": []
+          },
+          {
+            "title": "Gold Mist (N)",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": []
+          },
+          {
+            "title": "Kala Khatta Special",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": []
+          },
+          {
+            "title": "Khus Clouding Flavour",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": []
+          },
+          {
+            "title": "Lemon Lime Emulsion",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": []
+          },
+          {
+            "title": "Lemon Cloudy",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": []
+          },
+          {
+            "title": "Mango Green Special",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": []
+          },
+          {
+            "title": "Alphonso Mango Emulsion",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": []
+          },
+          {
+            "title": "Orange Fanta Cloud",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": []
+          },
+          {
+            "title": "Pineapple Super",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": []
+          },
+          {
+            "title": "Sweet Orange Emulsion",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": []
+          },
+          {
+            "title": "Pista Kulfi Emulsion",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": []
+          },
+          {
+            "title": "Raspberry Cordial",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": []
+          },
+          {
+            "title": "Red Rose Emulsion",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": []
+          },
+          {
+            "title": "Silver Mist Neutral Cloud",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": []
+          },
+          {
+            "title": "Strawberry Cream Emulsion",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Powder Flavours",
+    "slug": "powder-flavours",
+    "sort_order": 8,
+    "analysis_specs": [
+      {
+        "characteristic": "Physical Appearance",
+        "requirement": "Fine Free-Flowing Encapsulated Powder"
+      },
+      {
+        "characteristic": "Solubility in Water",
+        "requirement": "100% Water Soluble / Dispersible"
+      },
+      {
+        "characteristic": "Moisture Content",
+        "requirement": "< 5.00% Max"
+      },
+      {
+        "characteristic": "Encapsulation Matrix",
+        "requirement": "Food Grade Modified Starch / Maltodextrin / Gum Acacia"
+      },
+      {
+        "characteristic": "Heat Stability",
+        "requirement": "Baking Heat Stable up to 220°C without flavour loss"
+      },
+      {
+        "characteristic": "Heavy Metals (as Pb), Max.",
+        "requirement": "< 5.00 ppm"
+      },
+      {
+        "characteristic": "Total Plate Count",
+        "requirement": "< 1000 CFU/g"
+      },
+      {
+        "characteristic": "Yeast & Mould",
+        "requirement": "< 100 CFU/g (Pathogens Absent)"
+      }
+    ],
+    "sections": []
+  },
+  {
+    "name": "Disco Dust Powder",
+    "slug": "disco-dust-powder",
+    "sort_order": 9,
+    "analysis_specs": [
+      {
+        "characteristic": "Physical Appearance",
+        "requirement": "Ultra-Fine Sparkle Powder / Micro-Prismatic Glitter"
+      },
+      {
+        "characteristic": "Particle Size Distribution (D50)",
+        "requirement": "15 – 60 Microns (Uniform Sparkle Reflection)"
+      },
+      {
+        "characteristic": "Loss on Drying (at 105°C)",
+        "requirement": "< 0.50% Max"
+      },
+      {
+        "characteristic": "pH Value (10% Aqueous Slurry)",
+        "requirement": "6.50 – 8.00"
+      },
+      {
+        "characteristic": "Heavy Metals (as Pb), Max.",
+        "requirement": "10.00 ppm"
+      },
+      {
+        "characteristic": "Lead (Pb), Max.",
+        "requirement": "02.00 ppm"
+      },
+      {
+        "characteristic": "Arsenic (As), Max.",
+        "requirement": "01.00 ppm"
+      },
+      {
+        "characteristic": "Mercury (Hg), Max.",
+        "requirement": "0.50 ppm"
+      },
+      {
+        "characteristic": "Total Aerobic Microbial Count",
+        "requirement": "< 100 CFU/g"
+      },
+      {
+        "characteristic": "Yeast & Mould Count",
+        "requirement": "< 10 CFU/g (Pathogens Absent)"
+      }
+    ],
+    "sections": []
+  },
+  {
+    "name": "Food Additives",
+    "slug": "food-additives",
+    "sort_order": 10,
+    "analysis_specs": [
+      {
+        "characteristic": "Heavy Metals (as Pb), Max.",
+        "requirement": "10.00 ppm"
+      },
+      {
+        "characteristic": "Arsenic (As), Max.",
+        "requirement": "01.00 ppm"
+      },
+      {
+        "characteristic": "Lead (Pb), Max.",
+        "requirement": "01.00 ppm"
+      },
+      {
+        "characteristic": "Mercury (Hg), Max.",
+        "requirement": "0.10 ppm"
+      },
+      {
+        "characteristic": "Total Aerobic Microbial Count",
+        "requirement": "< 1000 CFU/g"
+      },
+      {
+        "characteristic": "Yeast & Mould Count",
+        "requirement": "< 100 CFU/g"
+      },
+      {
+        "characteristic": "E. Coli & Salmonella",
+        "requirement": "Absent in 25g"
+      },
+      {
+        "characteristic": "Food Grade Standard",
+        "requirement": "Complies with FSSAI, US-FDA 21 CFR & FCC Monograph"
+      }
+    ],
+    "sections": [
+      {
+        "key": "extended-additives",
+        "title": "Extended Food Additives",
+        "sort_order": 1,
+        "items": [
+          {
+            "title": "Ascorbic Acid (Vitamin C)",
+            "subtitle": "Antioxidant & Preservative",
+            "color_hex": null,
+            "attributes": [
+              {
+                "label": "Standard",
+                "value": "FCC / USP / E300"
+              },
+              {
+                "label": "Form",
+                "value": "White Crystalline Powder"
+              }
+            ]
+          },
+          {
+            "title": "Sodium Benzoate",
+            "subtitle": "Antimicrobial Preservative",
+            "color_hex": null,
+            "attributes": [
+              {
+                "label": "Standard",
+                "value": "FCC / E211"
+              },
+              {
+                "label": "Form",
+                "value": "Dense White Granules / Flakes"
+              }
+            ]
+          },
+          {
+            "title": "Potassium Sorbate",
+            "subtitle": "Fungistatic Preservative",
+            "color_hex": null,
+            "attributes": [
+              {
+                "label": "Standard",
+                "value": "FCC / E202"
+              },
+              {
+                "label": "Form",
+                "value": "White Granular Spheres"
+              }
+            ]
+          },
+          {
+            "title": "Calcium Propionate",
+            "subtitle": "Bakery Anti-Mould Agent",
+            "color_hex": null,
+            "attributes": [
+              {
+                "label": "Standard",
+                "value": "FCC / E282"
+              },
+              {
+                "label": "Form",
+                "value": "Fine White Powder"
+              }
+            ]
+          },
+          {
+            "title": "Xanthan Gum (80 / 200 Mesh)",
+            "subtitle": "Hydrocolloid & Stabilizer",
+            "color_hex": null,
+            "attributes": [
+              {
+                "label": "Standard",
+                "value": "Food & Pharma Grade / E415"
+              },
+              {
+                "label": "Form",
+                "value": "Creamy White Powder"
+              }
+            ]
+          },
+          {
+            "title": "Guar Gum (Food Grade)",
+            "subtitle": "Natural Thickening Agent",
+            "color_hex": null,
+            "attributes": [
+              {
+                "label": "Standard",
+                "value": "FSSAI / E412"
+              },
+              {
+                "label": "Form",
+                "value": "Pale White-Yellow Powder"
+              }
+            ]
+          },
+          {
+            "title": "Sodium Acid Pyrophosphate (SAPP)",
+            "subtitle": "Leavening & Buffering Agent",
+            "color_hex": null,
+            "attributes": [
+              {
+                "label": "Standard",
+                "value": "Food Grade / E450(i)"
+              },
+              {
+                "label": "Form",
+                "value": "White Crystalline Powder"
+              }
+            ]
+          },
+          {
+            "title": "Mono & Diglycerides (GMS)",
+            "subtitle": "Food Emulsifier",
+            "color_hex": null,
+            "attributes": [
+              {
+                "label": "Standard",
+                "value": "FCC / E471"
+              },
+              {
+                "label": "Form",
+                "value": "Ivory Flakes / Powder"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Chemicals",
+    "slug": "chemicals",
+    "sort_order": 11,
+    "analysis_specs": null,
+    "sections": []
+  },
+  {
+    "name": "Mango Pulp",
+    "slug": "mango-pulp",
+    "sort_order": 12,
+    "analysis_specs": [
+      {
+        "characteristic": "Microbiological Quality",
+        "requirement": "Commercially Sterile (Free from Pathogens & Osmophilic Yeasts)"
+      },
+      {
+        "characteristic": "Heavy Metals (as Pb), Max.",
+        "requirement": "1.00 ppm"
+      },
+      {
+        "characteristic": "Arsenic (As), Max.",
+        "requirement": "0.10 ppm"
+      },
+      {
+        "characteristic": "Pesticide Residues",
+        "requirement": "Complies with US-FDA, EU MRL & FSSAI Limits"
+      },
+      {
+        "characteristic": "Preservatives",
+        "requirement": "100% Free from Artificial Colors, Preservatives or Flavors"
+      },
+      {
+        "characteristic": "Processing Method",
+        "requirement": "Thermal Aseptic Sterilization & Deaeration (Flash Pasteurized)"
+      }
+    ],
+    "sections": []
+  },
+  {
+    "name": "Botanical Extracts",
+    "slug": "botanical-extracts",
+    "sort_order": 13,
+    "analysis_specs": null,
+    "sections": []
+  },
+  {
+    "name": "Titanium Dioxide",
+    "slug": "titanium-dioxide",
+    "sort_order": 14,
+    "analysis_specs": null,
+    "sections": [
+      {
+        "key": "comparison-matrix",
+        "title": "Grade Comparison",
+        "sort_order": 1,
+        "items": [
+          {
+            "title": "Crystal Structure",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": [
+              {
+                "label": "Rutile",
+                "value": "Tetragonal (High Density 4.23 g/cm³)"
+              },
+              {
+                "label": "Anatase",
+                "value": "Tetragonal (Density 3.90 g/cm³)"
+              },
+              {
+                "label": "Pharma",
+                "value": "High-Purity Anatase (FCC/USP Grade)"
+              }
+            ]
+          },
+          {
+            "title": "Refractive Index (Opacity)",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": [
+              {
+                "label": "Rutile",
+                "value": "2.73 (Highest Opacity & Hiding Power)"
+              },
+              {
+                "label": "Anatase",
+                "value": "2.55 (Bright White, Moderate Opacity)"
+              },
+              {
+                "label": "Pharma",
+                "value": "2.55 (High Whiteness, Ultra-Pure)"
+              }
+            ]
+          },
+          {
+            "title": "Primary Application",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": [
+              {
+                "label": "Rutile",
+                "value": "Exterior Coatings, Masterbatches & Plastics"
+              },
+              {
+                "label": "Anatase",
+                "value": "Paper, Rubber, Interior Paints & Fibres"
+              },
+              {
+                "label": "Pharma",
+                "value": "Capsules, Tablets, Confectionery & Cosmetics"
+              }
+            ]
+          },
+          {
+            "title": "Weather & Chalk Resistance",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": [
+              {
+                "label": "Rutile",
+                "value": "Outstanding (UV-Protected & Surface Treated)"
+              },
+              {
+                "label": "Anatase",
+                "value": "Moderate (Pure Uncoated)"
+              },
+              {
+                "label": "Pharma",
+                "value": "High Photostability in Drug Coatings"
+              }
+            ]
+          },
+          {
+            "title": "Standard Particle Size (D50)",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": [
+              {
+                "label": "Rutile",
+                "value": "0.20 – 0.30 Microns"
+              },
+              {
+                "label": "Anatase",
+                "value": "0.25 – 0.35 Microns"
+              },
+              {
+                "label": "Pharma",
+                "value": "0.20 – 0.40 Microns (Nano-Free Conventional)"
+              }
+            ]
+          },
+          {
+            "title": "Regulatory Standard",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": [
+              {
+                "label": "Rutile",
+                "value": "ISO 591-1:2000 Class R2"
+              },
+              {
+                "label": "Anatase",
+                "value": "ISO 591-1:2000 Class A1"
+              },
+              {
+                "label": "Pharma",
+                "value": "USP / IP / BP / E171 / US-FDA 21 CFR"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Natural Food Colors",
+    "slug": "natural-food-colors",
+    "sort_order": 15,
+    "analysis_specs": null,
+    "sections": [
+      {
+        "key": "stability-specs",
+        "title": "Colour Stability",
+        "sort_order": 1,
+        "items": [
+          {
+            "title": "Curcumin (E100)",
+            "subtitle": "Curcuma Longa (Turmeric)",
+            "color_hex": null,
+            "attributes": [
+              {
+                "label": "Solubility",
+                "value": "Water / Alcohol Dispersible"
+              },
+              {
+                "label": "pH Range",
+                "value": "pH 2.0 – 9.0 (Yellow to Orange)"
+              },
+              {
+                "label": "Heat Stability",
+                "value": "Excellent (Up to 140°C)"
+              },
+              {
+                "label": "Light Stability",
+                "value": "Moderate (Protect from UV)"
+              }
+            ]
+          },
+          {
+            "title": "Chlorophyllin (E141)",
+            "subtitle": "Spinach & Alfalfa Leaves",
+            "color_hex": null,
+            "attributes": [
+              {
+                "label": "Solubility",
+                "value": "Water / Oil Soluble Grades"
+              },
+              {
+                "label": "pH Range",
+                "value": "pH 4.0 – 10.0 (Vivid Green)"
+              },
+              {
+                "label": "Heat Stability",
+                "value": "Very Good (Up to 100°C)"
+              },
+              {
+                "label": "Light Stability",
+                "value": "Good (Copper Stabilized)"
+              }
+            ]
+          },
+          {
+            "title": "Annatto (E160b)",
+            "subtitle": "Bixa Orellana Seeds",
+            "color_hex": null,
+            "attributes": [
+              {
+                "label": "Solubility",
+                "value": "Water (Nor-Bixin) / Oil (Bixin)"
+              },
+              {
+                "label": "pH Range",
+                "value": "pH 3.5 – 8.5 (Warm Yellow-Orange)"
+              },
+              {
+                "label": "Heat Stability",
+                "value": "Good (Up to 125°C)"
+              },
+              {
+                "label": "Light Stability",
+                "value": "Good"
+              }
+            ]
+          },
+          {
+            "title": "Beta-Carotene (E160a)",
+            "subtitle": "Fermentation / Carrot Extracts",
+            "color_hex": null,
+            "attributes": [
+              {
+                "label": "Solubility",
+                "value": "Water Dispersible Emulsion"
+              },
+              {
+                "label": "pH Range",
+                "value": "pH 3.0 – 7.0 (Bright Orange-Yellow)"
+              },
+              {
+                "label": "Heat Stability",
+                "value": "Good (With Antioxidants)"
+              },
+              {
+                "label": "Light Stability",
+                "value": "Good"
+              }
+            ]
+          },
+          {
+            "title": "Paprika Oleoresin (E160c)",
+            "subtitle": "Capsicum Annuum",
+            "color_hex": null,
+            "attributes": [
+              {
+                "label": "Solubility",
+                "value": "Water Dispersible / Oil Soluble"
+              },
+              {
+                "label": "pH Range",
+                "value": "pH 3.0 – 8.0 (Vibrant Red-Orange)"
+              },
+              {
+                "label": "Heat Stability",
+                "value": "Very Good"
+              },
+              {
+                "label": "Light Stability",
+                "value": "Good"
+              }
+            ]
+          },
+          {
+            "title": "Beetroot Red (E162)",
+            "subtitle": "Beta Vulgaris (Red Beet)",
+            "color_hex": null,
+            "attributes": [
+              {
+                "label": "Solubility",
+                "value": "Freely Water Soluble"
+              },
+              {
+                "label": "pH Range",
+                "value": "pH 3.5 – 6.5 (Rich Magenta-Red)"
+              },
+              {
+                "label": "Heat Stability",
+                "value": "Moderate (Cold / Low Heat Process)"
+              },
+              {
+                "label": "Light Stability",
+                "value": "Fair to Good"
+              }
+            ]
+          },
+          {
+            "title": "Caramel (E150a-d)",
+            "subtitle": "Controlled Carbohydrate Heating",
+            "color_hex": null,
+            "attributes": [
+              {
+                "label": "Solubility",
+                "value": "Completely Water Soluble"
+              },
+              {
+                "label": "pH Range",
+                "value": "pH 2.5 – 9.0 (Amber to Dark Brown)"
+              },
+              {
+                "label": "Heat Stability",
+                "value": "Outstanding (Up to 180°C)"
+              },
+              {
+                "label": "Light Stability",
+                "value": "Outstanding"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Natural Fruit Powder (Spray Dried)",
+    "slug": "natural-fruit-powder",
+    "sort_order": 16,
+    "analysis_specs": [
+      {
+        "characteristic": "Physical Appearance",
+        "requirement": "Fine Free-Flowing Spray-Dried Powder"
+      },
+      {
+        "characteristic": "Solubility in Cold Water",
+        "requirement": "100% Instantly Soluble / Easily Dispersible"
+      },
+      {
+        "characteristic": "Processing Method",
+        "requirement": "Low-Temperature Spray Drying preserving natural aromas & vitamins"
+      },
+      {
+        "characteristic": "Moisture Content",
+        "requirement": "< 4.00% Max"
+      },
+      {
+        "characteristic": "Total Ash",
+        "requirement": "< 3.00% Max"
+      },
+      {
+        "characteristic": "Bulk Density",
+        "requirement": "0.50 – 0.75 g/ml"
+      },
+      {
+        "characteristic": "Particle Size Distribution",
+        "requirement": "100% passes through 80 Mesh"
+      },
+      {
+        "characteristic": "Heavy Metals (as Pb), Max.",
+        "requirement": "< 5.00 ppm"
+      },
+      {
+        "characteristic": "Total Plate Count (CFU/g)",
+        "requirement": "< 1000 CFU/g"
+      },
+      {
+        "characteristic": "Yeast & Mould (CFU/g)",
+        "requirement": "< 50 CFU/g (E. Coli & Salmonella Absent)"
+      }
+    ],
+    "sections": [
+      {
+        "key": "applications",
+        "title": "Applications",
+        "sort_order": 1,
+        "items": [
+          {
+            "title": "Beverages & Instant Drink Mixes",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": [
+              {
+                "label": "Use",
+                "value": "RTD beverage powders, fruit juices, flavored smoothies, energy drink mixes, and functional teas."
+              },
+              {
+                "label": "Advantage",
+                "value": "Delivers authentic natural fruit taste, genuine aroma, and instant reconstitution in water."
+              }
+            ]
+          },
+          {
+            "title": "Bakery & Confectionery",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": [
+              {
+                "label": "Use",
+                "value": "Cake batters, fruit fillings, fondant, macaron shells, chocolate centers, and cookie premixes."
+              },
+              {
+                "label": "Advantage",
+                "value": "Heat-stable fruit flavor profile without adding excess moisture to doughs and fillings."
+              }
+            ]
+          },
+          {
+            "title": "Dairy & Ice Creams",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": [
+              {
+                "label": "Use",
+                "value": "Flavored yogurts, frozen desserts, fruit milkshakes, soft-serve premixes, and artisanal cheeses."
+              },
+              {
+                "label": "Advantage",
+                "value": "Imparts natural fruit color and smooth texture without curdling dairy proteins."
+              }
+            ]
+          },
+          {
+            "title": "Nutraceuticals & Dietary Supplements",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": [
+              {
+                "label": "Use",
+                "value": "Superfood blends, meal replacement shakes, effervescent vitamin tablets, and immunity boosters."
+              },
+              {
+                "label": "Advantage",
+                "value": "Rich in naturally occurring vitamin C, antioxidants, polyphenols, and dietary dietary minerals."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Fruit Fragrance",
+    "slug": "fruit-fragrance",
+    "sort_order": 17,
+    "analysis_specs": [
+      {
+        "characteristic": "Physical Appearance",
+        "requirement": "Clear to Light Yellow Liquid Aromatic Compound"
+      },
+      {
+        "characteristic": "Specific Gravity (at 20°C)",
+        "requirement": "0.980 – 1.050"
+      },
+      {
+        "characteristic": "Refractive Index (at 20°C)",
+        "requirement": "1.435 – 1.495"
+      },
+      {
+        "characteristic": "Flash Point (Closed Cup)",
+        "requirement": "> 65°C – 95°C"
+      },
+      {
+        "characteristic": "Regulatory Compliance",
+        "requirement": "100% IFRA Standard & GRAS Compliant"
+      },
+      {
+        "characteristic": "Solubility Profile",
+        "requirement": "Soluble in alcohols, mineral oils, diethyl phthalate (DEP) & dipropylene glycol (DPG)"
+      },
+      {
+        "characteristic": "Odor Tenacity on Blotter",
+        "requirement": "> 48 Hours Substantivity"
+      },
+      {
+        "characteristic": "Heavy Metals (as Pb), Max.",
+        "requirement": "< 5.00 ppm"
+      }
+    ],
+    "sections": [
+      {
+        "key": "applications",
+        "title": "Applications",
+        "sort_order": 1,
+        "items": [
+          {
+            "title": "Personal Care & Cosmetics",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": [
+              {
+                "label": "Applications",
+                "value": "Body lotions, shower gels, hand washes, shampoos, facial scrubs, and body mists."
+              },
+              {
+                "label": "Feature",
+                "value": "Dermatologically safe, hypoallergenic, and non-irritating formulations complying with IFRA guidelines."
+              }
+            ]
+          },
+          {
+            "title": "Fine Soaps & Detergents",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": [
+              {
+                "label": "Applications",
+                "value": "Transparent bath soaps, luxury bar soaps, liquid laundry detergents, and fabric softeners."
+              },
+              {
+                "label": "Feature",
+                "value": "High alkaline stability, zero discoloration in saponified fatty acids, and persistent laundry blooming."
+              }
+            ]
+          },
+          {
+            "title": "Air Care & Home Fragrance",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": [
+              {
+                "label": "Applications",
+                "value": "Reed diffusers, scented candles, aerosol room sprays, electric plug-ins, and car fresheners."
+              },
+              {
+                "label": "Feature",
+                "value": "Excellent vapor pressure diffusion, clean wax burning compatibility, and long-lasting room projection."
+              }
+            ]
+          },
+          {
+            "title": "Fine Fragrances & Perfumery",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": [
+              {
+                "label": "Applications",
+                "value": "Eau de Parfum (EDP), Eau de Toilette (EDT), cologne sprays, and roll-on perfume oils."
+              },
+              {
+                "label": "Feature",
+                "value": "Sophisticated top, middle, and dry-down olfactory transitions crafted with high-tenacity fixatives."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Edible Lustre",
+    "slug": "edible-lustre",
+    "sort_order": 18,
+    "analysis_specs": [
+      {
+        "characteristic": "Physical Appearance",
+        "requirement": "Ultra-Fine Pearlescent Shimmering Powder"
+      },
+      {
+        "characteristic": "Food Grade Standard",
+        "requirement": "100% Edible / Confectionery & Food Grade Compliant"
+      },
+      {
+        "characteristic": "Composition / Base",
+        "requirement": "Potassium Aluminum Silicate (E555 / Mica), TiO2 & Approved Food Colourants"
+      },
+      {
+        "characteristic": "Particle Size Distribution (D50)",
+        "requirement": "10 – 60 Microns (Silky, Streak-Free Metallic Sheen)"
+      },
+      {
+        "characteristic": "Loss on Drying (at 105°C)",
+        "requirement": "< 0.50% Max"
+      },
+      {
+        "characteristic": "pH Value (10% Aqueous Slurry)",
+        "requirement": "6.00 – 8.00"
+      },
+      {
+        "characteristic": "Heavy Metals (as Pb), Max.",
+        "requirement": "10.00 ppm"
+      },
+      {
+        "characteristic": "Lead (Pb), Max.",
+        "requirement": "02.00 ppm"
+      },
+      {
+        "characteristic": "Arsenic (As), Max.",
+        "requirement": "01.00 ppm"
+      },
+      {
+        "characteristic": "Mercury (Hg), Max.",
+        "requirement": "0.50 ppm"
+      },
+      {
+        "characteristic": "Total Aerobic Microbial Count",
+        "requirement": "< 100 CFU/g"
+      },
+      {
+        "characteristic": "Yeast & Mould Count",
+        "requirement": "< 10 CFU/g (Pathogens Absent)"
+      }
+    ],
+    "sections": [
+      {
+        "key": "application-techniques",
+        "title": "Application Techniques",
+        "sort_order": 1,
+        "items": [
+          {
+            "title": "Dry Dusting",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": [
+              {
+                "label": "Method",
+                "value": "Apply directly with a soft dry confectionery brush onto dry surfaces."
+              },
+              {
+                "label": "Best For",
+                "value": "Fondant accents, gum paste flower petals, royal icing, macarons, dry chocolate shells."
+              },
+              {
+                "label": "Tip",
+                "value": "Gives a soft, pearlescent, translucent shimmer that highlights textured details."
+              }
+            ]
+          },
+          {
+            "title": "Wet Painting / Metallic Paint",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": [
+              {
+                "label": "Method",
+                "value": "Mix equal parts lustre dust with clear high-proof alcohol, lemon extract, or confectioners glaze."
+              },
+              {
+                "label": "Best For",
+                "value": "Hand-lettering, calligraphy, metallic drip cakes, borders, gold leaf effects."
+              },
+              {
+                "label": "Tip",
+                "value": "Alcohol evaporates rapidly leaving a concentrated, streak-free opaque metallic foil finish."
+              }
+            ]
+          },
+          {
+            "title": "Airbrushing",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": [
+              {
+                "label": "Method",
+                "value": "Dilute with high-proof food grade grain spirit or airbrush thinner (ratio 1:3)."
+              },
+              {
+                "label": "Best For",
+                "value": "Full cake coverage, large chocolate showpieces, continuous uniform ombre gradients."
+              },
+              {
+                "label": "Tip",
+                "value": "Use a 0.3mm to 0.5mm nozzle to prevent mica flake clogging."
+              }
+            ]
+          },
+          {
+            "title": "Beverage & Cocktail Shimmer",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": [
+              {
+                "label": "Method",
+                "value": "Stir a pinch directly into transparent or sparkling alcoholic and non-alcoholic drinks."
+              },
+              {
+                "label": "Best For",
+                "value": "Cocktails, mocktails, sparkling ciders, celebration champagnes, festive syrups."
+              },
+              {
+                "label": "Tip",
+                "value": "Suspends in carbonated or viscous liquids to create dynamic swirling metallic vortex effects."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Fluorescent Colours",
+    "slug": "fluorescent-colours",
+    "sort_order": 19,
+    "analysis_specs": [
+      {
+        "characteristic": "Physical Appearance",
+        "requirement": "Ultra-Fine High-Visibility Fluorescent Powder"
+      },
+      {
+        "characteristic": "Daylight Luminescence",
+        "requirement": "High Quantum Yield Neon Emission under UV / Daylight"
+      },
+      {
+        "characteristic": "Average Particle Size (D50)",
+        "requirement": "3.0 – 8.0 Microns (Sub-Micron Dispersibility)"
+      },
+      {
+        "characteristic": "Softening / Melting Point",
+        "requirement": "130°C – 145°C"
+      },
+      {
+        "characteristic": "Decomposition Temperature",
+        "requirement": "> 220°C (High Thermal Resistance)"
+      },
+      {
+        "characteristic": "Moisture Content (at 105°C)",
+        "requirement": "< 1.00% Max"
+      },
+      {
+        "characteristic": "pH Value (10% Aqueous Slurry)",
+        "requirement": "5.50 – 7.50"
+      },
+      {
+        "characteristic": "Heavy Metals (as Pb), Max.",
+        "requirement": "< 10.00 ppm"
+      },
+      {
+        "characteristic": "Light Fastness (Blue Wool Scale)",
+        "requirement": "Grade 3 – 4 (Daylight Stability)"
+      },
+      {
+        "characteristic": "Solvent Resistance",
+        "requirement": "Resistant to aliphatic hydrocarbons, alcohols and plasticizers"
+      }
+    ],
+    "sections": [
+      {
+        "key": "applications",
+        "title": "Applications",
+        "sort_order": 1,
+        "items": [
+          {
+            "title": "Textile Printing & Dyeing",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": [
+              {
+                "label": "Suitability",
+                "value": "Screen printing inks, pigment printing pastes, synthetic fiber masterbatches, and athletic apparel."
+              },
+              {
+                "label": "Feature",
+                "value": "Outstanding neon vibrancy with soft fabric feel and wash resistance."
+              }
+            ]
+          },
+          {
+            "title": "Plastics & Polymers",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": [
+              {
+                "label": "Suitability",
+                "value": "Polyethylene (PE), Polypropylene (PP), Polystyrene (PS), EVA molding, and blown films."
+              },
+              {
+                "label": "Feature",
+                "value": "Uniform color distribution with minimal plate-out and low odor at processing temperatures."
+              }
+            ]
+          },
+          {
+            "title": "Coatings & High-Visibility Paints",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": [
+              {
+                "label": "Suitability",
+                "value": "Aerosol spray paints, industrial safety signage, traffic markings, and architectural accent enamels."
+              },
+              {
+                "label": "Feature",
+                "value": "Maximum daylight visibility and retro-reflective brilliance under twilight illumination."
+              }
+            ]
+          },
+          {
+            "title": "Security Inks & Stationery",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": [
+              {
+                "label": "Suitability",
+                "value": "Fluorescent highlighters, water-based marker inks, counterfeit prevention documents, and packaging seals."
+              },
+              {
+                "label": "Feature",
+                "value": "Crisp, smear-free edge definition and instantaneous optical fluorescent excitation under blacklight (365nm)."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Pearl Pigment Powder",
+    "slug": "pearl-pigment-powder",
+    "sort_order": 20,
+    "analysis_specs": [
+      {
+        "characteristic": "Physical Appearance",
+        "requirement": "Lustrous, Free-Flowing Pearlescent Flakes / Powder"
+      },
+      {
+        "characteristic": "Particle Size Distribution (80% within)",
+        "requirement": "10 – 60 Microns (Silky Luster) / 20 – 100 Microns (Sparkle)"
+      },
+      {
+        "characteristic": "Loss on Drying (at 105°C for 2 hrs)",
+        "requirement": "≤ 0.50%"
+      },
+      {
+        "characteristic": "pH Value (10% Aqueous Slurry)",
+        "requirement": "6.50 – 8.50"
+      },
+      {
+        "characteristic": "Total Heavy Metals (as Pb), Max.",
+        "requirement": "10.00 ppm"
+      },
+      {
+        "characteristic": "Lead (Pb), Max.",
+        "requirement": "02.00 ppm"
+      },
+      {
+        "characteristic": "Arsenic (As), Max.",
+        "requirement": "01.00 ppm"
+      },
+      {
+        "characteristic": "Mercury (Hg), Max.",
+        "requirement": "0.10 ppm"
+      },
+      {
+        "characteristic": "Cadmium (Cd), Max.",
+        "requirement": "01.00 ppm"
+      },
+      {
+        "characteristic": "Total Aerobic Microbial Count",
+        "requirement": "< 100 CFU/g (Pathogens Absent)"
+      }
+    ],
+    "sections": [
+      {
+        "key": "effects-guide",
+        "title": "Effects Guide",
+        "sort_order": 1,
+        "items": [
+          {
+            "title": "Pure Mica Base (C.I. 77019)",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": [
+              {
+                "label": "Substrate",
+                "value": "Natural Muscovite Flakes"
+              },
+              {
+                "label": "Coating",
+                "value": "Uncoated / Purified"
+              },
+              {
+                "label": "Effect",
+                "value": "Silky Translucent Sheen, Non-Grit Texture"
+              },
+              {
+                "label": "Application",
+                "value": "Foundation Powders, Mineral Makeup, Confectionery Dusting"
+              }
+            ]
+          },
+          {
+            "title": "Brilliant Gold Pearl",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": [
+              {
+                "label": "Substrate",
+                "value": "Mica Flakes (52 – 62%)"
+              },
+              {
+                "label": "Coating",
+                "value": "TiO2 (32 – 40%) + Fe2O3 (4 – 8%)"
+              },
+              {
+                "label": "Effect",
+                "value": "Luminous Regal Gold Reflection"
+              },
+              {
+                "label": "Application",
+                "value": "Chocolate Coatings, Wedding Cakes, Lipsticks, Eye Shadows"
+              }
+            ]
+          },
+          {
+            "title": "Amber Red Pearl",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": [
+              {
+                "label": "Substrate",
+                "value": "Mica Flakes (50 – 58%)"
+              },
+              {
+                "label": "Coating",
+                "value": "Iron Oxide Fe2O3 (42 – 50%)"
+              },
+              {
+                "label": "Effect",
+                "value": "Deep Radiant Copper-Red Metallic Sparkle"
+              },
+              {
+                "label": "Application",
+                "value": "Gourmet Sugarcraft, Blushers, Nail Lacquers, Lip Gloss"
+              }
+            ]
+          },
+          {
+            "title": "Silver Sparkle Pearl",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": [
+              {
+                "label": "Substrate",
+                "value": "Mica Flakes (68 – 76%)"
+              },
+              {
+                "label": "Coating",
+                "value": "Rutile TiO2 (24 – 32%)"
+              },
+              {
+                "label": "Effect",
+                "value": "Brilliant Diamond-Like Pure White Luster"
+              },
+              {
+                "label": "Application",
+                "value": "Frostings, Dragées, Champagne Truffles, Highlighters"
+              }
+            ]
+          },
+          {
+            "title": "Copper Fine Pearl",
+            "subtitle": null,
+            "color_hex": null,
+            "attributes": [
+              {
+                "label": "Substrate",
+                "value": "Mica Flakes (55 – 64%)"
+              },
+              {
+                "label": "Coating",
+                "value": "Iron Oxide Fe2O3 (36 – 45%)"
+              },
+              {
+                "label": "Effect",
+                "value": "Warm Antique Metallic Bronze Finish"
+              },
+              {
+                "label": "Application",
+                "value": "Fondant Accents, Bronzers, Body Lotions, Soaps"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
