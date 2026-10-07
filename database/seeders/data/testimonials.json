@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Marcus Vance",
+    "designation": "Director of Global Procurement",
+    "company": "BevTech Innovations Europe",
+    "location": "Frankfurt, Germany",
+    "quote": "We have sourced synthetic food colours and aluminium lake pigments from Exim India for over six years. Their batch consistency and fast regulatory dossiers make EU customs clearance completely seamless.",
+    "avatar": null,
+    "rating": 5,
+    "sort_order": 1
+  },
+  {
+    "name": "Dr. Amira El-Sayed",
+    "designation": "Head of Quality & Formulations",
+    "company": "Gulf Confectionery & Bakery Ltd.",
+    "location": "Dubai, UAE",
+    "quote": "We tested Exim India’s cloud emulsions and lake colours across our gummy lines. The color stability under high heat exceeded our benchmark, and express evaluation samples always arrive within 48 hours.",
+    "avatar": null,
+    "rating": 5,
+    "sort_order": 2
+  },
+  {
+    "name": "Robert M. Davies",
+    "designation": "VP of Supply Chain & QA",
+    "company": "Apex Health & Pharma Formulations",
+    "location": "Toronto, Canada",
+    "quote": "Our pharmaceutical operations demand strict USP/EP certified purity for tablet coatings. Exim India’s airtight fiber drums and detailed COA heavy-metal screening give our QA audit team complete confidence.",
+    "avatar": null,
+    "rating": 5,
+    "sort_order": 3
+  }
+]

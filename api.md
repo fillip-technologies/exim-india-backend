@@ -314,6 +314,43 @@ curl -X POST http://localhost:8000/api/orders \
 }
 ```
 
+### 1.7 Testimonials (homepage "What Our Customers Say")
+
+`GET /testimonials`
+
+Returns active testimonials in display order (no pagination).
+
+```bash
+curl -H "Accept: application/json" http://localhost:8000/api/testimonials
+```
+
+```json
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "Marcus Vance",
+      "designation": "Director of Global Procurement",
+      "company": "BevTech Innovations Europe",
+      "location": "Frankfurt, Germany",
+      "quote": "We have sourced synthetic food colours and aluminium lake pigments from Exim India for over six years. ...",
+      "avatar": null,
+      "rating": 5
+    }
+  ]
+}
+```
+
+| Field | Notes |
+|---|---|
+| `avatar` | Full image URL, or `null` (show initials instead) |
+| `rating` | Integer 1–5 |
+| `designation` / `company` / `location` | May be `null`. The mockup line is `designation • company (location)` |
+
+```js
+const { data: testimonials } = await api('/testimonials')
+```
+
 ---
 
 ## 2. Admin API (for the admin dashboard)
@@ -530,6 +567,34 @@ const res = await fetch(`${API}/admin/uploads`, {
   body: fd,   // do NOT set Content-Type; the browser adds the boundary
 })
 ```
+
+### 2.6 Testimonials
+
+| Method | Route | Notes |
+|---|---|---|
+| `GET` | `/admin/testimonials` | All testimonials (including inactive), ordered |
+| `POST` | `/admin/testimonials` | Create, returns `201` |
+| `GET` | `/admin/testimonials/{id}` | One testimonial (numeric id) |
+| `PUT/PATCH` | `/admin/testimonials/{id}` | Update. Only send fields you want to change |
+| `DELETE` | `/admin/testimonials/{id}` | `204` |
+
+Body for create/update:
+
+```json
+{
+  "name": "Marcus Vance",
+  "designation": "Director of Global Procurement",
+  "company": "BevTech Innovations Europe",
+  "location": "Frankfurt, Germany",
+  "quote": "We have sourced synthetic food colours ...",
+  "avatar": "products/Yk3xQ...jpg",
+  "rating": 5,
+  "sort_order": 1,
+  "is_active": true
+}
+```
+
+`name` and `quote` are required on create. `rating` is 1–5 (default 5). For `avatar`, upload via 2.5 and save the returned `path`. Admin responses also include `avatar_url`.
 
 ---
 

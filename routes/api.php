@@ -9,6 +9,7 @@ Route::get('/categories', [Api\CategoryController::class, 'index']);
 Route::get('/categories/{slug}', [Api\CategoryController::class, 'show']);
 Route::get('/categories/{slug}/products', [Api\ProductController::class, 'index']);
 Route::get('/categories/{slug}/products/{productSlug}', [Api\ProductController::class, 'show']);
+Route::get('/testimonials', [Api\TestimonialController::class, 'index']);
 
 Route::middleware('throttle:5,1')->group(function () {
     Route::post('/contact', [Api\ContactController::class, 'store']);
@@ -25,6 +26,7 @@ Route::prefix('admin')->group(function () {
 
         Route::apiResource('categories', Admin\CategoryController::class);
         Route::apiResource('products', Admin\ProductController::class);
+        Route::apiResource('testimonials', Admin\TestimonialController::class);
         Route::apiResource('contacts', Admin\ContactController::class)->only(['index', 'show', 'update', 'destroy']);
         Route::post('/uploads', [Admin\UploadController::class, 'store']);
     });
