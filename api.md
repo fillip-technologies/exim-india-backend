@@ -606,16 +606,29 @@ Notes:
 - The Disco Dust "variety shades" list is not in the API (it was dropped on purpose). That page still needs its local constant.
 - Chemicals (a certificate image) and Botanical Extracts have no products (`productCount: 0`). Handle the empty state.
 
-## 4. Local setup for frontend developers
+## 4. Local setup (backend teammates)
 
 ```bash
+git clone https://github.com/fillip-technologies/exim-india-backend.git
 cd exim-india-backend
 composer install
 cp .env.example .env && php artisan key:generate
-# set DB_* in .env (MariaDB) and ADMIN_PASSWORD
-php artisan migrate --seed
-php artisan storage:link
+```
+
+Then in `.env`:
+- `DB_*` — point at your own MariaDB/MySQL database (create it first, e.g. `mariadb -e "CREATE DATABASE exim_india CHARACTER SET utf8mb4;"` plus a user with privileges on it — use `pkexec mariadb -e "..."` if your MariaDB needs root).
+- `ADMIN_EMAIL` / `ADMIN_PASSWORD` — your own admin login (seeded by `AdminSeeder`; without these two set, no admin user is created and you'll get "Admin access required").
+- `FRONTEND_URL` — leave the default (`http://localhost:5173`) unless your frontend runs elsewhere; it's the only origin CORS allows.
+- `CONTACT_NOTIFY_EMAIL` — optional, leave blank to skip enquiry emails.
+
+```bash
+php artisan migrate --seed   # creates tables + 20 categories, 220 products, 5 testimonials, your admin user
+php artisan storage:link     # so /storage/products/... and /storage/testimonials/... resolve
 php artisan serve            # http://localhost:8000
 ```
+
+Seed images (`storage/app/public/products/`, `storage/app/public/testimonials/`) are committed to this repo, so they're already there after `git clone` — no separate asset step. Anything an admin uploads later goes to `storage/app/public/uploads/` and is **not** committed (gitignored), so it won't show up for teammates unless you share the DB/disk, e.g. point `FILESYSTEM_DISK`/storage at S3 for production.
+
+Run the test suite (uses an in-memory SQLite DB, never touches your MariaDB data): `php artisan test`
 
 In the frontend `.env`: `VITE_API_URL=http://localhost:8000/api`
