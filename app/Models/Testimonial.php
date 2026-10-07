@@ -11,12 +11,10 @@ class Testimonial extends Model
 {
     protected $fillable = [
         'name',
-        'designation',
+        'role',
         'company',
-        'location',
-        'quote',
         'avatar',
-        'rating',
+        'quote',
         'sort_order',
         'is_active',
     ];
@@ -39,7 +37,6 @@ class Testimonial extends Model
     protected function casts(): array
     {
         return [
-            'rating' => 'integer',
             'is_active' => 'boolean',
         ];
     }

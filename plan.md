@@ -13,7 +13,7 @@
 
 Out of scope for v1: public user registration, cart/payments, tracking widget.
 
-## 2. Tables (8)
+## 2. Tables (9)
 
 ### 2.1 `users` (admin login)
 Use Laravel's existing `users` table, plus one column.
@@ -107,7 +107,21 @@ Polymorphic `label` / `value` rows (`attributable_type/id`, `sort_order`). Owner
 ### 2.6 `category_sections` and `section_items` (category page extras)
 Application guides, shade lists, comparison tables. A section (`key`, `title`) has items (`title`, `subtitle`, `color_hex`); each item's other fields are `detail_attributes` rows. Every section item has the same keys.
 
-### 2.7 `contacts` (Contact Us + product order inquiry)
+### 2.7 `testimonials` (homepage "What Our Customers Say")
+
+| Column | Type | Notes |
+|---|---|---|
+| id | bigint PK | |
+| name | string | |
+| role | string nullable | job title |
+| company | string nullable | |
+| avatar | string nullable | photo path |
+| quote | text | |
+| sort_order | unsigned int default 0 | |
+| is_active | boolean default true | |
+| timestamps | | |
+
+### 2.8 `contacts` (Contact Us + product order inquiry)
 
 | Column | Type | Notes |
 |---|---|---|
@@ -159,6 +173,8 @@ Admin (Sanctum token auth, `is_admin` middleware):
 | POST | `/api/admin/uploads` | Image upload (stores under `storage/app/public/products`) |
 | GET | `/api/admin/contacts` | List, filter by `type` and `status`, paginated |
 | GET/PATCH/DELETE | `/api/admin/contacts/{id}` | View, change status, delete |
+| GET | `/api/testimonials` | Public list, active only, ordered (homepage) |
+| apiResource | `/api/admin/testimonials` | Full CRUD |
 
 Responses use Eloquent API Resources (`CategoryResource`, `ProductResource`, `ContactResource`). The resources emit camelCase keys (`colorHex`, `moq`, …) so the frontend components work with minimal change.
 

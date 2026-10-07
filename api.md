@@ -318,7 +318,7 @@ curl -X POST http://localhost:8000/api/orders \
 
 `GET /testimonials`
 
-Returns active testimonials in display order (no pagination).
+Returns active testimonials, ordered.
 
 ```bash
 curl -H "Accept: application/json" http://localhost:8000/api/testimonials
@@ -330,25 +330,13 @@ curl -H "Accept: application/json" http://localhost:8000/api/testimonials
     {
       "id": 1,
       "name": "Marcus Vance",
-      "designation": "Director of Global Procurement",
-      "company": "BevTech Innovations Europe",
-      "location": "Frankfurt, Germany",
-      "quote": "We have sourced synthetic food colours and aluminium lake pigments from Exim India for over six years. ...",
-      "avatar": null,
-      "rating": 5
+      "role": "Director of Global Procurement",
+      "company": "BevTech Innovations Europe (Frankfurt, Germany)",
+      "avatar": "http://localhost:8000/storage/testimonials/avatar-1.jpg",
+      "quote": "We have sourced synthetic food colours and aluminium lake pigments from Exim India for over six years..."
     }
   ]
 }
-```
-
-| Field | Notes |
-|---|---|
-| `avatar` | Full image URL, or `null` (show initials instead) |
-| `rating` | Integer 1–5 |
-| `designation` / `company` / `location` | May be `null`. The mockup line is `designation • company (location)` |
-
-```js
-const { data: testimonials } = await api('/testimonials')
 ```
 
 ---
@@ -538,7 +526,34 @@ Response shape (Laravel resource with `data`, `links`, `meta`):
 
 `product` is `null` for `contact` type enquiries.
 
-### 2.5 Image upload
+### 2.5 Testimonials
+
+Full CRUD, same pattern as categories/products.
+
+| Method | Route | Notes |
+|---|---|---|
+| `GET` | `/admin/testimonials` | All testimonials (including inactive), ordered |
+| `POST` | `/admin/testimonials` | Create, returns `201` |
+| `GET` | `/admin/testimonials/{id}` | One testimonial |
+| `PUT/PATCH` | `/admin/testimonials/{id}` | Update |
+| `DELETE` | `/admin/testimonials/{id}` | `204` |
+
+Body (`name` and `quote` required; everything else optional):
+```json
+{
+  "name": "Jane Doe",
+  "role": "QA Lead",
+  "company": "Acme Foods",
+  "avatar": "testimonials/jane.jpg",
+  "quote": "Excellent partner.",
+  "sort_order": 6,
+  "is_active": true
+}
+```
+
+`avatar` is the **path** returned by the upload endpoint (2.6) — upload the photo first, then save the returned `path` here.
+
+### 2.6 Image upload
 
 `POST /admin/uploads` as `multipart/form-data`, field `image` (jpg, jpeg, png, webp; max 4 MB).
 
@@ -568,34 +583,6 @@ const res = await fetch(`${API}/admin/uploads`, {
 })
 ```
 
-### 2.6 Testimonials
-
-| Method | Route | Notes |
-|---|---|---|
-| `GET` | `/admin/testimonials` | All testimonials (including inactive), ordered |
-| `POST` | `/admin/testimonials` | Create, returns `201` |
-| `GET` | `/admin/testimonials/{id}` | One testimonial (numeric id) |
-| `PUT/PATCH` | `/admin/testimonials/{id}` | Update. Only send fields you want to change |
-| `DELETE` | `/admin/testimonials/{id}` | `204` |
-
-Body for create/update:
-
-```json
-{
-  "name": "Marcus Vance",
-  "designation": "Director of Global Procurement",
-  "company": "BevTech Innovations Europe",
-  "location": "Frankfurt, Germany",
-  "quote": "We have sourced synthetic food colours ...",
-  "avatar": "products/Yk3xQ...jpg",
-  "rating": 5,
-  "sort_order": 1,
-  "is_active": true
-}
-```
-
-`name` and `quote` are required on create. `rating` is 1–5 (default 5). For `avatar`, upload via 2.5 and save the returned `path`. Admin responses also include `avatar_url`.
-
 ---
 
 ## 3. Migrating the existing frontend
@@ -611,6 +598,7 @@ Body for create/update:
 | `*_ANALYSIS_SPECS` / `product.analysis` | `product.analysis` (already falls back to the category's specs) |
 | Extra lists (application guides, comparison table, name lists) | `category.sections` from `GET /categories/{slug}` |
 | `OrderModal` submit | `POST /orders` with `product_id: product.productId` |
+| `TestimonialsSection` hardcoded array | `GET /testimonials` |
 | `ContactForm` submit | `POST /contact` |
 
 Notes:
