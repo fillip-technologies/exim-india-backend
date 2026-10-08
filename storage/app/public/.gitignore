@@ -1,0 +1,10 @@
+*
+!.gitignore
+# Seed images are committed, so a fresh clone + `php artisan migrate --seed`
+# has working image_url values out of the box. Admin uploads go to
+# "uploads/" (see App\Services\ImageService) and stay ignored, same as
+# everything else under this disk.
+!products/
+!products/**
+!testimonials/
+!testimonials/**
