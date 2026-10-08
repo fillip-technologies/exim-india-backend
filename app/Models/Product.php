@@ -61,7 +61,7 @@ class Product extends Model
 
             return str_starts_with($this->image, 'http')
                 ? $this->image
-                : Storage::disk('public')->url($this->image);
+                : asset('storage/' . ltrim($this->image, '/'));
         });
     }
 
