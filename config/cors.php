@@ -19,9 +19,18 @@ return [
 
     'allowed_methods' => ['*'],
 
-    'allowed_origins' => array_filter(explode(',', env('FRONTEND_URL', 'http://localhost:5173'))),
+    'allowed_origins' => array_values(array_unique(array_filter(array_merge(
+        [
+            'https://eximindia.fillipsoftware.com',
+            'http://localhost:5173',
+            'http://localhost:3000',
+        ],
+        explode(',', (string) env('FRONTEND_URL', ''))
+    )))),
 
-    'allowed_origins_patterns' => [],
+    'allowed_origins_patterns' => [
+        '#^https?://.*\.fillipsoftware\.com$#',
+    ],
 
     'allowed_headers' => ['*'],
 
