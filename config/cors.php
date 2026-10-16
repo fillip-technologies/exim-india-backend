@@ -30,6 +30,7 @@ return [
 
     'allowed_origins_patterns' => [
         '#^https?://.*\.fillipsoftware\.com$#',
+        '#^https?://(localhost|127\.0\.0\.1)(:[0-9]+)?$#',
     ],
 
     'allowed_headers' => ['*'],

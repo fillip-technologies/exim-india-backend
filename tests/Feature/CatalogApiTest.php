@@ -23,13 +23,41 @@ class CatalogApiTest extends TestCase
 
     private function makeProduct(Category $category, array $attrs = []): Product
     {
-        return $category->products()->create([
+        $colorHex = $attrs['color_hex'] ?? '#eab308';
+        unset($attrs['color_hex']);
+
+        $product = $category->products()->create([
             'name' => 'Egg Yellow',
             'slug' => 'egg-yellow',
-            'color_hex' => '#eab308',
             'moq' => '250 Kgs',
             ...$attrs,
         ]);
+
+        if ($colorHex) {
+            $attr = \App\Models\Attribute::firstOrCreate(
+                ['code' => 'colour'],
+                ['name' => 'Colour', 'input_type' => 'swatch']
+            );
+            $val = \App\Models\AttributeValue::firstOrCreate(
+                ['attribute_id' => $attr->id, 'slug' => $product->slug . '-color'],
+                ['label' => 'Yellow', 'hex' => $colorHex]
+            );
+            $product->attributeValues()->syncWithoutDetaching([$val->id]);
+
+            $variant = $product->variants()->create([
+                'sku' => strtoupper($product->slug) . '-STD',
+                'signature' => "{$attr->id}:{$val->id}",
+                'is_default' => true,
+                'is_active' => true,
+            ]);
+            $variant->variantOptions()->create([
+                'attribute_id' => $attr->id,
+                'attribute_value_id' => $val->id,
+            ]);
+            $product->updateQuietly(['default_variant_id' => $variant->id]);
+        }
+
+        return $product;
     }
 
     public function test_lists_only_active_categories_in_order(): void
