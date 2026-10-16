@@ -20,6 +20,9 @@ class Category extends Model
         'image',
         'sort_order',
         'is_active',
+        'show_in_nav',
+        'nav_label',
+        'page_template',
     ];
 
     protected $appends = ['image_url'];
@@ -40,7 +43,8 @@ class Category extends Model
     protected function casts(): array
     {
         return [
-            'is_active' => 'boolean',
+            'is_active'   => 'boolean',
+            'show_in_nav' => 'boolean',
         ];
     }
 
@@ -59,9 +63,19 @@ class Category extends Model
         return $this->hasMany(Product::class);
     }
 
+    public function fieldAssignments(): HasMany
+    {
+        return $this->hasMany(FieldAssignment::class)->orderBy('sort_order');
+    }
+
     public function scopeActive(Builder $query): Builder
     {
         return $query->where('is_active', true);
+    }
+
+    public function scopeInNav(Builder $query): Builder
+    {
+        return $query->where('show_in_nav', true)->where('is_active', true);
     }
 
     public function scopeOrdered(Builder $query): Builder

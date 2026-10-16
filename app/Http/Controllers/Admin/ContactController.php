@@ -13,25 +13,25 @@ class ContactController extends Controller
     public function index(Request $request)
     {
         $contacts = Contact::query()
-            ->with('product:id,name,slug')
+            ->with('product:id,name,slug', 'items')
             ->when($request->query('type'), fn ($q, $v) => $q->where('type', $v))
             ->when($request->query('status'), fn ($q, $v) => $q->where('status', $v))
             ->latest()
-            ->paginate(25);
+            ->paginate(max(1, min(100, (int) $request->query('per_page', 25))));
 
         return ContactResource::collection($contacts);
     }
 
     public function show(Contact $contact)
     {
-        return new ContactResource($contact->load('product:id,name,slug'));
+        return new ContactResource($contact->load('product:id,name,slug', 'items'));
     }
 
     public function update(UpdateContactStatusRequest $request, Contact $contact)
     {
         $contact->update($request->validated());
 
-        return new ContactResource($contact->load('product:id,name,slug'));
+        return new ContactResource($contact->load('product:id,name,slug', 'items'));
     }
 
     public function destroy(Contact $contact)

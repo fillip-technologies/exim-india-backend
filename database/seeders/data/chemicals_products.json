@@ -1,0 +1,44 @@
+[
+  {
+    "slug": "diethanolamine-dea",
+    "name": "Diethanolamine (DEA)",
+    "short_name": "DEA",
+    "cas_no": "111-42-2",
+    "mf": "C4H11NO2",
+    "grade": "Industrial & Technical Grade",
+    "group_name": "Chemicals & Intermediates",
+    "group_key": "chemicals-intermediates",
+    "image": "products/chemicals/dietalhone.png",
+    "description": "High-purity organic amine compound widely utilized in natural gas sweetening, detergent formulations, surfactants, and as a corrosion inhibitor intermediate.",
+    "category": "chemicals",
+    "variant_mode": "none"
+  },
+  {
+    "slug": "methyldiethanolamine-mdea",
+    "name": "Methyldiethanolamine (MDEA)",
+    "short_name": "MDEA",
+    "cas_no": "105-59-9",
+    "mf": "C5H13NO2",
+    "grade": "Industrial & Technical Grade",
+    "group_name": "Chemicals & Intermediates",
+    "group_key": "chemicals-intermediates",
+    "image": "products/chemicals/methyl.png",
+    "description": "Tertiary amine solvent primarily employed in refinery gas treatment, bulk hydrogen sulfide (H2S) and carbon dioxide (CO2) removal, and specialty chemical synthesis.",
+    "category": "chemicals",
+    "variant_mode": "none"
+  },
+  {
+    "slug": "red-lead",
+    "name": "Red Lead (Lead Tetroxide)",
+    "short_name": "Minium",
+    "cas_no": "1314-41-6",
+    "mf": "Pb3O4",
+    "grade": "Industrial & Technical Grade",
+    "group_name": "Inorganic Pigments & Chemicals",
+    "group_key": "inorganic-pigments-chemicals",
+    "image": "products/chemicals/red-lead.png",
+    "description": "Vivid bright orange-red crystalline pigment powder engineered for heavy-duty anti-corrosive primer paints, optical glass, and battery plate manufacture.",
+    "category": "chemicals",
+    "variant_mode": "none"
+  }
+]

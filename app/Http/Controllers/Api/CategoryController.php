@@ -5,14 +5,16 @@ namespace App\Http\Controllers\Api;
 use App\Http\Controllers\Controller;
 use App\Http\Resources\CategoryResource;
 use App\Services\CatalogService;
+use Illuminate\Http\Request;
 
 class CategoryController extends Controller
 {
     public function __construct(private CatalogService $catalog) {}
 
-    public function index()
+    public function index(Request $request)
     {
-        return CategoryResource::collection($this->catalog->categories());
+        $navOnly = $request->boolean('nav') || $request->query('nav') === '1';
+        return CategoryResource::collection($this->catalog->categories($navOnly));
     }
 
     public function show(string $slug)

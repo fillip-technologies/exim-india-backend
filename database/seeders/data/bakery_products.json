@@ -1,0 +1,3612 @@
+[
+  {
+    "slug": "luster-dust",
+    "name": "Luster Dust",
+    "tagline": "18 Spectacular Metallic Colours • Food Grade Magic",
+    "description": "How about a little dust of magic on your delicacies in the spectacular metallic colour of your choice? Exhilarating, right! Exim India Luster dust is specially created to give fantastic metallic finish to the product it is used on and is available in 18 standard colours and can also be customised in any colour of your choice on demand. Usage of Luster Dust is very wide on chocolates, cakes, cupcakes, cakesicles, etc. All you need to do is mix it with liquid Evapurex and paint it all over your creation with the help of a brush or an airbrush. Draw your heart out on a cake and eat it too!!",
+    "usage_guide": "Mix with liquid Evapurex or food-grade alcohol and paint directly onto your creation using a fine brush or airbrush system. Can also be dry-dusted onto fondant surfaces.",
+    "image": "products/bakery-colors/luster-dust.png",
+    "category": "bakery-colors",
+    "grade": "Food Grade / Confectionery Grade",
+    "purity": "100% Edible / Confectionery Grade",
+    "shelf_life": "24 Months",
+    "place_of_origin": "Mumbai, Maharashtra, India",
+    "brand_name": "Exim India Corporation",
+    "model_number": "EXIM-LUSTER-DUST",
+    "types": "Metallic Food Lustre Powder",
+    "color_desc": "18 Standard Metallic Shades & Bespoke Custom Formulations",
+    "application_summary": "Cakes, Chocolates, Cupcakes, Cakesicles, Fondant, Macarons & Sugarcraft",
+    "packaging_details": "4.25gm & 25gm Bottles, 500gm Foil Pouches, 25kg Export HDPE Drums",
+    "delivery_detail": "Prompt Dispatch within 7–10 Business Days via JNPT Port, Mumbai",
+    "moq": "1 Box / Custom Batch",
+    "storage": "Store in a cool, dry, well-ventilated area away from direct sunlight, moisture, and heat sources. Keep container tightly sealed after each use.",
+    "applications": [
+      "Chocolates & Bonbons",
+      "Wedding Cakes & Tiered Cakes",
+      "Cupcakes & Cake Pops",
+      "Cakesicles & Macarons",
+      "Sugarcraft & Fondant Flowers",
+      "Royal Icing Painting"
+    ],
+    "application_techniques": [
+      {
+        "title": "Wet Painting (Evapurex Mix)",
+        "body": "Mix Luster Dust with liquid Evapurex or high-proof food alcohol to form a rich metallic paint. Apply with a fine brush for intense opaque gold/metallic coverage.",
+        "icon": "🖌️"
+      },
+      {
+        "title": "Dry Dusting",
+        "body": "Dip a dry, soft confectionery brush into powder and gently buff directly onto fondant, chocolate, or macarons for a soft pearlescent shimmer.",
+        "icon": "✨"
+      },
+      {
+        "title": "Airbrushing Technique",
+        "body": "Dilute with Evapurex or food-grade thinner (1:3 ratio) and spray using a 0.3mm–0.5mm airbrush gun for seamless gradients and full cake coverage.",
+        "icon": "💨"
+      },
+      {
+        "title": "Bespoke Custom Shades",
+        "body": "In addition to our 18 standard colours, custom shades can be tailored to match your specific palette requirements upon request.",
+        "icon": "🎨"
+      }
+    ],
+    "analysis": [
+      {
+        "characteristic": "Physical Appearance",
+        "requirement": "Ultra-Fine Pearlescent Metallic Powder"
+      },
+      {
+        "characteristic": "Food Grade Standard",
+        "requirement": "100% Edible / FSSAI & Confectionery Grade"
+      },
+      {
+        "characteristic": "Base Carrier",
+        "requirement": "Potassium Aluminum Silicate (E555 Mica) + Approved Food Colors"
+      },
+      {
+        "characteristic": "Solvent Compatibility",
+        "requirement": "Liquid Evapurex, Food-Grade Alcohol, Vegetable Oils"
+      },
+      {
+        "characteristic": "Particle Size Distribution",
+        "requirement": "10 – 60 Microns (Streak-Free Lustrous Finish)"
+      },
+      {
+        "characteristic": "Heavy Metals (as Pb)",
+        "requirement": "< 10.00 ppm Max"
+      },
+      {
+        "characteristic": "Lead (Pb)",
+        "requirement": "< 02.00 ppm Max"
+      },
+      {
+        "characteristic": "Arsenic (As)",
+        "requirement": "< 01.00 ppm Max"
+      },
+      {
+        "characteristic": "Loss on Drying (105°C)",
+        "requirement": "< 0.50% Max"
+      },
+      {
+        "characteristic": "Microbial Count (Total Aerobic)",
+        "requirement": "< 100 CFU/g"
+      }
+    ],
+    "pack_sizes": [
+      {
+        "size": "4.25gm",
+        "container": "Bottle",
+        "target": "Home Bakers & Retail"
+      },
+      {
+        "size": "25gm",
+        "container": "Bottle",
+        "target": "Artisan Patisseries & Bakeries"
+      },
+      {
+        "size": "500gm",
+        "container": "Foil Pouch",
+        "target": "Commercial Confectioners"
+      },
+      {
+        "size": "25kg",
+        "container": "HDPE Drum",
+        "target": "Bulk Industrial Export"
+      }
+    ],
+    "colors": [
+      {
+        "id": 1,
+        "name": "Intense Gold",
+        "hex": "#d4af37",
+        "tone": "Rich metallic gold",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 2,
+        "name": "Brilliant Gold",
+        "hex": "#ffd700",
+        "tone": "Bright sparkling gold",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 3,
+        "name": "Moon Gold",
+        "hex": "#e8d47b",
+        "tone": "Pale champagne gold",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 4,
+        "name": "Silver",
+        "hex": "#c0c0c0",
+        "tone": "Mirror chrome silver",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 5,
+        "name": "Copper",
+        "hex": "#b87333",
+        "tone": "Warm metallic copper",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 6,
+        "name": "Bronze",
+        "hex": "#cd7f32",
+        "tone": "Deep antique bronze",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 7,
+        "name": "Amber Red",
+        "hex": "#b83b3b",
+        "tone": "Warm amber crimson",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 8,
+        "name": "Ruby Red",
+        "hex": "#9b111e",
+        "tone": "Deep jewel ruby",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 9,
+        "name": "Rose Gold",
+        "hex": "#b76e79",
+        "tone": "Metallic blush pink",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 10,
+        "name": "Pink",
+        "hex": "#e75480",
+        "tone": "Vibrant shimmer pink",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 11,
+        "name": "Dark Blue",
+        "hex": "#0047ab",
+        "tone": "Royal sapphire blue",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 12,
+        "name": "Light Blue",
+        "hex": "#4682b4",
+        "tone": "Frost metallic sky",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 13,
+        "name": "Purple",
+        "hex": "#663399",
+        "tone": "Deep amethyst violet",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 14,
+        "name": "Yellow",
+        "hex": "#f0e130",
+        "tone": "Sunburst bright gold",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 15,
+        "name": "Forest Green",
+        "hex": "#228b22",
+        "tone": "Rich emerald green",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 16,
+        "name": "Orange",
+        "hex": "#ff7f00",
+        "tone": "Fiery metallic orange",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 17,
+        "name": "Black",
+        "hex": "#232b2b",
+        "tone": "Onyx metallic black",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 18,
+        "name": "White",
+        "hex": "#f0f3f6",
+        "tone": "Pearl diamond white",
+        "bgGradient": null,
+        "is_blend": false
+      }
+    ]
+  },
+  {
+    "slug": "metallic-powder-glow",
+    "name": "Metallic Powder Glow",
+    "tagline": "14 Metallic Pearl Colours • Spray Nozzle Dispersion System",
+    "description": "Metallic Powder Glow comes in 14 different colours. It brings out Metallic Pearl effects coming out from its nozzle a shiny spread evenly on the products. Thus enhancing the look of your creations by manifolds.",
+    "usage_guide": "Gently shake the bottle, point the spray nozzle towards your creation from a distance of 10 to 15 cm, and squeeze to release an even puff of shimmering metallic mist.",
+    "image": "products/bakery-colors/metallic-powder.png",
+    "category": "bakery-colors",
+    "grade": "Food Grade / Confectionery Grade",
+    "purity": "100% Edible / Confectionery Grade",
+    "shelf_life": "24 Months",
+    "place_of_origin": "Mumbai, Maharashtra, India",
+    "brand_name": "Exim India Corporation",
+    "model_number": "EXIM-POWDER-GLOW",
+    "types": "Metallic Pearl Spray Powder",
+    "color_desc": "14 Dynamic Metallic Colours with Direct Spray Nozzle Dispersion",
+    "application_summary": "Cupcakes, Cakes, Buttercream Swirls, Chocolates, Macarons & Pastries",
+    "packaging_details": "30gm Spray Nozzle Bottles, 50gm Refill Pouches, 10kg & 25kg HDPE Drums",
+    "delivery_detail": "Prompt Dispatch within 7–10 Business Days via JNPT Port, Mumbai",
+    "moq": "1 Carton / Custom Bulk Batch",
+    "storage": "Store in a cool, dry area away from direct sunlight, moisture, and high humidity. Keep nozzle cap tightly closed after each use.",
+    "applications": [
+      "Cupcakes & Muffins",
+      "Buttercream & Whipped Cream Swirls",
+      "Celebration Cakes & Wedding Sponges",
+      "Chocolates, Truffles & Bonbons",
+      "Macarons & Meringues",
+      "Sugarcraft & Fondant Flowers"
+    ],
+    "application_techniques": [
+      {
+        "title": "Direct Spray Nozzle Dispersion",
+        "body": "Hold bottle 10–15 cm away from dessert and gently squeeze the pump nozzle to disperse a fine, cloud-like metallic shimmer evenly onto frostings and pastries.",
+        "icon": "💨"
+      },
+      {
+        "title": "Dry Dusting & Targeted Accents",
+        "body": "Can also be tapped or brushed onto delicate chocolates, sugarcraft flowers, and fondant surfaces for targeted lustrous highlights.",
+        "icon": "✨"
+      },
+      {
+        "title": "Ergonomic Pump Bottle",
+        "body": "The 30gm nozzle pump bottle is ergonomically designed for controlled dispersion, zero mess, and easy refilling using 50gm pouches or bulk drums.",
+        "icon": "🧴"
+      },
+      {
+        "title": "14 Metallic Pearl Shades",
+        "body": "14 curated metallic colours engineered to cling effortlessly to creams, buttercreams, and baked surfaces without bleeding or weeping.",
+        "icon": "🎨"
+      }
+    ],
+    "analysis": [
+      {
+        "characteristic": "Physical Appearance",
+        "requirement": "Ultra-Fine Pearlescent Powder in Spray Nozzle"
+      },
+      {
+        "characteristic": "Food Grade Standard",
+        "requirement": "100% Edible / FSSAI & Confectionery Grade Compliant"
+      },
+      {
+        "characteristic": "Base Carrier",
+        "requirement": "Potassium Aluminum Silicate (Mica / E555) & Approved Food Colors"
+      },
+      {
+        "characteristic": "Dispersion Mechanism",
+        "requirement": "Dry Spray Nozzle Cloud Aerosol-Free Dispersion"
+      },
+      {
+        "characteristic": "Particle Size Distribution",
+        "requirement": "10 – 60 Microns (Streak-Free Pearl Sheen)"
+      },
+      {
+        "characteristic": "Heavy Metals (as Pb)",
+        "requirement": "< 10.00 ppm Max"
+      },
+      {
+        "characteristic": "Lead (Pb)",
+        "requirement": "< 02.00 ppm Max"
+      },
+      {
+        "characteristic": "Arsenic (As)",
+        "requirement": "< 01.00 ppm Max"
+      },
+      {
+        "characteristic": "Loss on Drying (105°C)",
+        "requirement": "< 0.50% Max"
+      },
+      {
+        "characteristic": "Total Aerobic Microbial Count",
+        "requirement": "< 100 CFU/g"
+      }
+    ],
+    "pack_sizes": [
+      {
+        "size": "30gm",
+        "container": "Bottle with Spray Nozzle",
+        "target": "Artisan Pastry Chefs & Cake Artists"
+      },
+      {
+        "size": "50gm",
+        "container": "Refill Pouch",
+        "target": "Boutique Bakeries & Cafes"
+      },
+      {
+        "size": "10kg",
+        "container": "HDPE Drum",
+        "target": "Commercial Confectionery Plants"
+      },
+      {
+        "size": "25kg",
+        "container": "HDPE Drum",
+        "target": "Industrial Confectionery Export"
+      }
+    ],
+    "colors": [
+      {
+        "id": 1,
+        "name": "Gold",
+        "hex": "#d4af37",
+        "tone": "Rich radiant metallic gold",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 2,
+        "name": "Silver",
+        "hex": "#c0c0c0",
+        "tone": "Mirror chrome metallic silver",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 3,
+        "name": "Rose Gold",
+        "hex": "#b76e79",
+        "tone": "Blush metallic rose gold",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 4,
+        "name": "Red",
+        "hex": "#c0392b",
+        "tone": "Deep ruby crimson metallic",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 5,
+        "name": "Pink",
+        "hex": "#e84393",
+        "tone": "Vibrant shimmer metallic pink",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 6,
+        "name": "Orange",
+        "hex": "#e67e22",
+        "tone": "Fiery sunburst metallic orange",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 7,
+        "name": "Bronze",
+        "hex": "#cd7f32",
+        "tone": "Antique deep metallic bronze",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 8,
+        "name": "White",
+        "hex": "#f8f9fa",
+        "tone": "Diamond pearl metallic white",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 9,
+        "name": "Copper",
+        "hex": "#b87333",
+        "tone": "Warm burnished metallic copper",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 10,
+        "name": "Blue",
+        "hex": "#2980b9",
+        "tone": "Royal sapphire metallic blue",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 11,
+        "name": "Purple",
+        "hex": "#8e44ad",
+        "tone": "Deep amethyst metallic purple",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 12,
+        "name": "Yellow",
+        "hex": "#f1c40f",
+        "tone": "Bright sunburst metallic yellow",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 13,
+        "name": "Green",
+        "hex": "#27ae60",
+        "tone": "Emerald metallic forest green",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 14,
+        "name": "Black",
+        "hex": "#2d3436",
+        "tone": "Onyx velvet metallic black",
+        "bgGradient": null,
+        "is_blend": false
+      }
+    ]
+  },
+  {
+    "slug": "gel-colours",
+    "name": "Gel Colours",
+    "tagline": "28 Highly Concentrated Shades • Will Not Thin Icing",
+    "description": "Exim India Gel Colours are highly concentrated specially formulated to add colours to your Fondant, Icing, Buttercream and Macarons etc. Adding Exim India Gel Colours will give vivid and deep colours and will not thin the Icing.",
+    "usage_guide": "Add in small increments with a clean toothpick or dropper until the desired intensity is reached. Stir or knead well. Colors deepen slightly over 15 minutes as pigments bloom.",
+    "image": "products/bakery-colors/gel-colors.png",
+    "category": "bakery-colors",
+    "grade": "Food Grade / Confectionery Grade",
+    "purity": "100% Edible / Confectionery Grade",
+    "shelf_life": "24 Months",
+    "place_of_origin": "Mumbai, Maharashtra, India",
+    "brand_name": "Exim India Corporation",
+    "model_number": "EXIM-GEL-COLOURS",
+    "types": "Concentrated Bakery Food Colour Gel",
+    "color_desc": "28 Deep & Vivid Professional Confectionery Gel Shades",
+    "application_summary": "Fondant, Icing, Buttercream, Macarons, Cakes, Meringues & Pastries",
+    "packaging_details": "20gm Squeeze Dropper Bottles, 25kg Export HDPE Drums",
+    "delivery_detail": "Prompt Dispatch within 7–10 Business Days via JNPT Port, Mumbai",
+    "moq": "1 Box / Custom Export Batch",
+    "storage": "Store at ambient room temperature (15°C–25°C) in a dry place away from direct sunlight. Do not freeze. Keep bottle cap tightly closed after each use.",
+    "applications": [
+      "Fondant & Sugar Pastes",
+      "Buttercream & Frostings",
+      "Royal Icing & Glazes",
+      "French Macarons & Meringues",
+      "Sponge Batters & Cookie Dough",
+      "Pastry Creams & Ganaches"
+    ],
+    "application_techniques": [
+      {
+        "title": "Micro-Dropper Dosing",
+        "body": "Add just a toothpick tip or single drop to start. Mix thoroughly and allow 5–10 minutes for shade to fully deepen and mature to its true brilliance.",
+        "icon": "💧"
+      },
+      {
+        "title": "No-Thinning Matrix Guarantee",
+        "body": "Formulated with high viscosity so it will never thin, weep, separate, or curdle delicate buttercreams, meringues, or whipped frostings.",
+        "icon": "🧁"
+      },
+      {
+        "title": "Fondant & Sugar Paste Kneading",
+        "body": "Kneads smoothly into white fondant and gum pastes without making sugar sticky, ensuring crisp edges on sugarcraft modeling and flower work.",
+        "icon": "🎨"
+      },
+      {
+        "title": "28 Vivid Master Shades",
+        "body": "Available in 28 standard confectionery shades including rich metallics (Gold & Silver), natural skintone, and deep deep black and red.",
+        "icon": "🌈"
+      }
+    ],
+    "analysis": [
+      {
+        "characteristic": "Physical Appearance",
+        "requirement": "High-Viscosity Concentrated Color Gel"
+      },
+      {
+        "characteristic": "Food Grade Standard",
+        "requirement": "100% Edible / FSSAI & US-FDA Compliant"
+      },
+      {
+        "characteristic": "Viscosity Stability",
+        "requirement": "Non-Thinning Formulation (Glycerine/Syrup Base)"
+      },
+      {
+        "characteristic": "pH Stability Range",
+        "requirement": "4.50 – 7.50 (Non-Curdling in Dairy Creams)"
+      },
+      {
+        "characteristic": "Heavy Metals (as Pb)",
+        "requirement": "< 10.00 ppm Max"
+      },
+      {
+        "characteristic": "Lead (Pb)",
+        "requirement": "< 02.00 ppm Max"
+      },
+      {
+        "characteristic": "Arsenic (As)",
+        "requirement": "< 01.00 ppm Max"
+      },
+      {
+        "characteristic": "Loss on Drying (105°C)",
+        "requirement": "< 15.00% Max"
+      },
+      {
+        "characteristic": "Total Aerobic Microbial Count",
+        "requirement": "< 100 CFU/g"
+      },
+      {
+        "characteristic": "Yeast & Mould Count",
+        "requirement": "< 10 CFU/g (Pathogens Absent)"
+      }
+    ],
+    "pack_sizes": [
+      {
+        "size": "20gm",
+        "container": "Dropper Bottle",
+        "target": "Bakers, Pastry Chefs & Cake Decorators"
+      },
+      {
+        "size": "25kg",
+        "container": "HDPE Drum",
+        "target": "Commercial Confectionery & Export"
+      }
+    ],
+    "colors": [
+      {
+        "id": 1,
+        "name": "Red",
+        "hex": "#d63031",
+        "tone": "Vibrant rich crimson red",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 2,
+        "name": "Burgundy",
+        "hex": "#800020",
+        "tone": "Deep royal wine burgundy",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 3,
+        "name": "Pink",
+        "hex": "#fd79a8",
+        "tone": "Bright candy vibrant pink",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 4,
+        "name": "Rose Pink",
+        "hex": "#d83a80",
+        "tone": "Delicate floral rose pink",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 5,
+        "name": "Fuchsia",
+        "hex": "#a82d77",
+        "tone": "Vivid deep fuchsia magenta",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 6,
+        "name": "Baby Pink",
+        "hex": "#f368e0",
+        "tone": "Soft pastel tender baby pink",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 7,
+        "name": "Sky Blue",
+        "hex": "#0984e3",
+        "tone": "Crisp bright azure sky blue",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 8,
+        "name": "Navy Blue",
+        "hex": "#192a56",
+        "tone": "Deep maritime midnight navy",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 9,
+        "name": "Turquoise",
+        "hex": "#00cec9",
+        "tone": "Radiant tropical lagoon turquoise",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 10,
+        "name": "Royal Blue",
+        "hex": "#0952b6",
+        "tone": "Majestic imperial royal blue",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 11,
+        "name": "Teal",
+        "hex": "#008b8b",
+        "tone": "Deep jewel ocean teal",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 12,
+        "name": "White",
+        "hex": "#f5f6fa",
+        "tone": "Opaque pure bright white",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 13,
+        "name": "Lime Green",
+        "hex": "#44bd32",
+        "tone": "Zesty vibrant citrus lime",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 14,
+        "name": "Leaf Green",
+        "hex": "#10ac84",
+        "tone": "Natural botanical leaf green",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 15,
+        "name": "Forest Green",
+        "hex": "#1b4d3e",
+        "tone": "Deep evergreen forest green",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 16,
+        "name": "Green",
+        "hex": "#00a86b",
+        "tone": "Classic pure rich emerald green",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 17,
+        "name": "Chocolate Brown",
+        "hex": "#793b16",
+        "tone": "Warm decadent milk chocolate brown",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 18,
+        "name": "Coffee Brown",
+        "hex": "#4b2311",
+        "tone": "Rich intense espresso coffee brown",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 19,
+        "name": "Lemon Yellow",
+        "hex": "#fbc531",
+        "tone": "Bright sunny zest lemon yellow",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 20,
+        "name": "Golden Yellow",
+        "hex": "#e1b12c",
+        "tone": "Warm sunshine golden yellow",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 21,
+        "name": "Orange",
+        "hex": "#e67e22",
+        "tone": "Vibrant ripe tangerine orange",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 22,
+        "name": "Citrus Orange",
+        "hex": "#d35400",
+        "tone": "Deep warm fiery citrus orange",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 23,
+        "name": "Purple",
+        "hex": "#4834d4",
+        "tone": "Royal intense velvet purple",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 24,
+        "name": "Violet",
+        "hex": "#686de0",
+        "tone": "Soft elegant floral amethyst violet",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 25,
+        "name": "Gold",
+        "hex": "#d4af37",
+        "tone": "Lustrous sparkling metallic golden gel",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 26,
+        "name": "Silver",
+        "hex": "#c0c0c0",
+        "tone": "Shimmering reflective mirror silver gel",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 27,
+        "name": "Skintone",
+        "hex": "#e6a77e",
+        "tone": "Natural warm porcelain/peach skintone",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 28,
+        "name": "Black",
+        "hex": "#1e272e",
+        "tone": "Deep pitch midnight onyx black",
+        "bgGradient": null,
+        "is_blend": false
+      }
+    ]
+  },
+  {
+    "slug": "candy-colors",
+    "name": "Candy Colors",
+    "tagline": "16 Vibrant Oil-Soluble Shades • Designed for Chocolates, Donut Glazes & Candies",
+    "description": "Exim India Candy Colors are premium, specialized food-grade colorants formulated specifically for high-fat and oil-rich confectionery applications. Unlike water-based food colours that cause chocolate to seize or glazes to separate, our Candy Colors blend effortlessly into compound coatings, white chocolates, donut glazes, candy melts, buttercreams, and fillings without altering delicate fat emulsions. Deliver eye-popping, vibrant, glossy shades that stay true and resist fading under baking and display lighting.",
+    "usage_guide": "Add 2 to 4 drops directly into melted chocolate, cocoa butter, warm donut glaze, or buttercream. Stir gently with a silicone spatula until color is fully incorporated. Adjust drops incrementally for desired intensity.",
+    "image": "products/bakery-colors/candy-colors.png",
+    "category": "bakery-colors",
+    "grade": "Food Grade / Confectionery Grade",
+    "purity": "100% Edible / Confectionery Grade",
+    "shelf_life": "24 Months",
+    "place_of_origin": "Mumbai, Maharashtra, India",
+    "brand_name": "Exim India Corporation",
+    "model_number": "EXIM-CANDY-COLOURS",
+    "types": "Oil-Soluble & High-Fat Bakery Food Colour",
+    "color_desc": "16 Vivid High-Intensity Oil-Soluble & Confectionery Shades",
+    "application_summary": "Donuts, Chocolates, Candy Coatings, Ganaches, Pralines, Cake Pops & Macaron Fillings",
+    "packaging_details": "30ml & 100ml Dropper Bottles, 500ml Flasks, 25kg Export HDPE Drums",
+    "delivery_detail": "Prompt Dispatch within 7–10 Business Days via JNPT Port, Mumbai",
+    "moq": "1 Box / Custom Export Batch",
+    "storage": "Store in a dry, ambient environment (18°C–25°C) away from direct sunlight and heat. Keep cap tightly closed after each pour to prevent oxidation.",
+    "applications": [
+      "Donut Icings & Shiny Glazes",
+      "White Chocolate & Compound Coatings",
+      "Hard Candies & Lollipops",
+      "Cake Pops & Cakesicle Shells",
+      "Pralines & Confectionery Centers",
+      "Buttercream & High-Fat Frostings"
+    ],
+    "application_techniques": [
+      {
+        "title": "Zero-Seize Chocolate Blending",
+        "body": "Formulated in a specialized oil carrier so you can color melted white chocolate and cocoa butter smoothly without curdling, seizing, or hardening.",
+        "icon": "🍫"
+      },
+      {
+        "title": "High-Gloss Donut Dipping",
+        "body": "Stir directly into warm sugar glazes or chocolate dips for a mirror-like high-gloss finish that dries crisp and resists sweating.",
+        "icon": "🍩"
+      },
+      {
+        "title": "Concentrated Micro-Dosing",
+        "body": "Delivers intense color saturation with minimal drops, preserving the exact flavor profile and setting time of your candy bases.",
+        "icon": "💧"
+      },
+      {
+        "title": "16 Vivid Candy Shades",
+        "body": "From pastel bubblegums to punchy electric blues and sunny citrus yellows, engineered for joyful confectionery creativity.",
+        "icon": "🍭"
+      }
+    ],
+    "analysis": [
+      {
+        "characteristic": "Physical Appearance",
+        "requirement": "Smooth Viscous Oil-Dispersible Liquid / Gel"
+      },
+      {
+        "characteristic": "Food Grade Standard",
+        "requirement": "100% Edible / FSSAI, US-FDA & EU Compliant"
+      },
+      {
+        "characteristic": "Fat / Oil Solubility",
+        "requirement": "100% Soluble in Cocoa Butter, Oils & Fats (Zero Water Seizing)"
+      },
+      {
+        "characteristic": "Viscosity at 25°C",
+        "requirement": "800 – 1,200 cP (Easy Precision Dropping)"
+      },
+      {
+        "characteristic": "Color Strength / Assay",
+        "requirement": "High Dye Content Concentration"
+      },
+      {
+        "characteristic": "Heavy Metals (as Pb)",
+        "requirement": "< 10.00 ppm Max"
+      },
+      {
+        "characteristic": "Lead (Pb)",
+        "requirement": "< 02.00 ppm Max"
+      },
+      {
+        "characteristic": "Arsenic (As)",
+        "requirement": "< 01.00 ppm Max"
+      },
+      {
+        "characteristic": "Moisture Content",
+        "requirement": "< 0.50% (Moisture-Free to Prevent Seizing)"
+      },
+      {
+        "characteristic": "Total Aerobic Microbial Count",
+        "requirement": "< 100 CFU/g"
+      }
+    ],
+    "pack_sizes": [
+      {
+        "size": "30ml",
+        "container": "Dropper Bottle",
+        "target": "Home Bakers & Cake Artists"
+      },
+      {
+        "size": "100ml",
+        "container": "Easy-Squeeze Bottle",
+        "target": "Artisan Patisseries & Donut Shops"
+      },
+      {
+        "size": "500ml",
+        "container": "Food-Grade Flask",
+        "target": "Commercial Confectionery Bakeries"
+      },
+      {
+        "size": "25kg",
+        "container": "Export HDPE Drum",
+        "target": "Industrial Confectionery Plants"
+      }
+    ],
+    "colors": [
+      {
+        "id": 1,
+        "name": "Bubblegum Pink",
+        "hex": "#ff4d94",
+        "tone": "Vibrant sweet candy bubblegum pink",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 2,
+        "name": "Grape Purple",
+        "hex": "#8e44ad",
+        "tone": "Deep rich confectionery grape purple",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 3,
+        "name": "Electric Sky Blue",
+        "hex": "#00a8ff",
+        "tone": "Radiant sky candy electric blue",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 4,
+        "name": "Sunshine Yellow",
+        "hex": "#ffeb3b",
+        "tone": "Bright citrus candy sunshine yellow",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 5,
+        "name": "Tangerine Orange",
+        "hex": "#ff793f",
+        "tone": "Vivid juicy confectionery orange",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 6,
+        "name": "Apple Green",
+        "hex": "#2ed573",
+        "tone": "Crisp bright candy apple green",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 7,
+        "name": "Cherry Red",
+        "hex": "#ff4757",
+        "tone": "Intense ripe sweet cherry crimson",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 8,
+        "name": "Chocolate Brown",
+        "hex": "#3d2314",
+        "tone": "Rich decadent cocoa candy brown",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 9,
+        "name": "Marshmallow White",
+        "hex": "#f8f9fa",
+        "tone": "Pure opaque glaze marshmallow white",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 10,
+        "name": "Lavender Blush",
+        "hex": "#b088f9",
+        "tone": "Soft sweet pastel candy lavender",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 11,
+        "name": "Coral Punch",
+        "hex": "#ff6b81",
+        "tone": "Bright fruity tropical candy coral",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 12,
+        "name": "Mint Pastel Green",
+        "hex": "#7bed9f",
+        "tone": "Cool refreshing sweet mint green",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 13,
+        "name": "Blueberry Blue",
+        "hex": "#3742fa",
+        "tone": "Deep jewel sweet blueberry blue",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 14,
+        "name": "Caramel Gold",
+        "hex": "#ffa502",
+        "tone": "Warm golden honey candy glaze",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 15,
+        "name": "Cotton Candy Pink",
+        "hex": "#fd79a8",
+        "tone": "Playful sweet fluffy pastel pink",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 16,
+        "name": "Emerald Green",
+        "hex": "#10ac84",
+        "tone": "Vibrant deep botanical candy green",
+        "bgGradient": null,
+        "is_blend": false
+      }
+    ]
+  },
+  {
+    "slug": "dazzling-colors",
+    "name": "Dazzling Colors",
+    "tagline": "14 High-Gloss Metallic Drip & Glaze Colours • Spectacular Mirror Finish",
+    "description": "Exim India Dazzling Colors are ultra-luxurious, ready-to-use high-gloss metallic drip and glaze colours designed to give wedding cakes, desserts, and artisan confections a breathtaking mirror-sheen drip effect. Formulated with food-grade pearlescent mica platelets in a silky, non-runny glaze vehicle, Dazzling Colors achieve the trending drip-cake aesthetic effortlessly. Squeezes straight from the precision bottle, flows with optimal viscosity down chilled cake edges, and sets into glossy, vibrant, non-bleeding ribbons.",
+    "usage_guide": "Shake the bottle well before use. Warm between palms if needed. Snip or open the precision nozzle tip and gently squeeze along the top edge of a chilled cake, letting gravity form decorative drips. Allow 15–20 minutes to set before transport.",
+    "image": "products/bakery-colors/Dazzling-colors.png",
+    "category": "bakery-colors",
+    "grade": "Food Grade / Confectionery Grade",
+    "purity": "100% Edible / Confectionery Grade",
+    "shelf_life": "24 Months",
+    "place_of_origin": "Mumbai, Maharashtra, India",
+    "brand_name": "Exim India Corporation",
+    "model_number": "EXIM-DAZZLING-COLOURS",
+    "types": "Ready-to-Use Metallic Drip & High-Gloss Glaze",
+    "color_desc": "14 Radiant Metallic Drip & High-Lustre Cake Decorating Shades",
+    "application_summary": "Drip Cakes, Mirror Glazes, Cake Accents, Chocolates, Cookies & Confectionery Highlights",
+    "packaging_details": "100gm & 250gm Squeeze Bottles with Precision Tip, 1kg Jars, 20kg Export Pails",
+    "delivery_detail": "Prompt Dispatch within 7–10 Business Days via JNPT Port, Mumbai",
+    "moq": "1 Box / Custom Export Batch",
+    "storage": "Store in a cool, dry place between 15°C and 22°C. Avoid direct sunlight and extreme heat. Do not freeze. Wipe precision tip clean and replace cap immediately after use.",
+    "applications": [
+      "Artisan Drip Cakes & Tiered Cakes",
+      "Mirror Glazes & Donut Accents",
+      "Chocolate Truffles & Hand-Poured Bonbons",
+      "Fondant Borders & Sugar Plaques",
+      "Royal Icing Edges & Cookie Details",
+      "Dessert Glassware Rim Dips"
+    ],
+    "application_techniques": [
+      {
+        "title": "Precision Bottle Drip Flow",
+        "body": "Equipped with a pointed precision nozzle so you can control drop size and flow velocity down cake shoulders with pinpoint artistic precision.",
+        "icon": "🎂"
+      },
+      {
+        "title": "Controlled Non-Runny Setting",
+        "body": "Engineered with calibrated rheology: flows smoothly over the cake edge and stops halfway, setting into a clean, firm, non-smear glossy bead.",
+        "icon": "🥄"
+      },
+      {
+        "title": "Ready-to-Use Formula",
+        "body": "No heating, no temper testing, and no alcohol mixing required. Shake vigorously and squeeze straight onto cold or room-temperature cakes.",
+        "icon": "⚡"
+      },
+      {
+        "title": "14 Ultra-Lustrous Shades",
+        "body": "Formulated with ultra-fine food-grade pearlescent pigments that capture ambient lighting for maximum visual drama.",
+        "icon": "✨"
+      }
+    ],
+    "analysis": [
+      {
+        "characteristic": "Physical Appearance",
+        "requirement": "High-Viscosity Lustrous Metallic Liquid / Glaze"
+      },
+      {
+        "characteristic": "Food Grade Standard",
+        "requirement": "100% Edible / FSSAI & Confectionery Grade Compliant"
+      },
+      {
+        "characteristic": "Pearlescent Carrier",
+        "requirement": "Potassium Aluminum Silicate (Mica / E555) & Approved Food Pigments"
+      },
+      {
+        "characteristic": "Setting Consistency",
+        "requirement": "Non-Bleeding, Firm Elastic Set on Chilled Cream / Fondant"
+      },
+      {
+        "characteristic": "Particle Size Distribution",
+        "requirement": "10 – 60 Microns (Streak-Free Mirror Sheen)"
+      },
+      {
+        "characteristic": "Heavy Metals (as Pb)",
+        "requirement": "< 10.00 ppm Max"
+      },
+      {
+        "characteristic": "Lead (Pb)",
+        "requirement": "< 02.00 ppm Max"
+      },
+      {
+        "characteristic": "Arsenic (As)",
+        "requirement": "< 01.00 ppm Max"
+      },
+      {
+        "characteristic": "Loss on Drying (105°C)",
+        "requirement": "< 20.00% Max"
+      },
+      {
+        "characteristic": "Total Aerobic Microbial Count",
+        "requirement": "< 100 CFU/g"
+      }
+    ],
+    "pack_sizes": [
+      {
+        "size": "100gm",
+        "container": "Precision Tip Squeeze Bottle",
+        "target": "Artisan Bakers & Boutique Patisseries"
+      },
+      {
+        "size": "250gm",
+        "container": "Chef-Size Squeeze Bottle",
+        "target": "Commercial Cake Studios & Hotels"
+      },
+      {
+        "size": "1kg",
+        "container": "Wide-Mouth Jar",
+        "target": "High-Volume Production Bakeries"
+      },
+      {
+        "size": "20kg",
+        "container": "Export Food-Grade Pail",
+        "target": "Industrial Confectionery Plants"
+      }
+    ],
+    "colors": [
+      {
+        "id": 1,
+        "name": "Dazzling Gold",
+        "hex": "#d4af37",
+        "tone": "Ultra-radiant mirror liquid metallic gold",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 2,
+        "name": "Liquid Chrome Silver",
+        "hex": "#c0c0c0",
+        "tone": "High-shine reflective mirror silver drip",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 3,
+        "name": "Dazzling Rose Gold",
+        "hex": "#e0829d",
+        "tone": "Lustrous shimmering metallic rose blush",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 4,
+        "name": "Electric Dazzling Blue",
+        "hex": "#0984e3",
+        "tone": "Deep lustrous vibrant mirror cyan blue",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 5,
+        "name": "Burnished Bronze Copper",
+        "hex": "#cd7f32",
+        "tone": "Warm antique metallic bronze drip",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 6,
+        "name": "Pearl Silk White",
+        "hex": "#f5f6fa",
+        "tone": "Silky high-gloss pearlescent drip white",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 7,
+        "name": "Ruby Lustre Red",
+        "hex": "#d63031",
+        "tone": "Deep shimmering glossy jewel ruby red",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 8,
+        "name": "Imperial Shimmer Purple",
+        "hex": "#6c5ce7",
+        "tone": "Majestic lustrous amethyst violet drip",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 9,
+        "name": "Champagne Pearl",
+        "hex": "#f7e7b4",
+        "tone": "Delicate sparkling champagne gold shimmer",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 10,
+        "name": "Emerald Gleam Green",
+        "hex": "#00b894",
+        "tone": "Radiant gleaming jewel emerald drip",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 11,
+        "name": "Sunset Coral Amber",
+        "hex": "#e17055",
+        "tone": "Lustrous glossy warm sunset amber copper",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 12,
+        "name": "Velvet Onyx Black",
+        "hex": "#2d3436",
+        "tone": "Deep metallic mirror gloss onyx black",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 13,
+        "name": "Sparkle Fuchsia",
+        "hex": "#fd79a8",
+        "tone": "Vibrant dazzling radiant fuchsia pink",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 14,
+        "name": "Turquoise Glamour",
+        "hex": "#00cec9",
+        "tone": "Radiant tropical sparkling turquoise",
+        "bgGradient": null,
+        "is_blend": false
+      }
+    ]
+  },
+  {
+    "slug": "chocolate-colors",
+    "name": "Chocolate Colors",
+    "tagline": "16 Cocoa-Butter Compatible Shades • Non-Seizing Formula for Bonbons & Pralines",
+    "description": "Exim India Chocolate Colors are premium oil-based colorants scientifically formulated for white chocolate, cocoa butter, and fat-based fillings. Water-based colors cause chocolate to instantly seize, curdle, and ruin tempering. Our lipid-compatible formula disperses smoothly into tempered cocoa butter and melted chocolate without altering viscosity, setting time, or snap. Perfect for hand-painting polycarbonate moulds, airbrushing velvet and glossy effects onto bonbons, and tinting creamy ganaches.",
+    "usage_guide": "Warm color slightly to liquefy if needed. Add drop-wise into melted white chocolate or warm cocoa butter (30°C–35°C). Blend with an immersion blender or spatula until uniform before moulding or spraying.",
+    "image": "products/bakery-colors/chocolate-color.png",
+    "category": "bakery-colors",
+    "grade": "Food Grade / Confectionery Grade",
+    "purity": "100% Edible / Confectionery Grade",
+    "shelf_life": "24 Months",
+    "place_of_origin": "Mumbai, Maharashtra, India",
+    "brand_name": "Exim India Corporation",
+    "model_number": "EXIM-CHOCO-COLOURS",
+    "types": "Oil-Based Chocolate & Cocoa Butter Food Colour",
+    "color_desc": "16 High-Concentration Oil & Cocoa-Butter Soluble Confectionery Shades",
+    "application_summary": "Artisanal Bonbons, Pralines, Molded Chocolate Shells, Cocoa Butter Spraying, Truffles & Ganaches",
+    "packaging_details": "50gm & 200gm Bottles, 1kg Jars, 25kg Export HDPE Drums",
+    "delivery_detail": "Prompt Dispatch within 7–10 Business Days via JNPT Port, Mumbai",
+    "moq": "1 Box / Custom Export Batch",
+    "storage": "Store in a cool, dry place away from direct sunlight (16°C–20°C). Keep bottle tightly capped.",
+    "applications": [
+      "Polycarbonate Mould Painting",
+      "Artisan Bonbons & Pralines",
+      "Cocoa Butter Spray Gun Airbrushing",
+      "White Chocolate Velvet Coating",
+      "Truffle Shells & Hollow Figures",
+      "Creamy Ganache & Fudge Tinting"
+    ],
+    "application_techniques": [
+      {
+        "title": "Direct Cocoa Butter Tinting",
+        "body": "Melt food-grade deodorized cocoa butter to 35°C–40°C, stir in Chocolate Color powder or liquid, and emulsify for mirror-gloss bonbon shells.",
+        "icon": "🍫"
+      },
+      {
+        "title": "Airbrush Gun Velvet Finish",
+        "body": "Spray a 50/50 tinted chocolate and cocoa butter mix at 31°C onto frozen cakes for an exquisite velvet flocked texture.",
+        "icon": "💨"
+      },
+      {
+        "title": "Finger-Painting & Splatter Art",
+        "body": "Flick or paint directly into polished moulds before casting chocolate for striking modern artisan aesthetics.",
+        "icon": "🎨"
+      },
+      {
+        "title": "Zero Seizing Guarantee",
+        "body": "100% moisture-free carrier ensures your chocolate never clumps, hardens prematurely, or loses its glossy snap.",
+        "icon": "✨"
+      }
+    ],
+    "analysis": [
+      {
+        "characteristic": "Physical Appearance",
+        "requirement": "Smooth Viscous Lipid-Soluble Color Concentrate"
+      },
+      {
+        "characteristic": "Food Grade Standard",
+        "requirement": "100% Edible / FSSAI & US-FDA Compliant"
+      },
+      {
+        "characteristic": "Fat Dispersion Matrix",
+        "requirement": "100% Oil & Cocoa Butter Miscible (Non-Seizing)"
+      },
+      {
+        "characteristic": "Moisture Content",
+        "requirement": "< 0.20% (Strictly Moisture-Free Formulation)"
+      },
+      {
+        "characteristic": "Melting Point Carrier",
+        "requirement": "32°C – 36°C (Body-Temperature Melting)"
+      },
+      {
+        "characteristic": "Heavy Metals (as Pb)",
+        "requirement": "< 10.00 ppm Max"
+      },
+      {
+        "characteristic": "Lead (Pb)",
+        "requirement": "< 02.00 ppm Max"
+      },
+      {
+        "characteristic": "Arsenic (As)",
+        "requirement": "< 01.00 ppm Max"
+      },
+      {
+        "characteristic": "Total Aerobic Microbial Count",
+        "requirement": "< 100 CFU/g"
+      },
+      {
+        "characteristic": "Pathogens (E. Coli / Salmonella)",
+        "requirement": "Absent in 25g"
+      }
+    ],
+    "pack_sizes": [
+      {
+        "size": "50gm",
+        "container": "Dropper Bottle",
+        "target": "Chocolatiers & Artisan Bakeries"
+      },
+      {
+        "size": "200gm",
+        "container": "Wide-Mouth Jar",
+        "target": "Boutique Chocolate Boutiques"
+      },
+      {
+        "size": "1kg",
+        "container": "Food-Grade Canister",
+        "target": "Commercial Confectionery Producers"
+      },
+      {
+        "size": "25kg",
+        "container": "HDPE Export Drum",
+        "target": "Industrial Chocolate Manufacturers"
+      }
+    ],
+    "colors": [
+      {
+        "id": 1,
+        "name": "Ruby Jewel Red",
+        "hex": "#c0392b",
+        "tone": "Deep glossy ruby bonbon crimson",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 2,
+        "name": "Pistachio Green",
+        "hex": "#a3cb38",
+        "tone": "Fresh creamy botanical pistachio green",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 3,
+        "name": "White Chocolate Pearl",
+        "hex": "#f8f9fa",
+        "tone": "Lustrous opaque white chocolate sheen",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 4,
+        "name": "Royal Orchid Violet",
+        "hex": "#8854d0",
+        "tone": "Rich royal floral violet orchid",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 5,
+        "name": "Mango Sunshine",
+        "hex": "#fbc531",
+        "tone": "Vivid tropical ripe mango yellow",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 6,
+        "name": "Ocean Splash Blue",
+        "hex": "#00a8ff",
+        "tone": "Brilliant electric ocean blue",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 7,
+        "name": "Sweet Clementine Orange",
+        "hex": "#e67e22",
+        "tone": "Warm citrus mandarin orange",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 8,
+        "name": "Berry Crimson",
+        "hex": "#e84118",
+        "tone": "Intense tart raspberry red",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 9,
+        "name": "Hazelnut Bronze",
+        "hex": "#cd7f32",
+        "tone": "Warm roasted hazelnut metallic bronze",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 10,
+        "name": "Dark Cocoa",
+        "hex": "#2d1d17",
+        "tone": "Deep rich dark roasted chocolate brown",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 11,
+        "name": "Rose Petal Pink",
+        "hex": "#f78fb3",
+        "tone": "Delicate confectionery rose blush",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 12,
+        "name": "Metallic Amber Gold",
+        "hex": "#d4af37",
+        "tone": "Warm shimmering artisan gold",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 13,
+        "name": "Matcha Tea Green",
+        "hex": "#20bf6b",
+        "tone": "Natural vibrant Japanese matcha green",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 14,
+        "name": "Deep Sapphire Blue",
+        "hex": "#3867d6",
+        "tone": "Midnight maritime jewel blue",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 15,
+        "name": "Ivory Cocoa Butter",
+        "hex": "#f5f6fa",
+        "tone": "Warm natural ivory cocoa butter tone",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 16,
+        "name": "Coral Blossom",
+        "hex": "#ff6b81",
+        "tone": "Bright festive confectionery coral",
+        "bgGradient": null,
+        "is_blend": false
+      }
+    ]
+  },
+  {
+    "slug": "glazing-gel",
+    "name": "Glazing Gel",
+    "tagline": "12 Fruit Flavoured & Neutral Mirror Glazes • Instant Brilliant High-Gloss Shine",
+    "description": "Exim India Glazing Gel (Cold Mirror Glaze) is a professional ready-to-use confectionery glaze designed for modern patisseries and bakeries. It gives mousses, entremets, cheesecakes, and fruit pastries an instant, mirror-like high-gloss finish without boiling or complex tempering. Formulated with premium pectin and vegetable gelling agents, it applies smoothly, holds its brilliant mirror sheen under refrigeration without drying or cracking, and acts as an airtight protective barrier keeping cut fruits luscious and fresh.",
+    "usage_guide": "Gently whisk required quantity of Glazing Gel with a spatula to homogenize. Add 5%–10% water if lower viscosity is desired for pouring. Apply with a spatula, brush, or pour directly over frozen entremets at 20°C–25°C.",
+    "image": "products/bakery-colors/glazing-gel.png",
+    "category": "bakery-colors",
+    "grade": "Food Grade / Confectionery Grade",
+    "purity": "100% Edible / Confectionery Grade",
+    "shelf_life": "18 Months",
+    "place_of_origin": "Mumbai, Maharashtra, India",
+    "brand_name": "Exim India Corporation",
+    "model_number": "EXIM-GLAZING-GEL",
+    "types": "Ready-to-Use Cold Mirror Glazing Gel",
+    "color_desc": "12 Ready-to-Use High-Gloss Fruit & Neutral Mirror Glaze Formulations",
+    "application_summary": "Entremets, Mousse Cakes, Fresh Fruit Tarts, Cheesecakes, Pastries, Doughnuts & Piping Decor",
+    "packaging_details": "1kg Sealed Food-Grade Tubs, 5kg Buckets, 25kg Industrial Export Pails",
+    "delivery_detail": "Prompt Dispatch within 7–10 Business Days via JNPT Port, Mumbai",
+    "moq": "1 Carton (6 x 1kg) / Custom Bulk Export",
+    "storage": "Store at room temperature (15°C–25°C) in a dry place. Keep tub tightly closed after opening. Do not freeze.",
+    "applications": [
+      "Mirror Glaze Entremets & Mousse Cakes",
+      "Fresh Fruit Tart Gloss Protection",
+      "Cheesecake Tops & Dessert Cups",
+      "Marble Spider-Web Glaze Effects",
+      "Doughnut Glazing & Danish Pastries",
+      "Fine Piping Writing & Line Art"
+    ],
+    "application_techniques": [
+      {
+        "title": "Cold Application (No Boiling)",
+        "body": "Stir gently to smooth viscosity, pour directly onto chilled mousse or entremet. Requires zero heating or gelatin blooms.",
+        "icon": "❄️"
+      },
+      {
+        "title": "Fruit Freshness Barrier",
+        "body": "Brush onto sliced strawberries, kiwis, and berries to lock in moisture, prevent enzymatic browning, and add glistening eye appeal.",
+        "icon": "🥝"
+      },
+      {
+        "title": "Marbled Spider-Web Effect",
+        "body": "Pour base mirror glaze, drizzle contrasting colored glazing gel, and sweep with an offset spatula for spectacular pastry effects.",
+        "icon": "🕸️"
+      },
+      {
+        "title": "Freeze-Thaw Stable",
+        "body": "Maintains crystal-clear transparency and mirror reflection after deep freezing and defrosting with zero weeping or dulling.",
+        "icon": "✨"
+      }
+    ],
+    "analysis": [
+      {
+        "characteristic": "Physical Appearance",
+        "requirement": "Glossy Transparent / Translucent Pliant Gel"
+      },
+      {
+        "characteristic": "Food Grade Standard",
+        "requirement": "100% Edible / FSSAI & Confectionery Compliant"
+      },
+      {
+        "characteristic": "Brix (°Bx) at 20°C",
+        "requirement": "68.0° – 72.0° Brix"
+      },
+      {
+        "characteristic": "pH Value Range",
+        "requirement": "3.60 – 4.20"
+      },
+      {
+        "characteristic": "Setting Stability",
+        "requirement": "Elastic Non-Drying Mirror Membrane"
+      },
+      {
+        "characteristic": "Heavy Metals (as Pb)",
+        "requirement": "< 10.00 ppm Max"
+      },
+      {
+        "characteristic": "Lead (Pb)",
+        "requirement": "< 02.00 ppm Max"
+      },
+      {
+        "characteristic": "Arsenic (As)",
+        "requirement": "< 01.00 ppm Max"
+      },
+      {
+        "characteristic": "Total Aerobic Microbial Count",
+        "requirement": "< 100 CFU/g"
+      },
+      {
+        "characteristic": "Yeast & Mould Count",
+        "requirement": "< 10 CFU/g (Pathogens Absent)"
+      }
+    ],
+    "pack_sizes": [
+      {
+        "size": "1kg",
+        "container": "Sealed Food-Grade Tub",
+        "target": "Artisan Patisseries & Bakeries"
+      },
+      {
+        "size": "5kg",
+        "container": "Handled Bucket",
+        "target": "Commercial Cake Kitchens & Hotels"
+      },
+      {
+        "size": "12.5kg",
+        "container": "Bakery Tub",
+        "target": "Wholesale Bakery Producers"
+      },
+      {
+        "size": "25kg",
+        "container": "Export Confectionery Pail",
+        "target": "Industrial Pastry Export Plants"
+      }
+    ],
+    "colors": [
+      {
+        "id": 1,
+        "name": "Kiwi Green",
+        "hex": "#78e08f",
+        "tone": "Vibrant emerald kiwi fruit mirror glaze",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 2,
+        "name": "Neutral Mirror Clear",
+        "hex": "#f8f9fa",
+        "tone": "Crystal-clear transparent diamond shine",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 3,
+        "name": "Strawberry Red",
+        "hex": "#eb4d4b",
+        "tone": "Lustrous ruby sweet strawberry glaze",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 4,
+        "name": "Mango Gold",
+        "hex": "#f9ca24",
+        "tone": "Radiant sunshine Alphonso mango glaze",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 5,
+        "name": "Dark Chocolate Glaze",
+        "hex": "#3d2314",
+        "tone": "Deep glossy decadent cocoa glaze",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 6,
+        "name": "Blueberry Purple",
+        "hex": "#4834d4",
+        "tone": "Deep wild berry sapphire purple glaze",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 7,
+        "name": "Passion Fruit Yellow",
+        "hex": "#f0932b",
+        "tone": "Zesty tropical passion fruit mirror glaze",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 8,
+        "name": "Caramel Amber",
+        "hex": "#b7791f",
+        "tone": "Rich buttery golden caramel glaze",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 9,
+        "name": "Orange Citrus",
+        "hex": "#ff793f",
+        "tone": "Sunny vibrant sweet orange glaze",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 10,
+        "name": "White Diamond Pearl",
+        "hex": "#ffffff",
+        "tone": "Silky opaque high-shine white glaze",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 11,
+        "name": "Raspberry Ruby",
+        "hex": "#c0392b",
+        "tone": "Tart luscious raspberry mirror red",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 12,
+        "name": "Lemon Lime Zest",
+        "hex": "#6ab04c",
+        "tone": "Refreshing citrus lime-green glaze",
+        "bgGradient": null,
+        "is_blend": false
+      }
+    ]
+  },
+  {
+    "slug": "sugar-paste",
+    "name": "Sugar Paste",
+    "tagline": "14 Vibrant Pliable Shades • Ready-to-Roll Fondant for Cakes, Modeling & Sugarcraft",
+    "description": "Exim India Sugar Paste is an ultra-pliable, premium ready-to-roll confectionery fondant engineered specifically for cake artists, commercial bakeries, and sugarcraft masters. Formulated with ultra-fine micro-milled icing sugar and high-grade vegetable gums, it kneads effortlessly into a velvety, silky-smooth paste. Rolls paper-thin without cracking, sweating, or tearing, and resists \"elephant skin\" even in tropical and humid bakery environments. Drapes smoothly over sharp-edged cakes and holds fine detail for handcrafted floral modeling.",
+    "usage_guide": "Knead gently on a clean surface dusted lightly with cornstarch or icing sugar until smooth and pliable. Roll out with a non-stick rolling pin to desired thickness (2–3mm). Lift using a rolling pin and drape over crumb-coated cake. Smooth using a fondant smoother.",
+    "image": "products/bakery-colors/sugar-paste.png",
+    "category": "bakery-colors",
+    "grade": "Food Grade / Confectionery Grade",
+    "purity": "100% Edible / Confectionery Grade",
+    "shelf_life": "18 Months",
+    "place_of_origin": "Mumbai, Maharashtra, India",
+    "brand_name": "Exim India Corporation",
+    "model_number": "EXIM-SUGAR-PASTE",
+    "types": "Ready-to-Roll Confectionery Sugar Paste / Fondant",
+    "color_desc": "14 Pliable, High-Elasticity Confectionery Sugar Paste / Fondant Shades",
+    "application_summary": "Tiered Celebration Cakes, Wedding Cakes, Figurine Modeling, Sugar Flowers, Cutouts & Drapes",
+    "packaging_details": "1kg Airtight Sealed Tubs, 5kg Pails, 20kg Export Cartons with Moisture-Barrier Foil",
+    "delivery_detail": "Prompt Dispatch within 7–10 Business Days via JNPT Port, Mumbai",
+    "moq": "1 Carton (10 x 1kg) / Custom Bulk Export",
+    "storage": "Store in a cool, dry place (15°C–22°C) away from direct sunlight. Once opened, wrap tightly in food-grade plastic cling wrap and reseal inside airtight tub.",
+    "applications": [
+      "Wedding & Tiered Cake Covering",
+      "Sharp-Edge Royal Cake Finishing",
+      "Handcrafted Gum Paste Flowers",
+      "3D Figurine & Animal Modeling",
+      "Geometric Cutouts & Polka Dot Accents",
+      "Cupcake Toppers & Themed Plaques"
+    ],
+    "application_techniques": [
+      {
+        "title": "Ultra-Thin Rolling Stretch",
+        "body": "High elasticity allows rolling down to 2mm thickness without tearing, ensuring smooth coverage with minimal cake weight.",
+        "icon": "🎂"
+      },
+      {
+        "title": "Tropical Climate Resistance",
+        "body": "Engineered for high-humidity resilience: resists sweating, drooping, and tackiness even in humid ambient atmospheres.",
+        "icon": "☀️"
+      },
+      {
+        "title": "Silky Texture, No Elephant Skin",
+        "body": "Maintains optimal workability time so corners, edges, and pleats can be smoothed to satin perfection without dry cracking.",
+        "icon": "✨"
+      },
+      {
+        "title": "14 Vivid Pre-Colored Shades",
+        "body": "Saves hours of kneading: pre-pigmented with pure edible food colors to guarantee deep, uniform shades without streaking.",
+        "icon": "🎨"
+      }
+    ],
+    "analysis": [
+      {
+        "characteristic": "Physical Appearance",
+        "requirement": "Smooth Pliable Homogeneous Sugar Dough"
+      },
+      {
+        "characteristic": "Food Grade Standard",
+        "requirement": "100% Edible / FSSAI & US-FDA Compliant"
+      },
+      {
+        "characteristic": "Moisture Content",
+        "requirement": "7.00% – 9.00%"
+      },
+      {
+        "characteristic": "Elasticity / Extensibility",
+        "requirement": "High (Bends 180° without Fracture)"
+      },
+      {
+        "characteristic": "Sweetness & Aroma",
+        "requirement": "Mild Sweet Vanilla Confectionery Profile"
+      },
+      {
+        "characteristic": "Heavy Metals (as Pb)",
+        "requirement": "< 10.00 ppm Max"
+      },
+      {
+        "characteristic": "Lead (Pb)",
+        "requirement": "< 02.00 ppm Max"
+      },
+      {
+        "characteristic": "Arsenic (As)",
+        "requirement": "< 01.00 ppm Max"
+      },
+      {
+        "characteristic": "Total Aerobic Microbial Count",
+        "requirement": "< 100 CFU/g"
+      },
+      {
+        "characteristic": "Pathogens (Salmonella/E. Coli)",
+        "requirement": "Absent in 25g"
+      }
+    ],
+    "pack_sizes": [
+      {
+        "size": "1kg",
+        "container": "Airtight Sealed Tub",
+        "target": "Boutique Cake Designers & Home Bakers"
+      },
+      {
+        "size": "5kg",
+        "container": "Sealed Pail with Handle",
+        "target": "Artisan Bakeries & Wedding Cake Studios"
+      },
+      {
+        "size": "10kg",
+        "container": "Double-Lined Carton",
+        "target": "Commercial Confectionery Plants"
+      },
+      {
+        "size": "20kg",
+        "container": "Moisture-Barrier Export Box",
+        "target": "Industrial Bakery Export Customers"
+      }
+    ],
+    "colors": [
+      {
+        "id": 1,
+        "name": "Classic Ruby Red",
+        "hex": "#d63031",
+        "tone": "Vivid deep festive celebration red",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 2,
+        "name": "Pristine Snow White",
+        "hex": "#f8f9fa",
+        "tone": "Pure bridal snow white fondant",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 3,
+        "name": "Royal Navy Blue",
+        "hex": "#0952b6",
+        "tone": "Majestic imperial royal navy blue",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 4,
+        "name": "Sunshine Yellow",
+        "hex": "#f1c40f",
+        "tone": "Bright joyful celebration yellow",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 5,
+        "name": "Soft Blossom Pink",
+        "hex": "#fd79a8",
+        "tone": "Delicate pastel baby rose pink",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 6,
+        "name": "Emerald Leaf Green",
+        "hex": "#00b894",
+        "tone": "Rich botanical leaf green",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 7,
+        "name": "Jet Black",
+        "hex": "#2d3436",
+        "tone": "Deep pitch midnight black",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 8,
+        "name": "Sky Blue",
+        "hex": "#0984e3",
+        "tone": "Fresh bright pastel sky blue",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 9,
+        "name": "Radiant Orange",
+        "hex": "#e67e22",
+        "tone": "Warm citrus harvest celebration orange",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 10,
+        "name": "Lavender Violet",
+        "hex": "#a29bfe",
+        "tone": "Soft floral amethyst purple",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 11,
+        "name": "Natural Peach Skintone",
+        "hex": "#e6a77e",
+        "tone": "Natural warm peach modeling skintone",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 12,
+        "name": "Chocolate Brown",
+        "hex": "#6d4c41",
+        "tone": "Warm decadent milk cocoa brown",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 13,
+        "name": "Turquoise Teal",
+        "hex": "#00cec9",
+        "tone": "Radiant tropical ocean turquoise",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 14,
+        "name": "Shimmering Gold Ivory",
+        "hex": "#f5e6cb",
+        "tone": "Lustrous warm champagne ivory",
+        "bgGradient": null,
+        "is_blend": false
+      }
+    ]
+  },
+  {
+    "slug": "dazzling-sprinkles",
+    "name": "Dazzling Sprinkles - Balls 1.5mm",
+    "tagline": "Balls 1.5mm • 18 Dazzling Shades & Blends • Confectioner's Glaze Moisture Protection",
+    "description": "Add stunning accent to your baked treats with Exim India Dazzling Sprinkles. It can be used on cakes, cookies, cupcakes, candies or any baked treats. Exim India Dazzling Sprinkles have utlimate pearlscent finish and are made with special Confectioner's Glaze so that it does not easily leak colours when exposed to moisture on your sweet treats. We have designed sprinkles in wide range of colours, shapes and sizes so that bakers don't need to limit their imagination.",
+    "usage_guide": "Sprinkle directly over freshly frosted cakes, cupcakes, cookies, chocolate dips, or glaze surfaces before setting. Firmly adheres to buttercreams, fondants, ganaches, and icings.",
+    "image": "products/bakery-colors/sprikle.png",
+    "category": "bakery-colors",
+    "grade": "Food Grade / Confectionery Grade",
+    "purity": "100% Edible / Confectionery Grade",
+    "shelf_life": "24 Months",
+    "place_of_origin": "Mumbai, Maharashtra, India",
+    "brand_name": "Exim India Corporation",
+    "model_number": "EXIM-SPRINKLES-1.5MM",
+    "types": "Edible Confectionery Sprinkles / Sugar Pearls (Balls 1.5mm)",
+    "color_desc": "18 Designer Shades (11 High-Gloss Solids + 7 Confectionery Blends DB01–DB07)",
+    "application_summary": "Cakes, Cookies, Cupcakes, Candies, Doughnuts, Pastries & Sweet Treats",
+    "packaging_details": "100gm Bottles, 500gm Pouches, 500gm Jars, 25kg HDPE Drums",
+    "delivery_detail": "Prompt Dispatch within 7–10 Business Days via JNPT Port, Mumbai",
+    "moq": "1 Carton (Bottles/Jars/Pouches) / 25kg Drum",
+    "storage": "Store in a cool, dry place away from direct sunlight and excessive humidity (15°C–22°C). Keep container tightly closed after opening to preserve pearl luster and crispness.",
+    "applications": [
+      "Celebration Cakes & Tiered Wedding Sponges",
+      "Artisan Cookies & Decorated Biscuits",
+      "Cupcakes, Muffins & Cake Pops",
+      "Chocolates, Candies & Truffles",
+      "Doughnuts & Mirror-Glazed Pastries",
+      "Dessert Cups, Ice Cream & Confectionery Toppings"
+    ],
+    "application_techniques": [
+      {
+        "title": "Special Confectioner's Glaze Coating",
+        "body": "Engineered with a protective food-grade glaze barrier that prevents moisture bleeding and color leakage when exposed to wet creams, frostings, and mousses.",
+        "icon": "🛡️"
+      },
+      {
+        "title": "Ultimate Pearlescent Finish",
+        "body": "High-sheen reflective pearl luster gives confections a luxurious jewel-like shimmer that catches light brilliantly.",
+        "icon": "✨"
+      },
+      {
+        "title": "Calibrated 1.5mm Uniform Spheres",
+        "body": "Carefully sized 1.5mm balls ensure consistent luxury appearance and delicate crunch without tooth hardness.",
+        "icon": "⚪"
+      },
+      {
+        "title": "18 Curated Single Shades & Multi-Color Blends",
+        "body": "11 vibrant solid metallic colors plus 7 artisan designer blends (DB01 to DB07) ready for festive occasions.",
+        "icon": "🎨"
+      }
+    ],
+    "analysis": [
+      {
+        "characteristic": "Physical Appearance",
+        "requirement": "Uniform 1.5mm Spherical Pearlescent Sugar Pearls"
+      },
+      {
+        "characteristic": "Food Grade Standard",
+        "requirement": "100% Edible / FSSAI & Global Confectionery Grade Compliant"
+      },
+      {
+        "characteristic": "Ball Diameter / Calibration",
+        "requirement": "1.5 mm ± 0.2 mm"
+      },
+      {
+        "characteristic": "Surface Finish",
+        "requirement": "Ultimate Pearlescent High-Lustre Sheen"
+      },
+      {
+        "characteristic": "Protective Barrier",
+        "requirement": "Special Confectioner's Glaze (Anti-Color Bleed Matrix)"
+      },
+      {
+        "characteristic": "Moisture Resistance",
+        "requirement": "Resists weeping & color leaching on high-moisture bakery frostings"
+      },
+      {
+        "characteristic": "Base Composition",
+        "requirement": "Sugar, Starch, Edible Mica (E555), Confectioner's Glaze & Approved Food Colours"
+      },
+      {
+        "characteristic": "Heavy Metals (as Pb)",
+        "requirement": "< 10.00 ppm Max"
+      },
+      {
+        "characteristic": "Lead (Pb)",
+        "requirement": "< 02.00 ppm Max"
+      },
+      {
+        "characteristic": "Arsenic (As)",
+        "requirement": "< 01.00 ppm Max"
+      },
+      {
+        "characteristic": "Loss on Drying (105°C)",
+        "requirement": "< 1.50% Max"
+      },
+      {
+        "characteristic": "Total Aerobic Microbial Count",
+        "requirement": "< 100 CFU/g"
+      },
+      {
+        "characteristic": "Pathogens (E. Coli / Salmonella)",
+        "requirement": "Absent in 25g"
+      }
+    ],
+    "pack_sizes": [
+      {
+        "size": "100gm",
+        "container": "Bottle",
+        "target": "Home Bakers & Retail Confectionery"
+      },
+      {
+        "size": "500gm",
+        "container": "Pouch",
+        "target": "Artisan Patisseries & Bakeries"
+      },
+      {
+        "size": "500gm",
+        "container": "Jar",
+        "target": "Commercial Cake Studios & Kitchens"
+      },
+      {
+        "size": "25kg",
+        "container": "HDPE Drum",
+        "target": "Bulk Industrial & Export Manufacture"
+      }
+    ],
+    "colors": [
+      {
+        "id": 1,
+        "name": "Black",
+        "hex": "#1c2327",
+        "tone": "Pearlescent Onyx Black Sugar Balls (1.5mm)",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 2,
+        "name": "Blue",
+        "hex": "#0e86d4",
+        "tone": "Brilliant Pearlescent Sapphire Blue Balls (1.5mm)",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 3,
+        "name": "Brown",
+        "hex": "#7b3f1d",
+        "tone": "Rich Metallic Bronze Chocolate Brown Balls (1.5mm)",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 4,
+        "name": "Golden",
+        "hex": "#cfa035",
+        "tone": "Shimmering Pearlescent Metallic Gold Balls (1.5mm)",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 5,
+        "name": "Green",
+        "hex": "#1d7c4d",
+        "tone": "Lustrous Botanical Emerald Green Balls (1.5mm)",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 6,
+        "name": "Orange",
+        "hex": "#e65100",
+        "tone": "Vivid Sunset Citrus Orange Balls (1.5mm)",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 7,
+        "name": "Pink",
+        "hex": "#d83a78",
+        "tone": "Vivid Confectionery Candy Rose Pink Balls (1.5mm)",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 8,
+        "name": "Purple",
+        "hex": "#4a287a",
+        "tone": "Deep Pearlescent Royal Amethyst Purple Balls (1.5mm)",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 9,
+        "name": "Red",
+        "hex": "#b81d24",
+        "tone": "Deep Ruby Crimson Celebration Red Balls (1.5mm)",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 10,
+        "name": "White",
+        "hex": "#eef2f5",
+        "tone": "Sparkling Diamond Pearl White Balls (1.5mm)",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 11,
+        "name": "Yellow",
+        "hex": "#d4cf2d",
+        "tone": "Bright Canary Sunshine Yellow Balls (1.5mm)",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 12,
+        "name": "DB01",
+        "hex": "#e84393",
+        "tone": "Rainbow Carnival Celebration Blend (Blue, Pink, Yellow, Green, Pearl)",
+        "bgGradient": "radial-gradient(circle at 35% 35%, #ffd700 0%, #00a8ff 25%, #ff4757 50%, #2ed573 75%, #9b59b6 100%)",
+        "is_blend": true
+      },
+      {
+        "id": 13,
+        "name": "DB02",
+        "hex": "#e67e22",
+        "tone": "Sunrise Citrus Flame Blend (Golden Yellow, Tangerine Orange & Red)",
+        "bgGradient": "radial-gradient(circle at 35% 35%, #ffd700 0%, #ff9f43 35%, #ee5253 70%, #d63031 100%)",
+        "is_blend": true
+      },
+      {
+        "id": 14,
+        "name": "DB03",
+        "hex": "#20bf6b",
+        "tone": "Holiday Festive Forest Blend (Emerald Green, Ruby Red & Pearl White)",
+        "bgGradient": "radial-gradient(circle at 35% 35%, #f5f6fa 0%, #2ed573 35%, #eb4d4b 70%, #10ac84 100%)",
+        "is_blend": true
+      },
+      {
+        "id": 15,
+        "name": "DB04",
+        "hex": "#f78fb3",
+        "tone": "Blossom Romance Blend (Sweet Rose Pink, Ruby Red & Diamond Pearl)",
+        "bgGradient": "radial-gradient(circle at 35% 35%, #ffffff 0%, #fd79a8 40%, #c0392b 75%, #f8a5c2 100%)",
+        "is_blend": true
+      },
+      {
+        "id": 16,
+        "name": "DB05",
+        "hex": "#c0392b",
+        "tone": "Ruby Glamour Blend (Deep Jewel Ruby, Rosé & Shimmering Pearl)",
+        "bgGradient": "radial-gradient(circle at 35% 35%, #ffffff 0%, #e84118 40%, #881337 75%, #c0392b 100%)",
+        "is_blend": true
+      },
+      {
+        "id": 17,
+        "name": "DB06",
+        "hex": "#9b111e",
+        "tone": "Regal Autumn Blend (Rich Cranberry Crimson, Antique Gold & Pearl)",
+        "bgGradient": "radial-gradient(circle at 35% 35%, #d4af37 0%, #b83b3b 40%, #581845 75%, #ffd700 100%)",
+        "is_blend": true
+      },
+      {
+        "id": 18,
+        "name": "DB07",
+        "hex": "#3867d6",
+        "tone": "Cosmic Galaxy Blend (Electric Blue, Radiant Pink, White & Violet)",
+        "bgGradient": "radial-gradient(circle at 35% 35%, #ffffff 0%, #00a8ff 35%, #ff4d94 70%, #4834d4 100%)",
+        "is_blend": true
+      }
+    ]
+  },
+  {
+    "slug": "dazzling-sprinkles-4mm",
+    "name": "Dazzling Sprinkles - Balls 4mm",
+    "tagline": "Balls 4mm • 17 Dazzling Shades & Blends • Confectioner's Glaze Moisture Protection",
+    "description": "Add stunning accent to your baked treats with Exim India Dazzling Sprinkles. It can be used on cakes, cookies, cupcakes, candies or any baked treats. Exim India Dazzling Sprinkles have utlimate pearlscent finish and are made with special Confectioner's Glaze so that it does not easily leak colours when exposed to moisture on your sweet treats. We have designed sprinkles in wide range of colours, shapes and sizes so that bakers don't need to limit their imagination.",
+    "usage_guide": "Place individually with precision decorating tweezers or scatter over freshly frosted cakes, chocolate ganaches, and dessert rims before setting.",
+    "image": "products/bakery-colors/sprinkles-4mm.png",
+    "category": "bakery-colors",
+    "grade": "Food Grade / Confectionery Grade",
+    "purity": "100% Edible / Confectionery Grade",
+    "shelf_life": "24 Months",
+    "place_of_origin": "Mumbai, Maharashtra, India",
+    "brand_name": "Exim India Corporation",
+    "model_number": "EXIM-SPRINKLES-4MM",
+    "types": "Edible Confectionery Sprinkles / Sugar Pearls (Balls 4mm)",
+    "color_desc": "17 Designer Shades (10 High-Gloss Solids + 7 Confectionery Blends DB01–DB07)",
+    "application_summary": "Artisan Cakes, Tiered Wedding Cakes, Gourmet Chocolates, Cupcakes, Donuts & Fine Desserts",
+    "packaging_details": "100gm Bottles, 500gm Pouches, 500gm Jars, 25kg HDPE Drums",
+    "delivery_detail": "Prompt Dispatch within 7–10 Business Days via JNPT Port, Mumbai",
+    "moq": "1 Carton (Bottles/Jars/Pouches) / 25kg Drum",
+    "storage": "Store in a cool, dry place away from direct sunlight and excessive humidity (15°C–22°C). Keep container tightly closed after opening to preserve pearl luster and crispness.",
+    "applications": [
+      "Artisan Drip Cakes & Chocolate Sponges",
+      "Wedding Cakes & Celebration Masterpieces",
+      "Gourmet Cupcake Rosettes & Swirls",
+      "Artisanal Chocolates, Truffles & Bonbons",
+      "Glazed Doughnuts & Confectionery Borders",
+      "High-End Patisserie Showcase Plating"
+    ],
+    "application_techniques": [
+      {
+        "title": "Special Confectioner's Glaze Coating",
+        "body": "Engineered with a protective food-grade glaze barrier that prevents moisture bleeding and color leakage on wet creams, frostings, and mousses.",
+        "icon": "🛡️"
+      },
+      {
+        "title": "Ultimate Pearlescent Finish",
+        "body": "High-sheen reflective pearl luster gives 4mm sugar pearls a luxurious, mirror-bright gemstone appearance.",
+        "icon": "✨"
+      },
+      {
+        "title": "Calibrated 4.0mm Medium Spheres",
+        "body": "Precision 4mm size creates bold, prominent decorative accents with a delightful, melt-in-the-mouth crunchy sweetness.",
+        "icon": "⚪"
+      },
+      {
+        "title": "17 Curated Single Shades & Multi-Color Blends",
+        "body": "10 radiant solid metallic colors plus 7 artisan designer blends (DB01 to DB07) for versatile celebration styling.",
+        "icon": "🎨"
+      }
+    ],
+    "analysis": [
+      {
+        "characteristic": "Physical Appearance",
+        "requirement": "Uniform 4.0mm Spherical Pearlescent Sugar Pearls"
+      },
+      {
+        "characteristic": "Food Grade Standard",
+        "requirement": "100% Edible / FSSAI & Global Confectionery Grade Compliant"
+      },
+      {
+        "characteristic": "Ball Diameter / Calibration",
+        "requirement": "4.0 mm ± 0.3 mm"
+      },
+      {
+        "characteristic": "Surface Finish",
+        "requirement": "Ultimate Pearlescent High-Lustre Sheen"
+      },
+      {
+        "characteristic": "Protective Barrier",
+        "requirement": "Special Confectioner's Glaze (Anti-Color Bleed Matrix)"
+      },
+      {
+        "characteristic": "Moisture Resistance",
+        "requirement": "Resists weeping & color leaching on high-moisture bakery frostings"
+      },
+      {
+        "characteristic": "Base Composition",
+        "requirement": "Sugar, Starch, Edible Mica (E555), Confectioner's Glaze & Approved Food Colours"
+      },
+      {
+        "characteristic": "Heavy Metals (as Pb)",
+        "requirement": "< 10.00 ppm Max"
+      },
+      {
+        "characteristic": "Lead (Pb)",
+        "requirement": "< 02.00 ppm Max"
+      },
+      {
+        "characteristic": "Arsenic (As)",
+        "requirement": "< 01.00 ppm Max"
+      },
+      {
+        "characteristic": "Loss on Drying (105°C)",
+        "requirement": "< 1.50% Max"
+      },
+      {
+        "characteristic": "Total Aerobic Microbial Count",
+        "requirement": "< 100 CFU/g"
+      },
+      {
+        "characteristic": "Pathogens (E. Coli / Salmonella)",
+        "requirement": "Absent in 25g"
+      }
+    ],
+    "pack_sizes": [
+      {
+        "size": "100gm",
+        "container": "Bottle",
+        "target": "Home Bakers & Boutique Cake Decorators"
+      },
+      {
+        "size": "500gm",
+        "container": "Pouch",
+        "target": "Artisan Patisseries & Bakeries"
+      },
+      {
+        "size": "500gm",
+        "container": "Jar",
+        "target": "Commercial Cake Studios & Kitchens"
+      },
+      {
+        "size": "25kg",
+        "container": "HDPE Drum",
+        "target": "Bulk Industrial & Export Manufacture"
+      }
+    ],
+    "colors": [
+      {
+        "id": 1,
+        "name": "White",
+        "hex": "#eef2f5",
+        "tone": "Sparkling Diamond Pearl White Balls (4mm)",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 2,
+        "name": "Blue",
+        "hex": "#0e86d4",
+        "tone": "Brilliant Pearlescent Sapphire Blue Balls (4mm)",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 3,
+        "name": "Brown",
+        "hex": "#7b3f1d",
+        "tone": "Rich Metallic Bronze Chocolate Brown Balls (4mm)",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 4,
+        "name": "Golden",
+        "hex": "#cfa035",
+        "tone": "Shimmering Pearlescent Metallic Gold Balls (4mm)",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 5,
+        "name": "Green",
+        "hex": "#1d7c4d",
+        "tone": "Lustrous Botanical Emerald Green Balls (4mm)",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 6,
+        "name": "Orange",
+        "hex": "#e65100",
+        "tone": "Vivid Sunset Citrus Orange Balls (4mm)",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 7,
+        "name": "Pink",
+        "hex": "#d83a78",
+        "tone": "Vivid Confectionery Candy Rose Pink Balls (4mm)",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 8,
+        "name": "Purple",
+        "hex": "#4a287a",
+        "tone": "Deep Pearlescent Royal Amethyst Purple Balls (4mm)",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 9,
+        "name": "Red",
+        "hex": "#b81d24",
+        "tone": "Deep Ruby Crimson Celebration Red Balls (4mm)",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 10,
+        "name": "Yellow",
+        "hex": "#d4cf2d",
+        "tone": "Bright Canary Sunshine Yellow Balls (4mm)",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 11,
+        "name": "DB01",
+        "hex": "#e84393",
+        "tone": "Rainbow Carnival Celebration Blend (Blue, Pink, Yellow, Green, Pearl) 4mm",
+        "bgGradient": "radial-gradient(circle at 35% 35%, #ffd700 0%, #00a8ff 25%, #ff4757 50%, #2ed573 75%, #9b59b6 100%)",
+        "is_blend": true
+      },
+      {
+        "id": 12,
+        "name": "DB02",
+        "hex": "#e67e22",
+        "tone": "Sunrise Citrus Flame Blend (Golden Yellow, Tangerine Orange & Red) 4mm",
+        "bgGradient": "radial-gradient(circle at 35% 35%, #ffd700 0%, #ff9f43 35%, #ee5253 70%, #d63031 100%)",
+        "is_blend": true
+      },
+      {
+        "id": 13,
+        "name": "DB03",
+        "hex": "#20bf6b",
+        "tone": "Holiday Festive Forest Blend (Emerald Green, Ruby Red & Pearl White) 4mm",
+        "bgGradient": "radial-gradient(circle at 35% 35%, #f5f6fa 0%, #2ed573 35%, #eb4d4b 70%, #10ac84 100%)",
+        "is_blend": true
+      },
+      {
+        "id": 14,
+        "name": "DB04",
+        "hex": "#f78fb3",
+        "tone": "Blossom Romance Blend (Sweet Rose Pink, Ruby Red & Diamond Pearl) 4mm",
+        "bgGradient": "radial-gradient(circle at 35% 35%, #ffffff 0%, #fd79a8 40%, #c0392b 75%, #f8a5c2 100%)",
+        "is_blend": true
+      },
+      {
+        "id": 15,
+        "name": "DB05",
+        "hex": "#c0392b",
+        "tone": "Ruby Glamour Blend (Deep Jewel Ruby, Rosé & Shimmering Pearl) 4mm",
+        "bgGradient": "radial-gradient(circle at 35% 35%, #ffffff 0%, #e84118 40%, #881337 75%, #c0392b 100%)",
+        "is_blend": true
+      },
+      {
+        "id": 16,
+        "name": "DB06",
+        "hex": "#9b111e",
+        "tone": "Regal Autumn Blend (Rich Cranberry Crimson, Antique Gold & Pearl) 4mm",
+        "bgGradient": "radial-gradient(circle at 35% 35%, #d4af37 0%, #b83b3b 40%, #581845 75%, #ffd700 100%)",
+        "is_blend": true
+      },
+      {
+        "id": 17,
+        "name": "DB07",
+        "hex": "#3867d6",
+        "tone": "Cosmic Galaxy Blend (Electric Blue, Radiant Pink, White & Violet) 4mm",
+        "bgGradient": "radial-gradient(circle at 35% 35%, #ffffff 0%, #00a8ff 35%, #ff4d94 70%, #4834d4 100%)",
+        "is_blend": true
+      }
+    ]
+  },
+  {
+    "slug": "dazzling-sprinkles-6mm",
+    "name": "Dazzling Sprinkles - Balls 6mm",
+    "tagline": "Balls 6mm • 17 Dazzling Shades & Blends • Confectioner's Glaze Moisture Protection",
+    "description": "Add stunning accent to your baked treats with Exim India Dazzling Sprinkles. It can be used on cakes, cookies, cupcakes, candies or any baked treats. Exim India Dazzling Sprinkles have utlimate pearlscent finish and are made with special Confectioner's Glaze so that it does not easily leak colours when exposed to moisture on your sweet treats. We have designed sprinkles in wide range of colours, shapes and sizes so that bakers don't need to limit their imagination.",
+    "usage_guide": "Arrange along tier bases, cascading fondant ribbons, or buttercream crowns using confectionery tweezers. Adheres cleanly to fondant with a tiny dab of edible glue or royal icing.",
+    "image": "products/bakery-colors/sprinkles-6mm.png",
+    "category": "bakery-colors",
+    "grade": "Food Grade / Confectionery Grade",
+    "purity": "100% Edible / Confectionery Grade",
+    "shelf_life": "24 Months",
+    "place_of_origin": "Mumbai, Maharashtra, India",
+    "brand_name": "Exim India Corporation",
+    "model_number": "EXIM-SPRINKLES-6MM",
+    "types": "Edible Confectionery Sprinkles / Sugar Pearls / Dragees (Balls 6mm)",
+    "color_desc": "17 Designer Shades (10 High-Gloss Solids + 7 Confectionery Blends DB01–DB07)",
+    "application_summary": "Luxury Tiered Wedding Cakes, Royal Patisserie Showpieces, Haute Confectionery, Chocolates & Desserts",
+    "packaging_details": "100gm Bottles, 500gm Pouches, 500gm Jars, 25kg HDPE Drums",
+    "delivery_detail": "Prompt Dispatch within 7–10 Business Days via JNPT Port, Mumbai",
+    "moq": "1 Carton (Bottles/Jars/Pouches) / 25kg Drum",
+    "storage": "Store in a cool, dry place away from direct sunlight and excessive humidity (15°C–22°C). Keep container tightly closed after opening to preserve pearl luster and crispness.",
+    "applications": [
+      "Luxury Wedding Cakes & Royal Sponges",
+      "Haute Patisserie & Entremet Accents",
+      "Pearl Borders & Focal Bead Clustering",
+      "Artisanal Chocolates & Praline Centers",
+      "Celebration Tier Highlights & Dragee Crowns",
+      "Fine Confectionery Plated Desserts"
+    ],
+    "application_techniques": [
+      {
+        "title": "Special Confectioner's Glaze Coating",
+        "body": "Engineered with a protective food-grade glaze barrier that prevents moisture bleeding and color leakage when exposed to wet creams, frostings, and mousses.",
+        "icon": "🛡️"
+      },
+      {
+        "title": "Ultimate Pearlescent Finish",
+        "body": "Deep multi-layer pearlescent glaze creates an opulent jewel-like bead luster that commands visual focus.",
+        "icon": "✨"
+      },
+      {
+        "title": "Calibrated 6.0mm Statement Pearls",
+        "body": "Generous 6mm statement spheres act as breathtaking edible jewelry for high-end wedding cakes and showcase pieces.",
+        "icon": "⚪"
+      },
+      {
+        "title": "17 Curated Single Shades & Multi-Color Blends",
+        "body": "10 regal solid metallic colors plus 7 artisan designer blends (DB01 to DB07) engineered for festive luxury.",
+        "icon": "🎨"
+      }
+    ],
+    "analysis": [
+      {
+        "characteristic": "Physical Appearance",
+        "requirement": "Uniform 6.0mm Spherical Pearlescent Sugar Pearls / Dragees"
+      },
+      {
+        "characteristic": "Food Grade Standard",
+        "requirement": "100% Edible / FSSAI & Global Confectionery Grade Compliant"
+      },
+      {
+        "characteristic": "Ball Diameter / Calibration",
+        "requirement": "6.0 mm ± 0.3 mm"
+      },
+      {
+        "characteristic": "Surface Finish",
+        "requirement": "Ultimate Pearlescent High-Lustre Sheen"
+      },
+      {
+        "characteristic": "Protective Barrier",
+        "requirement": "Special Confectioner's Glaze (Anti-Color Bleed Matrix)"
+      },
+      {
+        "characteristic": "Moisture Resistance",
+        "requirement": "Resists weeping & color leaching on high-moisture bakery frostings"
+      },
+      {
+        "characteristic": "Base Composition",
+        "requirement": "Sugar, Starch, Edible Mica (E555), Confectioner's Glaze & Approved Food Colours"
+      },
+      {
+        "characteristic": "Heavy Metals (as Pb)",
+        "requirement": "< 10.00 ppm Max"
+      },
+      {
+        "characteristic": "Lead (Pb)",
+        "requirement": "< 02.00 ppm Max"
+      },
+      {
+        "characteristic": "Arsenic (As)",
+        "requirement": "< 01.00 ppm Max"
+      },
+      {
+        "characteristic": "Loss on Drying (105°C)",
+        "requirement": "< 1.50% Max"
+      },
+      {
+        "characteristic": "Total Aerobic Microbial Count",
+        "requirement": "< 100 CFU/g"
+      },
+      {
+        "characteristic": "Pathogens (E. Coli / Salmonella)",
+        "requirement": "Absent in 25g"
+      }
+    ],
+    "pack_sizes": [
+      {
+        "size": "100gm",
+        "container": "Bottle",
+        "target": "Home Bakers & Boutique Cake Decorators"
+      },
+      {
+        "size": "500gm",
+        "container": "Pouch",
+        "target": "Artisan Patisseries & Bakeries"
+      },
+      {
+        "size": "500gm",
+        "container": "Jar",
+        "target": "Commercial Cake Studios & Kitchens"
+      },
+      {
+        "size": "25kg",
+        "container": "HDPE Drum",
+        "target": "Bulk Industrial & Export Manufacture"
+      }
+    ],
+    "colors": [
+      {
+        "id": 1,
+        "name": "White",
+        "hex": "#eef2f5",
+        "tone": "Sparkling Diamond Pearl White Balls (6mm)",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 2,
+        "name": "Blue",
+        "hex": "#0e86d4",
+        "tone": "Brilliant Pearlescent Sapphire Blue Balls (6mm)",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 3,
+        "name": "Brown",
+        "hex": "#7b3f1d",
+        "tone": "Rich Metallic Bronze Chocolate Brown Balls (6mm)",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 4,
+        "name": "Golden",
+        "hex": "#cfa035",
+        "tone": "Shimmering Pearlescent Metallic Gold Balls (6mm)",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 5,
+        "name": "Green",
+        "hex": "#1d7c4d",
+        "tone": "Lustrous Botanical Emerald Green Balls (6mm)",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 6,
+        "name": "Orange",
+        "hex": "#e65100",
+        "tone": "Vivid Sunset Citrus Orange Balls (6mm)",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 7,
+        "name": "Pink",
+        "hex": "#d83a78",
+        "tone": "Vivid Confectionery Candy Rose Pink Balls (6mm)",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 8,
+        "name": "Purple",
+        "hex": "#4a287a",
+        "tone": "Deep Pearlescent Royal Amethyst Purple Balls (6mm)",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 9,
+        "name": "Red",
+        "hex": "#b81d24",
+        "tone": "Deep Ruby Crimson Celebration Red Balls (6mm)",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 10,
+        "name": "Yellow",
+        "hex": "#d4cf2d",
+        "tone": "Bright Canary Sunshine Yellow Balls (6mm)",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 11,
+        "name": "DB01",
+        "hex": "#e84393",
+        "tone": "Rainbow Carnival Celebration Blend (Blue, Pink, Yellow, Green, Pearl) 6mm",
+        "bgGradient": "radial-gradient(circle at 35% 35%, #ffd700 0%, #00a8ff 25%, #ff4757 50%, #2ed573 75%, #9b59b6 100%)",
+        "is_blend": true
+      },
+      {
+        "id": 12,
+        "name": "DB02",
+        "hex": "#e67e22",
+        "tone": "Sunrise Citrus Flame Blend (Golden Yellow, Tangerine Orange & Red) 6mm",
+        "bgGradient": "radial-gradient(circle at 35% 35%, #ffd700 0%, #ff9f43 35%, #ee5253 70%, #d63031 100%)",
+        "is_blend": true
+      },
+      {
+        "id": 13,
+        "name": "DB03",
+        "hex": "#20bf6b",
+        "tone": "Holiday Festive Forest Blend (Emerald Green, Ruby Red & Pearl White) 6mm",
+        "bgGradient": "radial-gradient(circle at 35% 35%, #f5f6fa 0%, #2ed573 35%, #eb4d4b 70%, #10ac84 100%)",
+        "is_blend": true
+      },
+      {
+        "id": 14,
+        "name": "DB04",
+        "hex": "#f78fb3",
+        "tone": "Blossom Romance Blend (Sweet Rose Pink, Ruby Red & Diamond Pearl) 6mm",
+        "bgGradient": "radial-gradient(circle at 35% 35%, #ffffff 0%, #fd79a8 40%, #c0392b 75%, #f8a5c2 100%)",
+        "is_blend": true
+      },
+      {
+        "id": 15,
+        "name": "DB05",
+        "hex": "#c0392b",
+        "tone": "Ruby Glamour Blend (Deep Jewel Ruby, Rosé & Shimmering Pearl) 6mm",
+        "bgGradient": "radial-gradient(circle at 35% 35%, #ffffff 0%, #e84118 40%, #881337 75%, #c0392b 100%)",
+        "is_blend": true
+      },
+      {
+        "id": 16,
+        "name": "DB06",
+        "hex": "#9b111e",
+        "tone": "Regal Autumn Blend (Rich Cranberry Crimson, Antique Gold & Pearl) 6mm",
+        "bgGradient": "radial-gradient(circle at 35% 35%, #d4af37 0%, #b83b3b 40%, #581845 75%, #ffd700 100%)",
+        "is_blend": true
+      },
+      {
+        "id": 17,
+        "name": "DB07",
+        "hex": "#3867d6",
+        "tone": "Cosmic Galaxy Blend (Electric Blue, Radiant Pink, White & Violet) 6mm",
+        "bgGradient": "radial-gradient(circle at 35% 35%, #ffffff 0%, #00a8ff 35%, #ff4d94 70%, #4834d4 100%)",
+        "is_blend": true
+      }
+    ]
+  },
+  {
+    "slug": "dazzling-sprinkles-hearts",
+    "name": "Dazzling Sprinkles - Hearts",
+    "tagline": "Hearts Shape • 18 Dazzling Shades & Blends • Confectioner's Glaze Moisture Protection",
+    "description": "Add stunning accent to your baked treats with Exim India Dazzling Sprinkles. It can be used on cakes, cookies, cupcakes, candies or any baked treats. Exim India Dazzling Sprinkles have utlimate pearlscent finish and are made with special Confectioner's Glaze so that it does not easily leak colours when exposed to moisture on your sweet treats. We have designed sprinkles in wide range of colours, shapes and sizes so that bakers don't need to limit their imagination.",
+    "usage_guide": "Scatter gently over freshly frosted cakes, cupcakes, cookies, chocolate dips, or glaze surfaces before setting. Firmly adheres to buttercreams, fondants, ganaches, and icings.",
+    "image": "products/bakery-colors/heart-sprinkles.png",
+    "category": "bakery-colors",
+    "grade": "Food Grade / Confectionery Grade",
+    "purity": "100% Edible / Confectionery Grade",
+    "shelf_life": "24 Months",
+    "place_of_origin": "Mumbai, Maharashtra, India",
+    "brand_name": "Exim India Corporation",
+    "model_number": "EXIM-SPRINKLES-HEARTS",
+    "types": "Edible Confectionery Sprinkles / Sugar Shapes (Hearts)",
+    "color_desc": "18 Designer Shades (10 High-Gloss Solids + 8 Confectionery Blends DH01–DH08)",
+    "application_summary": "Valentine & Wedding Cakes, Cupcakes, Cookies, Chocolates, Candies & Sweet Treats",
+    "packaging_details": "100gm Bottles, 500gm Pouches, 500gm Jars, 25kg HDPE Drums",
+    "delivery_detail": "Prompt Dispatch within 7–10 Business Days via JNPT Port, Mumbai",
+    "moq": "1 Carton (Bottles/Jars/Pouches) / 25kg Drum",
+    "storage": "Store in a cool, dry place away from direct sunlight and excessive humidity (15°C–22°C). Keep container tightly closed after opening to preserve pearl luster and crispness.",
+    "applications": [
+      "Valentine, Anniversary & Wedding Cakes",
+      "Artisan Heart Sugar Cookies & Biscuits",
+      "Romantic Cupcakes, Brownies & Cake Pops",
+      "Handcrafted Chocolate Bonbons & Truffles",
+      "Glazed Doughnuts & Confectionery Borders",
+      "Ice Cream, Dessert Cups & Milkshake Toppings"
+    ],
+    "application_techniques": [
+      {
+        "title": "Special Confectioner's Glaze Coating",
+        "body": "Engineered with a protective food-grade glaze barrier that prevents moisture bleeding and color leakage when exposed to wet creams, frostings, and mousses.",
+        "icon": "🛡️"
+      },
+      {
+        "title": "Ultimate Pearlescent Finish",
+        "body": "High-sheen reflective pearl luster gives heart shapes a romantic gemstone gleam that catches light exquisitely.",
+        "icon": "✨"
+      },
+      {
+        "title": "Calibrated Heart Silhouette Precision",
+        "body": "Crisp, perfectly stamped heart outlines hold their sculptural integrity even on warm or chilled frostings.",
+        "icon": "❤️"
+      },
+      {
+        "title": "18 Curated Single Shades & Multi-Color Blends",
+        "body": "10 radiant solid metallic tones plus 8 designer romantic blends (DH01 to DH08) for wedding and holiday dessert designs.",
+        "icon": "🎨"
+      }
+    ],
+    "analysis": [
+      {
+        "characteristic": "Physical Appearance",
+        "requirement": "Uniform Heart-Shaped Pearlescent Sugar Shapes"
+      },
+      {
+        "characteristic": "Food Grade Standard",
+        "requirement": "100% Edible / FSSAI & Global Confectionery Grade Compliant"
+      },
+      {
+        "characteristic": "Shape Precision",
+        "requirement": "Calibrated Heart Outline with Clean Definition"
+      },
+      {
+        "characteristic": "Surface Finish",
+        "requirement": "Ultimate Pearlescent High-Lustre Sheen"
+      },
+      {
+        "characteristic": "Protective Barrier",
+        "requirement": "Special Confectioner's Glaze (Anti-Color Bleed Matrix)"
+      },
+      {
+        "characteristic": "Moisture Resistance",
+        "requirement": "Resists weeping & color leaching on high-moisture bakery frostings"
+      },
+      {
+        "characteristic": "Base Composition",
+        "requirement": "Sugar, Starch, Edible Mica (E555), Confectioner's Glaze & Approved Food Colours"
+      },
+      {
+        "characteristic": "Heavy Metals (as Pb)",
+        "requirement": "< 10.00 ppm Max"
+      },
+      {
+        "characteristic": "Lead (Pb)",
+        "requirement": "< 02.00 ppm Max"
+      },
+      {
+        "characteristic": "Arsenic (As)",
+        "requirement": "< 01.00 ppm Max"
+      },
+      {
+        "characteristic": "Loss on Drying (105°C)",
+        "requirement": "< 1.50% Max"
+      },
+      {
+        "characteristic": "Total Aerobic Microbial Count",
+        "requirement": "< 100 CFU/g"
+      },
+      {
+        "characteristic": "Pathogens (E. Coli / Salmonella)",
+        "requirement": "Absent in 25g"
+      }
+    ],
+    "pack_sizes": [
+      {
+        "size": "100gm",
+        "container": "Bottle",
+        "target": "Home Bakers & Boutique Patisseries"
+      },
+      {
+        "size": "500gm",
+        "container": "Pouch",
+        "target": "Artisan Patisseries & Bakeries"
+      },
+      {
+        "size": "500gm",
+        "container": "Jar",
+        "target": "Commercial Cake Studios & Kitchens"
+      },
+      {
+        "size": "25kg",
+        "container": "HDPE Drum",
+        "target": "Bulk Industrial & Export Manufacture"
+      }
+    ],
+    "colors": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "hex": "#0984e3",
+        "tone": "Brilliant Pearlescent Sapphire Blue Hearts",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 2,
+        "name": "Brown",
+        "hex": "#7b3f1d",
+        "tone": "Rich Metallic Bronze Chocolate Brown Hearts",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 3,
+        "name": "Golden",
+        "hex": "#cfa035",
+        "tone": "Shimmering Pearlescent Metallic Gold Hearts",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 4,
+        "name": "Green",
+        "hex": "#1d7c4d",
+        "tone": "Lustrous Botanical Emerald Green Hearts",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 5,
+        "name": "Orange",
+        "hex": "#e65100",
+        "tone": "Vivid Sunset Citrus Orange Hearts",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 6,
+        "name": "Pink",
+        "hex": "#d83a78",
+        "tone": "Vivid Confectionery Candy Rose Pink Hearts",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 7,
+        "name": "Purple",
+        "hex": "#4a287a",
+        "tone": "Deep Pearlescent Royal Amethyst Purple Hearts",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 8,
+        "name": "Red",
+        "hex": "#b81d24",
+        "tone": "Deep Ruby Crimson Celebration Red Hearts",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 9,
+        "name": "White",
+        "hex": "#eef2f5",
+        "tone": "Sparkling Diamond Pearl White Hearts",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 10,
+        "name": "Yellow",
+        "hex": "#d4cf2d",
+        "tone": "Bright Canary Sunshine Yellow Hearts",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 11,
+        "name": "DH01",
+        "hex": "#d4af37",
+        "tone": "Gold & Pearl Ivory Romance Heart Blend",
+        "bgGradient": "radial-gradient(circle at 35% 35%, #ffffff 0%, #d4af37 45%, #b8860b 80%, #ffd700 100%)",
+        "is_blend": true
+      },
+      {
+        "id": 12,
+        "name": "DH02",
+        "hex": "#fd79a8",
+        "tone": "Blossom Pink & Diamond Pearl Heart Blend",
+        "bgGradient": "radial-gradient(circle at 35% 35%, #ffffff 0%, #fd79a8 45%, #ff4d94 80%, #f8a5c2 100%)",
+        "is_blend": true
+      },
+      {
+        "id": 13,
+        "name": "DH03",
+        "hex": "#c0392b",
+        "tone": "Ruby Crimson & Pearl White Heart Blend",
+        "bgGradient": "radial-gradient(circle at 35% 35%, #ffffff 0%, #e84118 40%, #c0392b 75%, #881337 100%)",
+        "is_blend": true
+      },
+      {
+        "id": 14,
+        "name": "DH04",
+        "hex": "#d83a80",
+        "tone": "Sweet Berry & Ruby Glamour Heart Blend",
+        "bgGradient": "radial-gradient(circle at 35% 35%, #f8a5c2 0%, #e84393 45%, #c0392b 80%, #881337 100%)",
+        "is_blend": true
+      },
+      {
+        "id": 15,
+        "name": "DH05",
+        "hex": "#00a8ff",
+        "tone": "Electric Cyan & Magenta Galaxy Heart Blend",
+        "bgGradient": "radial-gradient(circle at 35% 35%, #ffffff 0%, #00a8ff 40%, #ff4d94 75%, #4834d4 100%)",
+        "is_blend": true
+      },
+      {
+        "id": 16,
+        "name": "DH06",
+        "hex": "#ff793f",
+        "tone": "Citrus Sunrise Yellow & Tangerine Heart Blend",
+        "bgGradient": "radial-gradient(circle at 35% 35%, #ffd700 0%, #ff9f43 40%, #ee5253 75%, #d63031 100%)",
+        "is_blend": true
+      },
+      {
+        "id": 17,
+        "name": "DH07",
+        "hex": "#e67e22",
+        "tone": "Warm Autumn Gold & Amber Heart Blend",
+        "bgGradient": "radial-gradient(circle at 35% 35%, #ffd700 0%, #d4af37 35%, #e67e22 70%, #b87333 100%)",
+        "is_blend": true
+      },
+      {
+        "id": 18,
+        "name": "DH08",
+        "hex": "#e84393",
+        "tone": "Carnival Rainbow Multi-Color Fiesta Heart Blend",
+        "bgGradient": "radial-gradient(circle at 35% 35%, #ffd700 0%, #00a8ff 25%, #ff4757 50%, #2ed573 75%, #9b59b6 100%)",
+        "is_blend": true
+      }
+    ]
+  },
+  {
+    "slug": "dazzling-sprinkles-stars",
+    "name": "Dazzling Sprinkles - Stars",
+    "tagline": "Stars Shape • 19 Dazzling Shades & Blends • Confectioner's Glaze Moisture Protection",
+    "description": "Add stunning accent to your baked treats with Exim India Dazzling Sprinkles. It can be used on cakes, cookies, cupcakes, candies or any baked treats. Exim India Dazzling Sprinkles have utlimate pearlscent finish and are made with special Confectioner's Glaze so that it does not easily leak colours when exposed to moisture on your sweet treats. We have designed sprinkles in wide range of colours, shapes and sizes so that bakers don't need to limit their imagination.",
+    "usage_guide": "Sprinkle directly over freshly frosted cakes, cupcakes, cookies, chocolate dips, or glaze surfaces before setting. Firmly adheres to buttercreams, fondants, ganaches, and icings.",
+    "image": "products/bakery-colors/star-sprinkles.png",
+    "category": "bakery-colors",
+    "grade": "Food Grade / Confectionery Grade",
+    "purity": "100% Edible / Confectionery Grade",
+    "shelf_life": "24 Months",
+    "place_of_origin": "Mumbai, Maharashtra, India",
+    "brand_name": "Exim India Corporation",
+    "model_number": "EXIM-SPRINKLES-STARS",
+    "types": "Edible Confectionery Sprinkles / Sugar Shapes (Stars)",
+    "color_desc": "19 Designer Shades (9 High-Gloss Solids + 10 Confectionery Blends DS01–DS010)",
+    "application_summary": "Birthday Cakes, Celebration Desserts, Cupcakes, Cookies, Cake Pops & Confectionery Stars",
+    "packaging_details": "100gm Bottles, 500gm Pouches, 500gm Jars, 25kg HDPE Drums",
+    "delivery_detail": "Prompt Dispatch within 7–10 Business Days via JNPT Port, Mumbai",
+    "moq": "1 Carton (Bottles/Jars/Pouches) / 25kg Drum",
+    "storage": "Store in a cool, dry place away from direct sunlight and excessive humidity (15°C–22°C). Keep container tightly closed after opening to preserve pearl luster and crispness.",
+    "applications": [
+      "Celebration Birthday Cakes & Galaxy Themed Tiers",
+      "Artisan Sugar Star Cookies & Shortbreads",
+      "Cupcakes, Muffins, Cake Pops & Brownies",
+      "Chocolates, Candies, Fudge & Pralines",
+      "Glazed Doughnuts & Holiday Celebration Pastries",
+      "Dessert Cups, Ice Cream & Beverage Garnish"
+    ],
+    "application_techniques": [
+      {
+        "title": "Special Confectioner's Glaze Coating",
+        "body": "Engineered with a protective food-grade glaze barrier that prevents moisture bleeding and color leakage when exposed to wet creams, frostings, and mousses.",
+        "icon": "🛡️"
+      },
+      {
+        "title": "Ultimate Pearlescent Finish",
+        "body": "Deep reflective pearl sheen gives star shapes a luminous astral glow that stands out vividly on dark or light frostings.",
+        "icon": "✨"
+      },
+      {
+        "title": "Five-Point Calibrated Star Precision",
+        "body": "Crisply stamped five-point star geometry remains sharply defined with a delicate, melt-in-the-mouth sweet crunch.",
+        "icon": "⭐"
+      },
+      {
+        "title": "19 Curated Single Shades & Multi-Color Blends",
+        "body": "9 vibrant solid metallic tones plus 10 celestial artisan designer blends (DS01 to DS010) ready for birthday and festive cakes.",
+        "icon": "🎨"
+      }
+    ],
+    "analysis": [
+      {
+        "characteristic": "Physical Appearance",
+        "requirement": "Uniform Five-Point Star Pearlescent Sugar Shapes"
+      },
+      {
+        "characteristic": "Food Grade Standard",
+        "requirement": "100% Edible / FSSAI & Global Confectionery Grade Compliant"
+      },
+      {
+        "characteristic": "Shape Precision",
+        "requirement": "Calibrated 5-Point Star with Crisp Edges"
+      },
+      {
+        "characteristic": "Surface Finish",
+        "requirement": "Ultimate Pearlescent High-Lustre Sheen"
+      },
+      {
+        "characteristic": "Protective Barrier",
+        "requirement": "Special Confectioner's Glaze (Anti-Color Bleed Matrix)"
+      },
+      {
+        "characteristic": "Moisture Resistance",
+        "requirement": "Resists weeping & color leaching on high-moisture bakery frostings"
+      },
+      {
+        "characteristic": "Base Composition",
+        "requirement": "Sugar, Starch, Edible Mica (E555), Confectioner's Glaze & Approved Food Colours"
+      },
+      {
+        "characteristic": "Heavy Metals (as Pb)",
+        "requirement": "< 10.00 ppm Max"
+      },
+      {
+        "characteristic": "Lead (Pb)",
+        "requirement": "< 02.00 ppm Max"
+      },
+      {
+        "characteristic": "Arsenic (As)",
+        "requirement": "< 01.00 ppm Max"
+      },
+      {
+        "characteristic": "Loss on Drying (105°C)",
+        "requirement": "< 1.50% Max"
+      },
+      {
+        "characteristic": "Total Aerobic Microbial Count",
+        "requirement": "< 100 CFU/g"
+      },
+      {
+        "characteristic": "Pathogens (E. Coli / Salmonella)",
+        "requirement": "Absent in 25g"
+      }
+    ],
+    "pack_sizes": [
+      {
+        "size": "100gm",
+        "container": "Bottle",
+        "target": "Home Bakers & Retail Confectionery"
+      },
+      {
+        "size": "500gm",
+        "container": "Pouch",
+        "target": "Artisan Patisseries & Bakeries"
+      },
+      {
+        "size": "500gm",
+        "container": "Jar",
+        "target": "Commercial Cake Studios & Kitchens"
+      },
+      {
+        "size": "25kg",
+        "container": "HDPE Drum",
+        "target": "Bulk Industrial & Export Manufacture"
+      }
+    ],
+    "colors": [
+      {
+        "id": 1,
+        "name": "Blue",
+        "hex": "#0984e3",
+        "tone": "Brilliant Pearlescent Sapphire Blue Stars",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 2,
+        "name": "Golden",
+        "hex": "#cfa035",
+        "tone": "Shimmering Pearlescent Metallic Gold Stars",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 3,
+        "name": "Green",
+        "hex": "#10ac84",
+        "tone": "Lustrous Botanical Emerald Green Stars",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 4,
+        "name": "Orange",
+        "hex": "#e65100",
+        "tone": "Vivid Sunset Citrus Orange Stars",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 5,
+        "name": "Yellow",
+        "hex": "#d4cf2d",
+        "tone": "Bright Canary Sunshine Yellow Stars",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 6,
+        "name": "Pink",
+        "hex": "#d83a78",
+        "tone": "Vivid Confectionery Candy Rose Pink Stars",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 7,
+        "name": "Purple",
+        "hex": "#4a287a",
+        "tone": "Deep Pearlescent Royal Amethyst Purple Stars",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 8,
+        "name": "Red",
+        "hex": "#b81d24",
+        "tone": "Deep Ruby Crimson Celebration Red Stars",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 9,
+        "name": "White",
+        "hex": "#eef2f5",
+        "tone": "Sparkling Diamond Pearl White Stars",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 10,
+        "name": "DS01",
+        "hex": "#e84393",
+        "tone": "Rainbow Celebration Multi-Color Star Blend",
+        "bgGradient": "radial-gradient(circle at 35% 35%, #ffd700 0%, #00a8ff 25%, #ff4757 50%, #2ed573 75%, #9b59b6 100%)",
+        "is_blend": true
+      },
+      {
+        "id": 11,
+        "name": "DS02",
+        "hex": "#e67e22",
+        "tone": "Citrus Sunrise Flame Star Blend (Gold, Orange, Red)",
+        "bgGradient": "radial-gradient(circle at 35% 35%, #ffd700 0%, #ff9f43 35%, #ee5253 70%, #d63031 100%)",
+        "is_blend": true
+      },
+      {
+        "id": 12,
+        "name": "DS03",
+        "hex": "#d4af37",
+        "tone": "Starlight Gold & Pearl Ivory Star Blend",
+        "bgGradient": "radial-gradient(circle at 35% 35%, #ffffff 0%, #d4af37 40%, #b8860b 75%, #ffd700 100%)",
+        "is_blend": true
+      },
+      {
+        "id": 13,
+        "name": "DS04",
+        "hex": "#fd79a8",
+        "tone": "Blossom Rose & White Pearl Star Blend",
+        "bgGradient": "radial-gradient(circle at 35% 35%, #ffffff 0%, #fd79a8 40%, #d83a80 75%, #f8a5c2 100%)",
+        "is_blend": true
+      },
+      {
+        "id": 14,
+        "name": "DS05",
+        "hex": "#c0392b",
+        "tone": "Ruby Lustre & Champagne Pearl Star Blend",
+        "bgGradient": "radial-gradient(circle at 35% 35%, #ffffff 0%, #e84118 40%, #881337 75%, #c0392b 100%)",
+        "is_blend": true
+      },
+      {
+        "id": 15,
+        "name": "DS06",
+        "hex": "#10ac84",
+        "tone": "Festive Holiday Emerald & Ruby Star Blend",
+        "bgGradient": "radial-gradient(circle at 35% 35%, #ffffff 0%, #10ac84 40%, #b81d24 75%, #2ed573 100%)",
+        "is_blend": true
+      },
+      {
+        "id": 16,
+        "name": "DS07",
+        "hex": "#ff4d94",
+        "tone": "Neon Starburst Cyan & Fuchsia Star Blend",
+        "bgGradient": "radial-gradient(circle at 35% 35%, #ffffff 0%, #00a8ff 35%, #ff4d94 70%, #8854d0 100%)",
+        "is_blend": true
+      },
+      {
+        "id": 17,
+        "name": "DS08",
+        "hex": "#192a56",
+        "tone": "Midnight Sapphire & Pearl White Star Blend",
+        "bgGradient": "radial-gradient(circle at 35% 35%, #ffffff 0%, #3867d6 40%, #192a56 75%, #00a8ff 100%)",
+        "is_blend": true
+      },
+      {
+        "id": 18,
+        "name": "DS09",
+        "hex": "#00cec9",
+        "tone": "Celestial Cyan & Gold Star Blend",
+        "bgGradient": "radial-gradient(circle at 35% 35%, #ffffff 0%, #00cec9 40%, #d4af37 75%, #0984e3 100%)",
+        "is_blend": true
+      },
+      {
+        "id": 19,
+        "name": "DS010",
+        "hex": "#f39c12",
+        "tone": "Sunburst Radiant Golden Amber Star Blend",
+        "bgGradient": "radial-gradient(circle at 35% 35%, #ffd700 0%, #f39c12 40%, #d35400 75%, #f1c40f 100%)",
+        "is_blend": true
+      }
+    ]
+  },
+  {
+    "slug": "dazzling-sprinkles-vermicelli",
+    "name": "Dazzling Sprinkles - Vermicelli",
+    "tagline": "Vermicelli Strands • 16 Dazzling Shades & Blends • Confectioner's Glaze Moisture Protection",
+    "description": "Add stunning accent to your baked treats with Exim India Dazzling Sprinkles. It can be used on cakes, cookies, cupcakes, candies or any baked treats. Exim India Dazzling Sprinkles have utlimate pearlscent finish and are made with special Confectioner's Glaze so that it does not easily leak colours when exposed to moisture on your sweet treats. We have designed sprinkles in wide range of colours, shapes and sizes so that bakers don't need to limit their imagination.",
+    "usage_guide": "Sprinkle generously or roll freshly glazed doughnuts, iced cupcakes, and chocolate truffles directly into vermicelli strands.",
+    "image": "products/bakery-colors/sprinkles-vercemelli.png",
+    "category": "bakery-colors",
+    "grade": "Food Grade / Confectionery Grade",
+    "purity": "100% Edible / Confectionery Grade",
+    "shelf_life": "24 Months",
+    "place_of_origin": "Mumbai, Maharashtra, India",
+    "brand_name": "Exim India Corporation",
+    "model_number": "EXIM-SPRINKLES-VERMICELLI",
+    "types": "Edible Confectionery Sprinkles / Sugar Strands (Vermicelli)",
+    "color_desc": "16 Designer Shades (11 High-Gloss Solids + 5 Confectionery Blends SV01–SV05)",
+    "application_summary": "Classic Cakes, Doughnuts, Cupcakes, Cookies, Soft-Serve Ice Cream & Pastries",
+    "packaging_details": "100gm Bottles, 500gm Pouches, 500gm Jars, 25kg HDPE Drums",
+    "delivery_detail": "Prompt Dispatch within 7–10 Business Days via JNPT Port, Mumbai",
+    "moq": "1 Carton (Bottles/Jars/Pouches) / 25kg Drum",
+    "storage": "Store in a cool, dry place away from direct sunlight and excessive humidity (15°C–22°C). Keep container tightly closed after opening to preserve pearl luster and crispness.",
+    "applications": [
+      "Celebration Cakes & Classic Birthday Sponges",
+      "Artisan Doughnut Dipping & Glaze Coating",
+      "Cupcakes, Muffins & Soft Serve Ice Cream",
+      "Sugar Cookies, Biscuits & Whoopie Pies",
+      "Dessert Cups, Puddings & Cake Rolls",
+      "Truffles & Brigadeiro Outer Rolling Decor"
+    ],
+    "application_techniques": [
+      {
+        "title": "Special Confectioner's Glaze Coating",
+        "body": "Engineered with a protective food-grade glaze barrier that prevents moisture bleeding and color leakage when exposed to wet creams, frostings, and mousses.",
+        "icon": "🛡️"
+      },
+      {
+        "title": "Ultimate Pearlescent Finish",
+        "body": "High-sheen reflective pearl luster gives extruded vermicelli strands a glossy, vibrant sheen that never looks dull.",
+        "icon": "✨"
+      },
+      {
+        "title": "Calibrated Uniform Jimmies / Strands",
+        "body": "Precision extruded vermicelli cylinders ensure consistent length, delicate snap, and melt-in-mouth texture.",
+        "icon": "🥢"
+      },
+      {
+        "title": "16 Curated Single Shades & Multi-Color Blends",
+        "body": "11 rich solid metallic colors plus 5 artisan designer blends (SV01 to SV05) for versatile bakery applications.",
+        "icon": "🎨"
+      }
+    ],
+    "analysis": [
+      {
+        "characteristic": "Physical Appearance",
+        "requirement": "Uniform Cylindrical Pearlescent Sugar Strands / Vermicelli"
+      },
+      {
+        "characteristic": "Food Grade Standard",
+        "requirement": "100% Edible / FSSAI & Global Confectionery Grade Compliant"
+      },
+      {
+        "characteristic": "Strand Geometry",
+        "requirement": "Extruded Uniform Cylindrical Rods / Jimmies"
+      },
+      {
+        "characteristic": "Surface Finish",
+        "requirement": "Ultimate Pearlescent High-Lustre Sheen"
+      },
+      {
+        "characteristic": "Protective Barrier",
+        "requirement": "Special Confectioner's Glaze (Anti-Color Bleed Matrix)"
+      },
+      {
+        "characteristic": "Moisture Resistance",
+        "requirement": "Resists weeping & color leaching on high-moisture bakery frostings"
+      },
+      {
+        "characteristic": "Base Composition",
+        "requirement": "Sugar, Starch, Edible Mica (E555), Confectioner's Glaze & Approved Food Colours"
+      },
+      {
+        "characteristic": "Heavy Metals (as Pb)",
+        "requirement": "< 10.00 ppm Max"
+      },
+      {
+        "characteristic": "Lead (Pb)",
+        "requirement": "< 02.00 ppm Max"
+      },
+      {
+        "characteristic": "Arsenic (As)",
+        "requirement": "< 01.00 ppm Max"
+      },
+      {
+        "characteristic": "Loss on Drying (105°C)",
+        "requirement": "< 1.50% Max"
+      },
+      {
+        "characteristic": "Total Aerobic Microbial Count",
+        "requirement": "< 100 CFU/g"
+      },
+      {
+        "characteristic": "Pathogens (E. Coli / Salmonella)",
+        "requirement": "Absent in 25g"
+      }
+    ],
+    "pack_sizes": [
+      {
+        "size": "100gm",
+        "container": "Bottle",
+        "target": "Home Bakers & Retail Confectionery"
+      },
+      {
+        "size": "500gm",
+        "container": "Pouch",
+        "target": "Artisan Patisseries & Bakeries"
+      },
+      {
+        "size": "500gm",
+        "container": "Jar",
+        "target": "Commercial Cake Studios & Kitchens"
+      },
+      {
+        "size": "25kg",
+        "container": "HDPE Drum",
+        "target": "Bulk Industrial & Export Manufacture"
+      }
+    ],
+    "colors": [
+      {
+        "id": 1,
+        "name": "Black",
+        "hex": "#1c2327",
+        "tone": "Pearlescent Onyx Black Vermicelli Strands",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 2,
+        "name": "Blue",
+        "hex": "#0e86d4",
+        "tone": "Brilliant Pearlescent Sapphire Blue Vermicelli Strands",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 3,
+        "name": "Brown",
+        "hex": "#7b3f1d",
+        "tone": "Rich Metallic Bronze Chocolate Brown Vermicelli Strands",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 4,
+        "name": "Golden",
+        "hex": "#cfa035",
+        "tone": "Shimmering Pearlescent Metallic Gold Vermicelli Strands",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 5,
+        "name": "Green",
+        "hex": "#1d7c4d",
+        "tone": "Lustrous Botanical Emerald Green Vermicelli Strands",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 6,
+        "name": "Orange",
+        "hex": "#e65100",
+        "tone": "Vivid Sunset Citrus Orange Vermicelli Strands",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 7,
+        "name": "Pink",
+        "hex": "#d83a78",
+        "tone": "Vivid Confectionery Candy Rose Pink Vermicelli Strands",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 8,
+        "name": "Purple",
+        "hex": "#4a287a",
+        "tone": "Deep Pearlescent Royal Amethyst Purple Vermicelli Strands",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 9,
+        "name": "Red",
+        "hex": "#b81d24",
+        "tone": "Deep Ruby Crimson Celebration Red Vermicelli Strands",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 10,
+        "name": "White",
+        "hex": "#eef2f5",
+        "tone": "Sparkling Diamond Pearl White Vermicelli Strands",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 11,
+        "name": "Yellow",
+        "hex": "#d4cf2d",
+        "tone": "Bright Canary Sunshine Yellow Vermicelli Strands",
+        "bgGradient": null,
+        "is_blend": false
+      },
+      {
+        "id": 12,
+        "name": "SV01",
+        "hex": "#e84393",
+        "tone": "Rainbow Celebration Multi-Color Vermicelli Blend",
+        "bgGradient": "radial-gradient(circle at 35% 35%, #ffd700 0%, #00a8ff 25%, #ff4757 50%, #2ed573 75%, #9b59b6 100%)",
+        "is_blend": true
+      },
+      {
+        "id": 13,
+        "name": "SV02",
+        "hex": "#d4af37",
+        "tone": "Golden Harvest & Pearl Ivory Vermicelli Blend",
+        "bgGradient": "radial-gradient(circle at 35% 35%, #ffffff 0%, #d4af37 40%, #b8860b 75%, #ffd700 100%)",
+        "is_blend": true
+      },
+      {
+        "id": 14,
+        "name": "SV03",
+        "hex": "#192a56",
+        "tone": "Midnight Navy & Metallic Gold Vermicelli Blend",
+        "bgGradient": "radial-gradient(circle at 35% 35%, #d4af37 0%, #192a56 45%, #0952b6 80%, #ffd700 100%)",
+        "is_blend": true
+      },
+      {
+        "id": 15,
+        "name": "SV04",
+        "hex": "#fd79a8",
+        "tone": "Blossom Pink & Pure White Vermicelli Blend",
+        "bgGradient": "radial-gradient(circle at 35% 35%, #ffffff 0%, #fd79a8 45%, #d83a78 80%, #ffffff 100%)",
+        "is_blend": true
+      },
+      {
+        "id": 16,
+        "name": "SV05",
+        "hex": "#00a8ff",
+        "tone": "Electric Cyan & Magenta Berry Vermicelli Blend",
+        "bgGradient": "radial-gradient(circle at 35% 35%, #ffffff 0%, #00a8ff 40%, #ff4d94 75%, #3742fa 100%)",
+        "is_blend": true
+      }
+    ]
+  }
+]

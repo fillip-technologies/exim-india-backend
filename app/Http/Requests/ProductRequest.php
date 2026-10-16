@@ -20,9 +20,12 @@ class ProductRequest extends FormRequest
             'category_id' => [$required, 'integer', 'exists:categories,id'],
             'slug' => [$required, 'string', 'max:255', 'alpha_dash', $this->uniqueSlug()],
             'name' => [$required, 'string', 'max:255'],
+            'short_name' => ['nullable', 'string', 'max:255'],
+            'tagline' => ['nullable', 'string', 'max:255'],
             'group_key' => ['nullable', 'string', 'max:255'],
             'group_name' => ['nullable', 'string', 'max:255'],
             'description' => ['nullable', 'string'],
+            'usage_guide' => ['nullable', 'string'],
             'color_hex' => ['nullable', 'string', 'max:9'],
             'image' => ['nullable', 'string', 'max:255'],
             'moq' => ['nullable', 'string', 'max:255'],
@@ -49,11 +52,13 @@ class ProductRequest extends FormRequest
             'analysis.*.characteristic' => ['required_with:analysis', 'string'],
             'analysis.*.requirement' => ['required_with:analysis', 'string'],
             'extra' => ['nullable', 'array'],
+            'variant_mode' => ['nullable', Rule::in(['none', 'single_axis', 'multi_axis'])],
             'attributes' => ['nullable', 'array'],
             'attributes.*.label' => ['required_with:attributes', 'string', 'max:255'],
             'attributes.*.value' => ['required_with:attributes', 'string'],
             'sort_order' => ['nullable', 'integer', 'min:0'],
             'is_active' => ['nullable', 'boolean'],
+            'is_featured' => ['nullable', 'boolean'],
         ];
     }
 

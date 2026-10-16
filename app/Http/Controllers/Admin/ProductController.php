@@ -13,10 +13,25 @@ class ProductController extends Controller
     {
         return Product::query()
             ->with('category:id,name,slug')
-            ->when($request->query('category_id'), fn ($q, $id) => $q->where('category_id', $id))
-            ->when($request->query('search'), fn ($q, $s) => $q->where('name', 'like', "%{$s}%"))
+            ->when($request->query('category_id'), function ($q, $id) {
+                if (is_numeric($id)) {
+                    return $q->where('category_id', (int) $id);
+                }
+                return $q->whereHas('category', fn ($c) => $c->where('slug', $id));
+            })
+            ->when($request->query('category'), fn ($q, $slug) => $q->whereHas('category', fn ($c) => $c->where('slug', $slug)))
+            ->when($request->query('status'), function ($q, $status) {
+                if ($status === 'active') return $q->where('is_active', true);
+                if ($status === 'draft' || $status === 'inactive') return $q->where('is_active', false);
+                return $q;
+            })
+            ->when($request->query('search'), fn ($q, $s) => $q->where(function ($sub) use ($s) {
+                $sub->where('name', 'like', "%{$s}%")
+                    ->orWhere('cas_no', 'like', "%{$s}%")
+                    ->orWhere('model_number', 'like', "%{$s}%");
+            }))
             ->orderBy('category_id')->orderBy('sort_order')->orderBy('id')
-            ->paginate(25);
+            ->paginate(max(1, min(100, (int) $request->query('limit', $request->query('per_page', 25)))));
     }
 
     public function store(ProductRequest $request)
@@ -35,7 +50,7 @@ class ProductController extends Controller
 
     public function show(Product $product)
     {
-        return $product->load('category:id,name,slug', 'analysisSpecs', 'detailAttributes');
+        return $product->load('category:id,name,slug', 'analysisSpecs', 'detailAttributes', 'variants', 'productAttributes.attribute');
     }
 
     public function update(ProductRequest $request, Product $product)

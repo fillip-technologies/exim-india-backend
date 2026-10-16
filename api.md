@@ -632,3 +632,22 @@ Seed images (`storage/app/public/products/`, `storage/app/public/testimonials/`)
 Run the test suite (uses an in-memory SQLite DB, never touches your MariaDB data): `php artisan test`
 
 In the frontend `.env`: `VITE_API_URL=http://localhost:8000/api`
+
+
+---
+
+## 5. Recent changes (catalogue is fully API-driven)
+
+The React frontend no longer ships any product/category data; every list, label, image and filter comes from these endpoints, and a block is rendered only when the API returned data for it.
+
+| Change | Detail |
+|---|---|
+| `GET /products`, `GET /products/{slugOrId}` | Flat catalogue / direct lookup. Only active products in active categories are returned; the category's specs are the fallback `analysis` |
+| `GET /categories?nav=1` | Only categories with `show_in_nav = true` (navbar, footer). Without `nav=1` every active category is returned (Products page, home page, forms) |
+| Category `description` / `image` | Populated for the seeded categories; `null` when unset, so the frontend hides them |
+| Product `options[].type` | `swatch`, `pack` or any other input type. The frontend renders pickers from the type, never from a hard-coded attribute code |
+| `POST /orders` | Accepts `items: [{product_id, variant_id, quantity, note}]`; the chosen options travel in `items[].note` and `message` |
+| `GET /admin/contacts[/id]` | Each enquiry now includes `items` (`id`, `product_id`, `variant_id`, `bundle_id`, `label`, `quantity`, `note`); `per_page` (max 100) is supported |
+| `POST/PUT /admin/categories` | Now accepts `show_in_nav`, `nav_label`, `page_template` |
+| `POST/PUT /admin/products` | Now accepts `variant_mode` (`none`, `single_axis`, `multi_axis`); `per_page` (max 100) on the list |
+| `GET /admin/products/{id}` | Also returns `variants` and `product_attributes` |
