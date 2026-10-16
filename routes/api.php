@@ -44,6 +44,7 @@ Route::prefix('admin')->group(function () {
 
         Route::apiResource('testimonials', Admin\TestimonialController::class);
         Route::apiResource('contacts', Admin\ContactController::class)->only(['index', 'show', 'update', 'destroy']);
+        Route::apiResource('orders', Admin\OrderController::class)->only(['index', 'show', 'update', 'destroy']);
         Route::post('/uploads', [Admin\UploadController::class, 'store']);
     });
 });

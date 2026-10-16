@@ -29,7 +29,7 @@ class ContactApiTest extends TestCase
             ->assertCreated();
 
         $this->assertDatabaseHas('contacts', [
-            'type' => 'contact', 'email' => 'asha@example.com', 'company' => 'Acme', 'status' => 'new',
+            'email' => 'asha@example.com', 'company' => 'Acme', 'status' => 'new',
         ]);
     }
 
@@ -38,6 +38,18 @@ class ContactApiTest extends TestCase
         $this->postJson('/api/contact', [])->assertUnprocessable()->assertJsonValidationErrors(['name', 'email', 'message']);
         $this->postJson('/api/contact', $this->contactPayload(['website' => 'http://spam']))->assertUnprocessable();
         $this->assertDatabaseCount('contacts', 0);
+    }
+
+    public function test_phone_must_be_country_code_plus_ten_digits(): void
+    {
+        // stays within the 5-requests-per-minute limit
+        foreach (['9876543210', '+91 98765', '+91 98765432101'] as $bad) {
+            $this->postJson('/api/contact', $this->contactPayload(['phone' => $bad]))
+                ->assertUnprocessable()->assertJsonValidationErrors('phone');
+        }
+
+        $this->postJson('/api/contact', $this->contactPayload(['phone' => '+91 9876543210']))->assertCreated();
+        $this->postJson('/api/contact', $this->contactPayload(['phone' => '+1 4155550123']))->assertCreated();
     }
 
     public function test_contact_is_rate_limited(): void
@@ -59,7 +71,8 @@ class ContactApiTest extends TestCase
         $this->postJson('/api/orders', ['product_id' => $product->id, 'name' => 'A', 'email' => 'a@b.co', 'quantity' => '100 Kgs', 'address' => 'Mumbai'])
             ->assertCreated();
 
-        $this->assertDatabaseHas('contacts', ['type' => 'order', 'product_id' => $product->id, 'quantity' => '100 Kgs']);
+        $this->assertDatabaseCount('contacts', 0);
+        $this->assertDatabaseHas('orders', ['product_id' => $product->id, 'quantity' => '100 Kgs']);
     }
 
     public function test_notification_mail_only_when_configured(): void

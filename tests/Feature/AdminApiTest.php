@@ -4,6 +4,7 @@ namespace Tests\Feature;
 
 use App\Models\Category;
 use App\Models\Contact;
+use App\Models\Order;
 use App\Models\User;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Laravel\Sanctum\Sanctum;
@@ -87,12 +88,29 @@ class AdminApiTest extends TestCase
     public function test_contacts_list_filter_and_status_update(): void
     {
         Sanctum::actingAs($this->admin());
-        $a = Contact::create(['type' => 'contact', 'name' => 'A', 'email' => 'a@b.co']);
-        Contact::create(['type' => 'order', 'name' => 'B', 'email' => 'b@b.co']);
+        $a = Contact::create(['name' => 'A', 'email' => 'a@b.co']);
+        Contact::create(['name' => 'B', 'email' => 'b@b.co', 'status' => 'read']);
+        Order::create(['name' => 'C', 'email' => 'c@b.co']);
 
-        $this->getJson('/api/admin/contacts?type=order')->assertJsonCount(1, 'data');
+        // Orders never show up among contacts
+        $this->getJson('/api/admin/contacts')->assertJsonCount(2, 'data');
+        $this->getJson('/api/admin/contacts?status=read')->assertJsonCount(1, 'data');
         $this->patchJson("/api/admin/contacts/{$a->id}", ['status' => 'read'])->assertJsonPath('data.status', 'read');
         $this->patchJson("/api/admin/contacts/{$a->id}", ['status' => 'bogus'])->assertUnprocessable();
+    }
+
+    public function test_orders_are_listed_separately_and_status_can_change(): void
+    {
+        Sanctum::actingAs($this->admin());
+        Contact::create(['name' => 'A', 'email' => 'a@b.co']);
+        $order = Order::create(['name' => 'C', 'email' => 'c@b.co', 'quantity' => '5 Kgs']);
+
+        $this->getJson('/api/admin/orders')->assertJsonCount(1, 'data')->assertJsonPath('data.0.name', 'C');
+        $this->patchJson("/api/admin/orders/{$order->id}", ['status' => 'shipped'])->assertJsonPath('data.status', 'shipped');
+        // contact-inbox statuses are not valid for orders
+        $this->patchJson("/api/admin/orders/{$order->id}", ['status' => 'read'])->assertUnprocessable();
+        $this->deleteJson("/api/admin/orders/{$order->id}")->assertNoContent();
+        $this->assertDatabaseCount('contacts', 1);
     }
 
     public function test_image_upload(): void

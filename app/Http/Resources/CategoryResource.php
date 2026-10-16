@@ -21,6 +21,7 @@ class CategoryResource extends JsonResource
             'description' => $this->description,
             'image' => $this->image_url,
             'productCount' => $this->whenCounted('products'),
+            'groups' => $this->when($this->getAttribute('filter_groups') !== null, fn () => $this->getAttribute('filter_groups')),
             'analysis' => $this->whenLoaded('analysisSpecs', fn () => $this->specRows($this->analysisSpecs)),
             'sections' => $this->whenLoaded('sections', fn () => $this->sections->map(fn ($section) => [
                 'key' => $section->key,

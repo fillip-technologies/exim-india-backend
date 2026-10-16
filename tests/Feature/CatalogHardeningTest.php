@@ -66,9 +66,37 @@ class CatalogHardeningTest extends TestCase
         ])->assertCreated();
 
         Sanctum::actingAs(User::factory()->create(['is_admin' => true]));
-        $this->getJson('/api/admin/contacts?type=order')
+        $this->getJson('/api/admin/orders')
             ->assertOk()
             ->assertJsonPath('data.0.items.0.label', 'Red')
             ->assertJsonPath('data.0.items.0.note', 'Colour: Red');
+    }
+
+    public function test_category_products_can_be_paginated_and_expose_groups(): void
+    {
+        $cat = $this->category();
+        foreach (range(1, 5) as $n) {
+            Product::create([
+                'category_id' => $cat->id, 'slug' => "p{$n}", 'name' => "Product {$n}", 'sort_order' => $n,
+                'group_key' => $n <= 3 ? 'red' : 'blue', 'group_name' => $n <= 3 ? 'Reds' : null,
+            ]);
+        }
+
+        // Without per_page everything comes back (the detail page tabs rely on this)
+        $this->getJson('/api/categories/lake/products')->assertOk()->assertJsonCount(5, 'data')->assertJsonMissingPath('meta');
+
+        $this->getJson('/api/categories/lake/products?per_page=2&page=3')
+            ->assertOk()
+            ->assertJsonCount(1, 'data')
+            ->assertJsonPath('data.0.name', 'Product 5')
+            ->assertJsonPath('meta.total', 5)
+            ->assertJsonPath('meta.last_page', 3);
+
+        $this->getJson('/api/categories/lake/products?per_page=10&group_key=red&q=Product 2')
+            ->assertJsonCount(1, 'data')->assertJsonPath('meta.total', 1);
+
+        $this->getJson('/api/categories/lake')
+            ->assertJsonPath('data.groups.0', ['key' => 'red', 'name' => 'Reds'])
+            ->assertJsonPath('data.groups.1', ['key' => 'blue', 'name' => null]);
     }
 }

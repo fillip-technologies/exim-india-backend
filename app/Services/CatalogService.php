@@ -8,6 +8,7 @@ use App\Models\Product;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Pagination\LengthAwarePaginator;
 
 class CatalogService
 {
@@ -26,12 +27,28 @@ class CatalogService
         return Category::active()->where('slug', $slug)->firstOrFail();
     }
 
-    public function products(Category $category, array $filters = []): Collection
+    /**
+     * Products of a category. Returns a paginator when $perPage is given
+     * (page size is clamped to 1..100), otherwise the full collection.
+     */
+    public function products(Category $category, array $filters = [], ?int $perPage = null): Collection|LengthAwarePaginator
     {
         $query = $category->products()->active()->ordered();
         $this->applyFilters($query, $filters);
 
-        return $query->get();
+        return $perPage === null ? $query->get() : $query->paginate(max(1, min(100, $perPage)));
+    }
+
+    /** Distinct filter groups (key + label) used by a category's active products. */
+    public function groups(Category $category): array
+    {
+        return $category->products()->active()->ordered()
+            ->whereNotNull('group_key')->where('group_key', '!=', '')
+            ->get(['group_key', 'group_name'])
+            ->unique('group_key')
+            ->map(fn ($p) => ['key' => $p->group_key, 'name' => $p->group_name])
+            ->values()
+            ->all();
     }
 
     public function allProducts(array $filters = []): Collection

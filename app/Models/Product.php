@@ -149,14 +149,14 @@ class Product extends Model
         return $this->hasMany(Bundle::class)->orderBy('sort_order')->orderBy('id');
     }
 
-    public function contacts(): HasMany
+    public function orders(): HasMany
     {
-        return $this->hasMany(Contact::class);
+        return $this->hasMany(Order::class);
     }
 
-    public function contactItems(): HasMany
+    public function orderItems(): HasMany
     {
-        return $this->hasMany(ContactItem::class);
+        return $this->hasMany(OrderItem::class);
     }
 
     public function fieldAssignments(): HasMany

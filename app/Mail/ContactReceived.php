@@ -17,10 +17,8 @@ class ContactReceived extends Mailable
 
     public function envelope(): Envelope
     {
-        $label = $this->contact->type === Contact::TYPE_ORDER ? 'Order inquiry' : 'Contact enquiry';
-
         return new Envelope(
-            subject: "New {$label} from {$this->contact->name}",
+            subject: "New contact enquiry from {$this->contact->name}",
             replyTo: [$this->contact->email],
         );
     }
@@ -28,23 +26,24 @@ class ContactReceived extends Mailable
     public function content(): Content
     {
         $c = $this->contact;
-        $rows = [
-            'Type' => $c->type,
+
+        return new Content(htmlString: self::rows([
             'Name' => $c->name,
             'Email' => $c->email,
             'Phone' => $c->phone,
             'Company' => $c->company,
-            'Product interest' => $c->product_interest ?: $c->product?->name,
-            'Quantity' => $c->quantity,
-            'Address' => $c->address,
+            'Product interest' => $c->product_interest,
             'Message' => $c->message,
-        ];
+        ]));
+    }
 
+    public static function rows(array $rows): string
+    {
         $html = '';
         foreach (array_filter($rows) as $label => $value) {
             $html .= '<p><strong>'.e($label).':</strong> '.nl2br(e($value)).'</p>';
         }
 
-        return new Content(htmlString: $html);
+        return $html;
     }
 }

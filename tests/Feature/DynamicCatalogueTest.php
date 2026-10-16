@@ -5,8 +5,7 @@ namespace Tests\Feature;
 use App\Models\Attribute;
 use App\Models\AttributeValue;
 use App\Models\Category;
-use App\Models\Contact;
-use App\Models\ContactItem;
+use App\Models\Order;
 use App\Models\FieldDefinition;
 use App\Models\Product;
 use App\Models\ProductVariant;
@@ -109,7 +108,7 @@ class DynamicCatalogueTest extends TestCase
         $this->assertSame('111-42-2', $casItem['value']);
     }
 
-    public function test_multiline_order_stores_contact_items(): void
+    public function test_multiline_order_stores_order_items(): void
     {
         $this->seed([CategorySeeder::class, ProductSeeder::class, CatalogueSeeder::class]);
 
@@ -138,10 +137,10 @@ class DynamicCatalogueTest extends TestCase
         $res = $this->postJson('/api/orders', $payload)->assertStatus(201);
         $res->assertJsonFragment(['message' => 'Thank you! Your order inquiry has been received.']);
 
-        $contact = Contact::where('email', 'chef@bakery.com')->firstOrFail();
-        $this->assertCount(2, $contact->items);
+        $order = Order::where('email', 'chef@bakery.com')->firstOrFail();
+        $this->assertCount(2, $order->items);
 
-        $firstItem = $contact->items[0];
+        $firstItem = $order->items[0];
         $this->assertSame($variants[0]->id, $firstItem->variant_id);
         $this->assertSame('5', $firstItem->quantity);
         $this->assertSame('Urgent batch for wedding', $firstItem->note);

@@ -5,10 +5,10 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
-class ContactItem extends Model
+class OrderItem extends Model
 {
     protected $fillable = [
-        'contact_id',
+        'order_id',
         'product_id',
         'variant_id',
         'bundle_id',
@@ -17,9 +17,9 @@ class ContactItem extends Model
         'note',
     ];
 
-    public function contact(): BelongsTo
+    public function order(): BelongsTo
     {
-        return $this->belongsTo(Contact::class);
+        return $this->belongsTo(Order::class);
     }
 
     public function product(): BelongsTo
