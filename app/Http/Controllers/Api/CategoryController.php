@@ -19,6 +19,9 @@ class CategoryController extends Controller
 
     public function show(string $slug)
     {
-        return new CategoryResource($this->catalog->category($slug)->load('analysisSpecs', 'sections.items.detailAttributes'));
+        $category = $this->catalog->category($slug)->load('analysisSpecs', 'sections.items.detailAttributes');
+        $category->setAttribute('filter_groups', $this->catalog->groups($category));
+
+        return new CategoryResource($category);
     }
 }

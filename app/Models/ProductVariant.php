@@ -105,9 +105,9 @@ class ProductVariant extends Model
         )->withPivot('attribute_id');
     }
 
-    public function contactItems(): HasMany
+    public function orderItems(): HasMany
     {
-        return $this->hasMany(ContactItem::class, 'variant_id');
+        return $this->hasMany(OrderItem::class, 'variant_id');
     }
 
     public function fieldValues(): MorphMany

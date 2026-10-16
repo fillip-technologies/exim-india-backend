@@ -17,7 +17,7 @@ class StoreOrderRequest extends FormRequest
             'product_id'         => ['nullable', 'required_without:items', 'integer', 'exists:products,id,deleted_at,NULL'],
             'name'               => ['required', 'string', 'max:255'],
             'email'              => ['required', 'email', 'max:255'],
-            'phone'              => ['nullable', 'string', 'max:50'],
+            'phone'              => ['nullable', 'string', 'regex:/^\+\d{1,4} \d{10}$/'],
             'quantity'           => ['nullable', 'required_without:items', 'string', 'max:100'],
             'address'            => ['nullable', 'string', 'max:2000'],
             'message'            => ['nullable', 'string', 'max:5000'],

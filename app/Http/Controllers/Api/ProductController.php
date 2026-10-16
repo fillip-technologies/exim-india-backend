@@ -7,6 +7,7 @@ use App\Http\Resources\ProductResource;
 use App\Models\Product;
 use App\Services\CatalogService;
 use Illuminate\Http\Request;
+use Illuminate\Pagination\LengthAwarePaginator;
 
 class ProductController extends Controller
 {
@@ -36,8 +37,13 @@ class ProductController extends Controller
     public function index(Request $request, string $slug)
     {
         $category = $this->catalog->category($slug)->load('analysisSpecs');
-        $products = $this->catalog->products($category, $request->all());
-        $products->load($this->eagerLoads)->each->setRelation('category', $category);
+        // `?per_page=` switches to a paginated response (data + links + meta);
+        // without it the whole category is returned.
+        $perPage = $request->filled('per_page') ? (int) $request->query('per_page') : null;
+        $products = $this->catalog->products($category, $request->all(), $perPage);
+
+        $items = $products instanceof LengthAwarePaginator ? $products->getCollection() : $products;
+        $items->load($this->eagerLoads)->each->setRelation('category', $category);
 
         return ProductResource::collection($products);
     }

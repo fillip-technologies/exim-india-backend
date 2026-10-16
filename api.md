@@ -651,3 +651,21 @@ The React frontend no longer ships any product/category data; every list, label,
 | `POST/PUT /admin/categories` | Now accepts `show_in_nav`, `nav_label`, `page_template` |
 | `POST/PUT /admin/products` | Now accepts `variant_mode` (`none`, `single_axis`, `multi_axis`); `per_page` (max 100) on the list |
 | `GET /admin/products/{id}` | Also returns `variants` and `product_attributes` |
+
+### Contacts and orders are separate tables
+
+| | Contact Us messages | Orders |
+|---|---|---|
+| Public | `POST /contact` → `contacts` | `POST /orders` → `orders` + `order_items` |
+| Admin | `GET/PATCH/DELETE /admin/contacts[/{id}]` | `GET/PATCH/DELETE /admin/orders[/{id}]` |
+| Fields | name, email, phone, company, product_interest, message, status | name, email, phone, product, items[], quantity, address, message, status |
+
+`/admin/contacts` no longer accepts or returns `type`, and no longer returns orders. Existing orders were moved to the new tables by migration `2026_10_16_000001_split_orders_from_contacts`.
+
+### Pagination on the public product list
+
+`GET /categories/{slug}/products?per_page=12&page=2&q=term&group_key=red`
+
+- With `per_page` (1–100) the response is `{ data, links, meta: { current_page, last_page, per_page, total } }`. Without it, every product is returned as before (the product page uses that for its sibling tabs).
+- `q` searches name, short name, description and CAS No.; `group_key` filters by group.
+- `GET /categories/{slug}` now includes `groups: [{ key, name }]`, so filter chips cover the whole category rather than just the current page. `name` can be `null`.
