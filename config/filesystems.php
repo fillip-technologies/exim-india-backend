@@ -40,7 +40,11 @@ return [
 
         'public' => [
             'driver' => 'local',
-            'root' => storage_path('app/public'),
+            // Write straight into public/storage so uploads land in the same
+            // folder the web server serves (no `storage:link` needed on hosts
+            // where public/storage is a real folder). Locally public/storage
+            // is a symlink to storage/app/public, so this resolves the same.
+            'root' => public_path('storage'),
             'url' => rtrim(env('APP_URL', 'http://localhost'), '/').'/storage',
             'visibility' => 'public',
             'throw' => false,
